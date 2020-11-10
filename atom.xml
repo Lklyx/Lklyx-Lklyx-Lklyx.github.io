@@ -286,6 +286,20 @@
 &lt;/ol&gt;
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;在hexo插入本地图片&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#在hexo插入本地图片&#34;&gt;#&lt;/a&gt; 在 Hexo 插入本地图片&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;问题描述&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;图片显示不成功&lt;/li&gt;
+&lt;li&gt;页面没反应，或者显示图片的地方只显示 &lt;code&gt;alt&lt;/code&gt;  里面的类容&lt;/li&gt;
+&lt;li&gt;或者成功以后打印出 &lt;code&gt;no src attr, skipped...&lt;/code&gt;  这类似的代码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;解决方法&lt;/code&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;首先我们需要安装一个插件&lt;/p&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;npm install https&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;//github.com/CodeFalling/hexo&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;asset&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;image &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;save&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
 </content>
         <updated>2020-11-06T09:02:30.450Z</updated>
     </entry>
