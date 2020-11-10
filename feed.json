@@ -1,0 +1,104 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "沿岸踱步",
+    "description": "沿岸踱步 & 成长记录",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E7%9A%84%E6%AF%92%EF%BC%8C%E6%B2%A1%E6%9C%89%E8%A7%A3%E8%8D%AF/",
+            "url": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E7%9A%84%E6%AF%92%EF%BC%8C%E6%B2%A1%E6%9C%89%E8%A7%A3%E8%8D%AF/",
+            "title": "我的毒,没有解药",
+            "date_published": "2020-11-06T09:53:02.556Z",
+            "content_html": "<blockquote>\n<p>蛇女 ——— 我的毒，没有解药</p>\n</blockquote>\n",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%BD%A0%E6%83%B3%E8%A6%81%E4%BD%A0%E6%89%80%E7%9F%A5%E7%9A%84%E4%B8%96%E7%95%8C%E6%AF%81%E7%81%AD%E4%B8%80%E6%98%AF%E5%90%97%EF%BC%9F/",
+            "url": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%BD%A0%E6%83%B3%E8%A6%81%E4%BD%A0%E6%89%80%E7%9F%A5%E7%9A%84%E4%B8%96%E7%95%8C%E6%AF%81%E7%81%AD%E4%B8%80%E6%98%AF%E5%90%97%EF%BC%9F/",
+            "title": "你想要你所知的世界毁灭一是吗？",
+            "date_published": "2020-11-06T09:53:01.294Z",
+            "content_html": "<blockquote>\n<p>虚空恐惧：大虫子</p>\n</blockquote>\n",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%B8%80%E8%BD%AE%E6%96%B0%E6%9C%88%E6%AD%A3%E5%9C%A8%E5%86%89%E5%86%89%E5%8D%87%E8%B5%B7/",
+            "url": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%B8%80%E8%BD%AE%E6%96%B0%E6%9C%88%E6%AD%A3%E5%9C%A8%E5%86%89%E5%86%89%E5%8D%87%E8%B5%B7/",
+            "title": "一轮新月正在冉冉升起",
+            "date_published": "2020-11-06T09:53:00.970Z",
+            "content_html": "<blockquote>\n<p>皎月女神 ——— 一轮新月正在冉冉升起</p>\n</blockquote>\n",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%A5%BD%E6%88%8F%E5%BC%80%E5%9C%BA%E4%BA%86/",
+            "url": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%A5%BD%E6%88%8F%E5%BC%80%E5%9C%BA%E4%BA%86/",
+            "title": "好戏开场了",
+            "date_published": "2020-11-06T09:52:53.355Z",
+            "content_html": "<blockquote>\n<p>女警</p>\n</blockquote>\n",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%87%86%E5%A4%87%E5%A5%BD%E8%BF%9B%E5%85%A5%E7%81%AB%E7%84%B0%E4%B8%96%E7%95%8C%E4%BA%86%E5%90%97%EF%BC%9F%E5%98%BF%E5%98%BF%E5%98%BF%E5%98%BF/",
+            "url": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%87%86%E5%A4%87%E5%A5%BD%E8%BF%9B%E5%85%A5%E7%81%AB%E7%84%B0%E4%B8%96%E7%95%8C%E4%BA%86%E5%90%97%EF%BC%9F%E5%98%BF%E5%98%BF%E5%98%BF%E5%98%BF/",
+            "title": "准备好进入火焰世界了吗？嘿嘿嘿嘿^_^",
+            "date_published": "2020-11-06T09:50:42.192Z",
+            "content_html": "<blockquote>\n<p>    火男</p>\n</blockquote>\n",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%B2%A1%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E6%8A%8A%E4%BF%BA%E5%87%BB%E9%80%80/",
+            "url": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%B2%A1%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E6%8A%8A%E4%BF%BA%E5%87%BB%E9%80%80/",
+            "title": "没什么可以把俺击退",
+            "date_published": "2020-11-06T09:34:27.484Z",
+            "content_html": "<p>牛头</p>\n",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E4%BB%AC%E5%BF%83%E6%9C%89%E7%81%B5%E7%8A%80%EF%BC%8C%E4%B8%8D%E6%98%AF%E5%90%97/",
+            "url": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E4%BB%AC%E5%BF%83%E6%9C%89%E7%81%B5%E7%8A%80%EF%BC%8C%E4%B8%8D%E6%98%AF%E5%90%97/",
+            "title": "我们心有灵犀，不是吗？",
+            "date_published": "2020-11-06T09:03:11.493Z",
+            "content_html": "<p>狐狸</p>\n",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E7%81%AB%E7%84%B0%EF%BC%8C%E6%98%AF%E6%88%91%E6%9C%80%E5%96%9C%E6%AC%A2%E7%9A%84%E7%8E%A9%E5%85%B7/",
+            "url": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E7%81%AB%E7%84%B0%EF%BC%8C%E6%98%AF%E6%88%91%E6%9C%80%E5%96%9C%E6%AC%A2%E7%9A%84%E7%8E%A9%E5%85%B7/",
+            "title": "火焰，是我最喜欢的玩具！",
+            "date_published": "2020-11-06T09:03:11.491Z",
+            "content_html": "<p>火女</p>\n",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%86%B0%E5%87%A4%E5%B1%95%E7%BF%85/",
+            "url": "http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%86%B0%E5%87%A4%E5%B1%95%E7%BF%85/",
+            "title": "冰凤展翅",
+            "date_published": "2020-11-06T09:03:11.490Z",
+            "content_html": "<blockquote>\n<p>德莱文 ——— 欢迎来到德莱联盟<br>\n蒙多医生 ——— 蒙多～<br>\n 艾克 ——— 时间，不在于你拥有多少，而在于你怎么使用<br>\n蜘蛛女皇 ——— 蛛网之内，只有蜘蛛才能安然无恙<br>\n寡妇 ——— 黑夜，就是我的面纱，哈哈哈哈哈</p>\n<p>探险家 ——— 是时候表演真正的技术了<br>\n末日 ——— 听候您的吩咐，主人（不是前面听从）<br>\n小鱼人 ——— 要我吃掉它们<br>\n加里奥 ——— 石像展翅<br>\n船长 ——— 不管是烈火还是深海，都取不走我的命<br>\n酒桶 ——— 您买单，我就来<br>\n男枪 ——— 我与死亡同行<br>\n人马 ——— 见识下暗影岛之力吧<br>\n大头 ——— 确实是个明智的选择<br>\n俄洛伊 ——— 说教无益，折断的骨头是更好的课本<br>\n刀妹 ——— 我的剑刃愿为您效劳<br>\n风女 ——— 风之化身，听候您的差遣<br>\n杰斯 ——— 为了更美好的明天而战<br>\n烬 ——— 我与杀戮之中盛放，亦如黎明中的花朵<br>\n金克斯 ——— 规则，就是用来打破的<br>\n卡里斯塔 ——— 所有背叛者都得死<br>\n扇子妈 ——— 要永远相信你的灵魂<br>\n死歌 ——— 极悲，极乐，平和，每个必经阶段都有其美妙之处<br>\n卡萨丁 ——— 必须维持力量的均衡<br>\n卡特 ——— 我已经做出了我的选择<br>\n凯南 ——— 均衡，存乎万物之间<br>\n螳螂 ——— 改变就是好事<br>\n千珏 ——— 执子之魂，与子共生<br>\n大嘴 ——— 用餐时间到了<br>\n妖姬 ——— 黑玫瑰将再次绽放<br>\n曙光女神 ——— 黎明就在眼前<br>\n丽桑卓 ——— 所有人都将诚服，只是时机未到<br>\n奥巴马 ——— 人终有一死，而有些人则需要一点小小的帮助<br>\n璐璐 ——— 见到你很高兴<br>\n光辉 ——— 真是个深思熟虑的选择<br>\n蚂蚱 ——— 等待湮灭<br>\n树精 ——— 现在，让我们先打一场吧<br>\n好运姐 ——— 好运，不会眷顾傻瓜<br>\n金属大师 ——— 我将带来巨大的痛苦<br>\n娜美 ——— 我的命运，由我做主<br>\n狗头 ——— 生与死轮回不止，我们生，他们死<br>\n深海泰坦 ——— 大海无量<br>\n豹女 ——— 狂野，将使他们感到畏惧<br>\n梦魇 ——— 拥抱黑暗吧<br>\n努努 ——— 该我们了，呜～<br>\n 狂战士 ——— 所到之处，寸草不生<br>\n波比 ——— 我不是英雄，只是个拿锤子的约德尔人<br>\n奎因 ——— 正义，展翅翱翔<br>\n龙龟 ——— 一起找点乐子吧<br>\n雷克塞 ———(吼叫)<br>\n 鳄鱼 ——— 所有人都得死<br>\n狮子 ——— 今晚，猎个痛快<br>\n瑞文 ——— 断剑重铸之日，骑士 (其势) 归来之时<br>\n兰博 ——— 我们战斗吧<br>\n光头 ——— 灾难始终慢我一步<br>\n猪女 ——— 值得我信赖的，只有力量<br>\n小丑 ——— 来次魔术戏法，怎么样？<br>\n 慎 ——— 您果然深思熟虑<br>\n龙女 ——— 在敌人眼里，我就是恐惧<br>\n炼金 ——— 要来一杯吗？<br>\n 亡灵勇士 ——— 交给我吧<br>\n战争女神 ——— 我总能拿带买路钱，要么拿钱，要么拿命<br>\n蝎子 ——— 我的毒刺不会让你失望的<br>\n琴女 ——— 只有你能听到我的话，召唤师，今天我们演奏哪一首曲子？<br>\n 星妈 ——— 只要我还活着，就不会有人遭受苦难<br>\n乌鸦 ——— 早起的鸟儿有虫吃<br>\n辛德拉 ——— 我的能量无穷无尽<br>\n塔姆 ——— 叫我国王，叫我恶魔！河水会遗忘那些已被淹没的名字<br>\n岩雀 ——— 命数如知，当为磐石<br>\n泰隆 ——— 刀下生，刀下死<br>\n宝石骑士 ——— 我曾踏足山边，也曾进入低谷，二者都让我受益良多<br>\n锤石 ——— 我们要怎样进行这令人愉悦的折磨呢？<br>\n 小炮 ——— 一日为班德尔炮手，终生为班德尔炮手<br>\n巨魔之王 ——— 巨魔时间到了<br>\n蛮王 ——— 我的大刀早已饥渴难耐了<br>\n卡牌 ——— 胜利女神在微笑<br>\n老鼠 ——— 哈呵！你想要什么<br>\n兽灵行者 ——— 我们的狂怒，你驾驭不住<br>\n螃蟹 ——— 永恒的生命，无尽的折磨<br>\n维鲁斯 ——— 罪恶将知道，什么是痛苦<br>\n薇恩 ——— 让我们来猎杀那些陷入黑暗中的人吧<br>\n虚空之眼 ——— 知识，来源于分解<br>\n蔚 ——— 先打一拳，打的时候再把问题问遍<br>\n机械先驱 ——— 加入光荣的进化吧<br>\n吸血鬼 ——— 血流成河<br>\n狗熊 ——— 熊霸天下<br>\n狼人 ——— 狩猎的时候到了<br>\n泽拉斯 ——— 我来让你见识一下正真的魔法把！召唤师<br>\n赵信 ——— 长枪依在<br>\n亚索 ——— 死亡如风，常伴吾身<br>\n掘墓 ——— 死亡，仅仅是个开始<br>\n扎克 ——— 我，为了战斗而生<br>\n劫 ——— 无形之刃，最为致命<br>\n炸弹人 ——— 来，炸个痛快<br>\n时光守护者 ——— 就知道你会选我<br>\n荆棘之兴 ——— 感受荆棘的拥抱吧</p>\n</blockquote>\n",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/%E5%A5%8B%E6%96%97%E7%AF%87/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/",
+            "url": "http://example.com/%E5%A5%8B%E6%96%97%E7%AF%87/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/",
+            "title": "搭建博客",
+            "date_published": "2020-11-06T09:03:05.586Z",
+            "content_html": "<h1 id=\"准备\"><a class=\"markdownIt-Anchor\" href=\"#准备\">#</a> 准备</h1>\n<blockquote>\n<p>安装 <code>git</code> ===》<span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXQtc2NtLmNvbS9kb3dubG9hZHM=\">下载地址戳这里</span></p>\n<p>安装 <code>node.js</code> ===》<span class=\"exturl\" data-url=\"aHR0cHM6Ly9ub2RlanMub3JnL3poLWNuL2Rvd25sb2FkLw==\">下载地址戳这里</span></p>\n<p>因为是一些傻瓜式（猛点下一步）安装，所以安装过程我这里就不展示了，当然也可以自己选择路径，不过我建议安装到默认盘符。需要注意的是安装好 <code>node.js</code>  以后需要配置环境变量，依次点击 ===》右击此电脑 ===》属性 ===》高级系统设置 ===》高级 ===》环境变量。。。</p>\n</blockquote>\n<h1 id=\"安装hexo\"><a class=\"markdownIt-Anchor\" href=\"#安装hexo\">#</a> 安装 Hexo</h1>\n<blockquote>\n<ol>\n<li>\n<p>使用 npm（全局）安装</p>\n<figure class=\"highlight java\"><figcaption data-lang=\"java\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>hexo npm install hexo<span class=\"token operator\">-</span>cli <span class=\"token operator\">-</span>g</pre></td></tr></table></figure></li>\n<li>\n<p>克隆 hexo 所需配置文件</p>\n<figure class=\"highlight html\"><figcaption data-lang=\"HTML\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>hexo init blog</pre></td></tr></table></figure></li>\n<li>\n<p>切换到刚才克隆的 blog 文件夹里面</p>\n<figure class=\"highlight java\"><figcaption data-lang=\"java\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>cd blog</pre></td></tr></table></figure></li>\n<li>\n<p>安装依赖</p>\n<figure class=\"highlight yaml\"><figcaption data-lang=\"YAML\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>npm install</pre></td></tr></table></figure></li>\n<li>\n<p>在本地运行</p>\n<figure class=\"highlight java\"><figcaption data-lang=\"java\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>hexo hexo server</pre></td></tr><tr><td data-num=\"2\"></td><td><pre># 可简写为</pre></td></tr><tr><td data-num=\"3\"></td><td><pre>heox s</pre></td></tr></table></figure></li>\n</ol>\n</blockquote>\n<p>在浏览器输入 <code>http://localhost:4000</code>  或者<span class=\"exturl\" data-url=\"aHR0cDovL2xvY2FsaG9zdDo0MDAw\">戳此处</span>如果能显示出来默认页面，说明 <code>Hexo</code>  安装成功。</p>\n",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/%E8%B8%A9%E5%9D%91%E7%AF%87/%E5%88%B0%E5%A4%84%E6%98%AF%E5%9D%91%E5%9D%91/",
+            "url": "http://example.com/%E8%B8%A9%E5%9D%91%E7%AF%87/%E5%88%B0%E5%A4%84%E6%98%AF%E5%9D%91%E5%9D%91/",
+            "title": "到处是坑坑！",
+            "date_published": "2020-11-06T09:02:30.450Z",
+            "content_html": "<h2 id=\"hexo代码块样式调整\"><a class=\"markdownIt-Anchor\" href=\"#hexo代码块样式调整\">#</a>  <code>hexo代码块样式调整</code></h2>\n<blockquote>\n<p><code>问题描述</code></p>\n<ul>\n<li>代码显示在代码的头部，代码块 body 部分是空白的。</li>\n<li>代码块前面的三个不同颜色的小点被遮挡。</li>\n<li>代码块区域放大以后不能点返回箭头，否则页面卡住，必须刷新页面才能继续浏览。</li>\n<li>代码块的行号从头部开始显示。</li>\n</ul>\n<p><code>解决方法</code></p>\n<ol>\n<li>等待更新。。。</li>\n</ol>\n</blockquote>\n",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/%E5%94%A0%E5%97%91%E7%AF%87/%E7%BC%98%E8%B5%B7/",
+            "url": "http://example.com/%E5%94%A0%E5%97%91%E7%AF%87/%E7%BC%98%E8%B5%B7/",
+            "title": "缘起 ^_^",
+            "date_published": "2020-11-06T07:03:53.480Z",
+            "content_html": "<blockquote>\n<p>      传说，在 2500 万年前，一颗带着蓝色火焰的陨石从天而降，此时，有个少年正放羊回来，顺着河边，沿岸踱步、怡然自得。突然 …</p>\n<hr>\n<p>哈哈，扯远了。不好意思啊！各位，我是一个学习前端的小小白，很荣幸，我能来到前端的世界，我站在这个陌生而又充满挑战的世界里，一眼望去，有土坡绵延而成的山脉，也有雨滴溪水汇成的江河海洋。可谓是 —— 那啥！忘词了，反正就是啥都有！大学以来，就很喜欢写页面，我读的也是计算机相关的专业。学过的课程也很多， <code>java</code> 、 <code>c++</code> 、 <code>ps</code> 、 <code>综合布线</code> 、 <code>网络协议</code> 、 <code>html</code>  、 <code>css</code> 、 <code>Javascript</code> 。其中最喜欢的就是做网页了。就因为简单，容易上手。写出来就能看得到。尽管如此喜欢，还是一事无成，其他的课程也都学得半斤八两。多多少少了解一点。看得懂，写不出来。浑浑噩噩，三年结束了。等到工作了，才自学了一些东西。在此，和大家分享一下，我有很多不足的地方，希望在接下来的日子里。不断完善。</p>\n</blockquote>\n",
+            "tags": []
+        }
+    ]
+}
