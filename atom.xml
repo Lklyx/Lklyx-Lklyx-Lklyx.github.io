@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://Lklyx.github.io</id>
     <title>沿岸踱步</title>
-    <link href="http://example.com" />
+    <link href="https://Lklyx.github.io" />
     <updated>2020-11-06T09:53:02.556Z</updated>
     <entry>
-        <id>http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E7%9A%84%E6%AF%92%EF%BC%8C%E6%B2%A1%E6%9C%89%E8%A7%A3%E8%8D%AF/</id>
+        <id>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E7%9A%84%E6%AF%92%EF%BC%8C%E6%B2%A1%E6%9C%89%E8%A7%A3%E8%8D%AF/</id>
         <title>我的毒,没有解药</title>
-        <link rel="alternate" href="http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E7%9A%84%E6%AF%92%EF%BC%8C%E6%B2%A1%E6%9C%89%E8%A7%A3%E8%8D%AF/"/>
+        <link rel="alternate" href="https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E7%9A%84%E6%AF%92%EF%BC%8C%E6%B2%A1%E6%9C%89%E8%A7%A3%E8%8D%AF/"/>
         <content type="html">&lt;blockquote&gt;
 &lt;p&gt;蛇女 ——— 我的毒，没有解药&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -15,9 +15,9 @@
         <updated>2020-11-06T09:53:02.556Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%BD%A0%E6%83%B3%E8%A6%81%E4%BD%A0%E6%89%80%E7%9F%A5%E7%9A%84%E4%B8%96%E7%95%8C%E6%AF%81%E7%81%AD%E4%B8%80%E6%98%AF%E5%90%97%EF%BC%9F/</id>
+        <id>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%BD%A0%E6%83%B3%E8%A6%81%E4%BD%A0%E6%89%80%E7%9F%A5%E7%9A%84%E4%B8%96%E7%95%8C%E6%AF%81%E7%81%AD%E4%B8%80%E6%98%AF%E5%90%97%EF%BC%9F/</id>
         <title>你想要你所知的世界毁灭一是吗？</title>
-        <link rel="alternate" href="http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%BD%A0%E6%83%B3%E8%A6%81%E4%BD%A0%E6%89%80%E7%9F%A5%E7%9A%84%E4%B8%96%E7%95%8C%E6%AF%81%E7%81%AD%E4%B8%80%E6%98%AF%E5%90%97%EF%BC%9F/"/>
+        <link rel="alternate" href="https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%BD%A0%E6%83%B3%E8%A6%81%E4%BD%A0%E6%89%80%E7%9F%A5%E7%9A%84%E4%B8%96%E7%95%8C%E6%AF%81%E7%81%AD%E4%B8%80%E6%98%AF%E5%90%97%EF%BC%9F/"/>
         <content type="html">&lt;blockquote&gt;
 &lt;p&gt;虚空恐惧：大虫子&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -25,9 +25,9 @@
         <updated>2020-11-06T09:53:01.294Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%B8%80%E8%BD%AE%E6%96%B0%E6%9C%88%E6%AD%A3%E5%9C%A8%E5%86%89%E5%86%89%E5%8D%87%E8%B5%B7/</id>
+        <id>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%B8%80%E8%BD%AE%E6%96%B0%E6%9C%88%E6%AD%A3%E5%9C%A8%E5%86%89%E5%86%89%E5%8D%87%E8%B5%B7/</id>
         <title>一轮新月正在冉冉升起</title>
-        <link rel="alternate" href="http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%B8%80%E8%BD%AE%E6%96%B0%E6%9C%88%E6%AD%A3%E5%9C%A8%E5%86%89%E5%86%89%E5%8D%87%E8%B5%B7/"/>
+        <link rel="alternate" href="https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%B8%80%E8%BD%AE%E6%96%B0%E6%9C%88%E6%AD%A3%E5%9C%A8%E5%86%89%E5%86%89%E5%8D%87%E8%B5%B7/"/>
         <content type="html">&lt;blockquote&gt;
 &lt;p&gt;皎月女神 ——— 一轮新月正在冉冉升起&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -35,9 +35,9 @@
         <updated>2020-11-06T09:53:00.970Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%A5%BD%E6%88%8F%E5%BC%80%E5%9C%BA%E4%BA%86/</id>
+        <id>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%A5%BD%E6%88%8F%E5%BC%80%E5%9C%BA%E4%BA%86/</id>
         <title>好戏开场了</title>
-        <link rel="alternate" href="http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%A5%BD%E6%88%8F%E5%BC%80%E5%9C%BA%E4%BA%86/"/>
+        <link rel="alternate" href="https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%A5%BD%E6%88%8F%E5%BC%80%E5%9C%BA%E4%BA%86/"/>
         <content type="html">&lt;blockquote&gt;
 &lt;p&gt;女警&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -45,9 +45,9 @@
         <updated>2020-11-06T09:52:53.355Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%87%86%E5%A4%87%E5%A5%BD%E8%BF%9B%E5%85%A5%E7%81%AB%E7%84%B0%E4%B8%96%E7%95%8C%E4%BA%86%E5%90%97%EF%BC%9F%E5%98%BF%E5%98%BF%E5%98%BF%E5%98%BF/</id>
+        <id>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%87%86%E5%A4%87%E5%A5%BD%E8%BF%9B%E5%85%A5%E7%81%AB%E7%84%B0%E4%B8%96%E7%95%8C%E4%BA%86%E5%90%97%EF%BC%9F%E5%98%BF%E5%98%BF%E5%98%BF%E5%98%BF/</id>
         <title>准备好进入火焰世界了吗？嘿嘿嘿嘿^_^</title>
-        <link rel="alternate" href="http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%87%86%E5%A4%87%E5%A5%BD%E8%BF%9B%E5%85%A5%E7%81%AB%E7%84%B0%E4%B8%96%E7%95%8C%E4%BA%86%E5%90%97%EF%BC%9F%E5%98%BF%E5%98%BF%E5%98%BF%E5%98%BF/"/>
+        <link rel="alternate" href="https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%87%86%E5%A4%87%E5%A5%BD%E8%BF%9B%E5%85%A5%E7%81%AB%E7%84%B0%E4%B8%96%E7%95%8C%E4%BA%86%E5%90%97%EF%BC%9F%E5%98%BF%E5%98%BF%E5%98%BF%E5%98%BF/"/>
         <content type="html">&lt;blockquote&gt;
 &lt;p&gt;    火男&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -55,33 +55,33 @@
         <updated>2020-11-06T09:50:42.192Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%B2%A1%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E6%8A%8A%E4%BF%BA%E5%87%BB%E9%80%80/</id>
+        <id>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%B2%A1%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E6%8A%8A%E4%BF%BA%E5%87%BB%E9%80%80/</id>
         <title>没什么可以把俺击退</title>
-        <link rel="alternate" href="http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%B2%A1%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E6%8A%8A%E4%BF%BA%E5%87%BB%E9%80%80/"/>
+        <link rel="alternate" href="https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%B2%A1%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E6%8A%8A%E4%BF%BA%E5%87%BB%E9%80%80/"/>
         <content type="html">&lt;p&gt;牛头&lt;/p&gt;
 </content>
         <updated>2020-11-06T09:34:27.484Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E4%BB%AC%E5%BF%83%E6%9C%89%E7%81%B5%E7%8A%80%EF%BC%8C%E4%B8%8D%E6%98%AF%E5%90%97/</id>
+        <id>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E4%BB%AC%E5%BF%83%E6%9C%89%E7%81%B5%E7%8A%80%EF%BC%8C%E4%B8%8D%E6%98%AF%E5%90%97/</id>
         <title>我们心有灵犀，不是吗？</title>
-        <link rel="alternate" href="http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E4%BB%AC%E5%BF%83%E6%9C%89%E7%81%B5%E7%8A%80%EF%BC%8C%E4%B8%8D%E6%98%AF%E5%90%97/"/>
+        <link rel="alternate" href="https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E4%BB%AC%E5%BF%83%E6%9C%89%E7%81%B5%E7%8A%80%EF%BC%8C%E4%B8%8D%E6%98%AF%E5%90%97/"/>
         <content type="html">&lt;p&gt;狐狸&lt;/p&gt;
 </content>
         <updated>2020-11-06T09:03:11.493Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E7%81%AB%E7%84%B0%EF%BC%8C%E6%98%AF%E6%88%91%E6%9C%80%E5%96%9C%E6%AC%A2%E7%9A%84%E7%8E%A9%E5%85%B7/</id>
+        <id>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E7%81%AB%E7%84%B0%EF%BC%8C%E6%98%AF%E6%88%91%E6%9C%80%E5%96%9C%E6%AC%A2%E7%9A%84%E7%8E%A9%E5%85%B7/</id>
         <title>火焰，是我最喜欢的玩具！</title>
-        <link rel="alternate" href="http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E7%81%AB%E7%84%B0%EF%BC%8C%E6%98%AF%E6%88%91%E6%9C%80%E5%96%9C%E6%AC%A2%E7%9A%84%E7%8E%A9%E5%85%B7/"/>
+        <link rel="alternate" href="https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E7%81%AB%E7%84%B0%EF%BC%8C%E6%98%AF%E6%88%91%E6%9C%80%E5%96%9C%E6%AC%A2%E7%9A%84%E7%8E%A9%E5%85%B7/"/>
         <content type="html">&lt;p&gt;火女&lt;/p&gt;
 </content>
         <updated>2020-11-06T09:03:11.491Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%86%B0%E5%87%A4%E5%B1%95%E7%BF%85/</id>
+        <id>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%86%B0%E5%87%A4%E5%B1%95%E7%BF%85/</id>
         <title>冰凤展翅</title>
-        <link rel="alternate" href="http://example.com/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%86%B0%E5%87%A4%E5%B1%95%E7%BF%85/"/>
+        <link rel="alternate" href="https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%86%B0%E5%87%A4%E5%B1%95%E7%BF%85/"/>
         <content type="html">&lt;blockquote&gt;
 &lt;p&gt;德莱文 ——— 欢迎来到德莱联盟&lt;br&gt;
 蒙多医生 ——— 蒙多～&lt;br&gt;
@@ -184,9 +184,9 @@
         <updated>2020-11-06T09:03:11.490Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/%E5%A5%8B%E6%96%97%E7%AF%87/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</id>
+        <id>https://lklyx.github.io/%E5%A5%8B%E6%96%97%E7%AF%87/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</id>
         <title>搭建博客</title>
-        <link rel="alternate" href="http://example.com/%E5%A5%8B%E6%96%97%E7%AF%87/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+        <link rel="alternate" href="https://lklyx.github.io/%E5%A5%8B%E6%96%97%E7%AF%87/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
         <content type="html">&lt;h1 id=&#34;准备&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#准备&#34;&gt;#&lt;/a&gt; 准备&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;安装 &lt;code&gt;git&lt;/code&gt; ===》&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXQtc2NtLmNvbS9kb3dubG9hZHM=&#34;&gt;下载地址戳这里&lt;/span&gt;&lt;/p&gt;
@@ -198,30 +198,49 @@
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;使用 npm（全局）安装&lt;/p&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo npm install hexo&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;cli &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;g&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo npm install hexo&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;cli &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;g&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;克隆 hexo 所需配置文件&lt;/p&gt;
-&lt;figure class=&#34;highlight html&#34;&gt;&lt;figcaption data-lang=&#34;HTML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo init blog&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo init blog&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;切换到刚才克隆的 blog 文件夹里面&lt;/p&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cd blog&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cd blog&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;安装依赖&lt;/p&gt;
 &lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;npm install&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;在本地运行&lt;/p&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo hexo server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;# 可简写为&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;heox s&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo hexo server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 可简写为&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;heox s&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;在浏览器输入 &lt;code&gt;http://localhost:4000&lt;/code&gt;  或者&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2xvY2FsaG9zdDo0MDAw&#34;&gt;戳此处&lt;/span&gt;如果能显示出来默认页面，说明 &lt;code&gt;Hexo&lt;/code&gt;  安装成功。&lt;/p&gt;
+&lt;h1 id=&#34;将hexo部署到github上&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#将hexo部署到github上&#34;&gt;#&lt;/a&gt; 将 hexo 部署到 github 上&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;注册 github 账号&lt;/p&gt;
+&lt;p&gt;这一步过于简单，我就提一下，进入 github 官网，你也可以直接戳这里&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tLw==&#34;&gt; github 官网&lt;/span&gt;，这里提一下，有些人的电脑进不了 github 官网，提示 &lt;code&gt;请求超时&lt;/code&gt; 这类事的情况是因为需要解析，可能是因为是国外的网站的原因吧！要在 c 盘改一个扫描文件来着，当时搞了我好半天，这里我就不做展示了。如果能进官网，就直接输入 name，email，password。注册就完事了。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;../../images/image-20201110181000559.png&#34; alt=&#34;image-20201110181000559&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;创建 github 仓库。&lt;/p&gt;
+&lt;p&gt;注意：仓库名一定要是你的 &lt;code&gt;github名&lt;/code&gt;  + &lt;code&gt;github&lt;/code&gt; + &lt;code&gt;io&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;例： &lt;code&gt;Zhangsan.github.io&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;就这。。。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&#34;../../images/image-20201110181416459.png&#34; alt=&#34;image-20201110181416459&#34;&gt;&lt;/p&gt;
 </content>
         <updated>2020-11-06T09:03:05.586Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/%E8%B8%A9%E5%9D%91%E7%AF%87/%E5%88%B0%E5%A4%84%E6%98%AF%E5%9D%91%E5%9D%91/</id>
-        <title>到处是坑坑！</title>
-        <link rel="alternate" href="http://example.com/%E8%B8%A9%E5%9D%91%E7%AF%87/%E5%88%B0%E5%A4%84%E6%98%AF%E5%9D%91%E5%9D%91/"/>
-        <content type="html">&lt;h2 id=&#34;hexo代码块样式调整&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hexo代码块样式调整&#34;&gt;#&lt;/a&gt;  &lt;code&gt;hexo代码块样式调整&lt;/code&gt;&lt;/h2&gt;
+        <id>https://lklyx.github.io/%E8%B8%A9%E5%9D%91%E7%AF%87/%E4%B8%BB%E9%A2%98%E8%B8%A9%E5%9D%91%E7%AF%87/</id>
+        <title>前端到处是坑坑！</title>
+        <link rel="alternate" href="https://lklyx.github.io/%E8%B8%A9%E5%9D%91%E7%AF%87/%E4%B8%BB%E9%A2%98%E8%B8%A9%E5%9D%91%E7%AF%87/"/>
+        <content type="html">&lt;h1 id=&#34;hexo代码块样式调整-1&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hexo代码块样式调整-1&#34;&gt;#&lt;/a&gt; hexo 代码块样式调整 1&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;问题描述&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -232,16 +251,48 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;code&gt;解决方法&lt;/code&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;等待更新。。。&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;前四个问题我找了一天的答案，总是有瑕疵，终于，第二天中午的时候，我找到了，原来是主题配置的问题，我用的是 hexo 中的 shoka 主题。主题配置里面有提到。&lt;strong&gt;停用默认代码高亮功能，否则代码块的 mac 样式不能正常显示&lt;/strong&gt;。找到 &lt;code&gt;highlight&lt;/code&gt;  和 &lt;code&gt;prismjs&lt;/code&gt;  把 &lt;code&gt;enable&lt;/code&gt;  改成 &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;以下是我的代码：&lt;/p&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;highlight&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;false&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 主题配置需要停用&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;auto_detect&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 代码块高亮&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;line_number&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;tab_replace&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;wrap&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;hljs&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;prismjs&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;false&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 主题配置需要停用&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;preprocess&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;line_number&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;tab_replace&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
+&lt;h1 id=&#34;hexo代码块样式调整-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hexo代码块样式调整-2&#34;&gt;#&lt;/a&gt; hexo 代码块样式调整 2&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;问题描述&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;代码块自动换行&lt;/li&gt;
+&lt;li&gt;代码块前后有空白行问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;解决方法&lt;/code&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;找到 &lt;code&gt;hexo-util/lib/highlight.js&lt;/code&gt;  文件，一般路径为 &lt;code&gt;root/node_modules/hexo-util/lib/highlight.js&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;修改 &lt;code&gt;highlight.js&lt;/code&gt;  中的代码，有些在 &lt;code&gt;35~38&lt;/code&gt;  行处，有些在 &lt;code&gt;91&lt;/code&gt;  行处，各有不同。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;修改前&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;numbers += &#39;&amp;lt;div class=&#34;line&#34;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&#39; + (firstLine + i) + &#39;&amp;lt;/div&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&#39;;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;content += &#39;&amp;lt;div class=&#34;line&#39;;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;content += (mark.indexOf(firstLine + i) !== -1) ? &#39; marked&#39;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &#39;&#39;;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;content += &#39;&#34;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&#39; + line + &#39;&amp;lt;/div&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&#39;;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;修改后&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;numbers += &#39;&amp;lt;span class=&#34;line&#34;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&#39; + (firstLine + i) + &#39;&amp;lt;/span&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;\n&#39;;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;content += &#39;&amp;lt;span class=&#34;line&#39;;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;content += (mark.indexOf(firstLine + i) !== -1) ? &#39; marked&#39;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &#39;&#39;;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;content += &#39;&#34;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&#39; + line + &#39;&amp;lt;/span&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;\n&#39;;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;总结：把里面的 &lt;code&gt;div&lt;/code&gt;  标签换成 &lt;code&gt;span&lt;/code&gt;  标签&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;在hexo插入本地图片&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#在hexo插入本地图片&#34;&gt;#&lt;/a&gt; 在 Hexo 插入本地图片&lt;/h1&gt;
 </content>
         <updated>2020-11-06T09:02:30.450Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/%E5%94%A0%E5%97%91%E7%AF%87/%E7%BC%98%E8%B5%B7/</id>
+        <id>https://lklyx.github.io/%E5%94%A0%E5%97%91%E7%AF%87/%E7%BC%98%E8%B5%B7/</id>
         <title>缘起 ^_^</title>
-        <link rel="alternate" href="http://example.com/%E5%94%A0%E5%97%91%E7%AF%87/%E7%BC%98%E8%B5%B7/"/>
+        <link rel="alternate" href="https://lklyx.github.io/%E5%94%A0%E5%97%91%E7%AF%87/%E7%BC%98%E8%B5%B7/"/>
         <content type="html">&lt;blockquote&gt;
 &lt;p&gt;      传说，在 2500 万年前，一颗带着蓝色火焰的陨石从天而降，此时，有个少年正放羊回来，顺着河边，沿岸踱步、怡然自得。突然 …&lt;/p&gt;
 &lt;hr&gt;
