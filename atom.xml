@@ -2,16 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Lklyx.github.io</id>
     <title>沿岸踱步</title>
+    <subtitle>subtitle</subtitle>
+    <icon>https://lklyx.github.io/images/favicon.ico</icon>
     <link href="https://Lklyx.github.io" />
+    <author>
+      <name>Yanan^_^Duobu</name>
+    </author>
     <updated>2020-11-11T02:06:03.155Z</updated>
+    <category term="YA" />
+    <category term="DUO" />
     <entry>
-        <id>https://lklyx.github.io/%E8%B8%A9%E5%9D%91%E7%AF%87/markdown/</id>
+        <id>https://lklyx.github.io/markdown/</id>
         <title>markdown 编辑器介绍</title>
-        <link rel="alternate" href="https://lklyx.github.io/%E8%B8%A9%E5%9D%91%E7%AF%87/markdown/"/>
-        <content type="html">&lt;h2 id=&#34;markdown编辑器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#markdown编辑器&#34;&gt;#&lt;/a&gt; &lt;strong&gt;Markdown 编辑器&lt;/strong&gt;&lt;/h2&gt;
+        <link rel="alternate" href="https://lklyx.github.io/markdown/"/>
+        <content type="html">&lt;h2 id=&#34;markdown编辑器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#markdown编辑器&#34;&gt;#&lt;/a&gt; &lt;strong&gt;Markdown 编辑器&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Markdown 其实在 2004 年就有了，不过之前一直很小众，这几年随着相关应用平台的发展，Markdown 以其独到的优势迅速火起来了。Markdown 编辑器使用一套格式标记语言来对文档内容进行排版和格式显示。而 Markdown 的标记很少，常用的也就十个左右，它是一种非常轻量的标记语言。&lt;/p&gt;
 &lt;p&gt;Markdown 编辑器深受技术人员的喜爱，Markdown 可以用来编写说明文档，用它写的文档很多技术平台都能通用；Markdown 可以用来写技术博客，可以使说明部分和代码都非常清晰易读；Markdown 格式转换方便，还可以轻松地将文本转换为 html、pdf 等。&lt;/p&gt;
-&lt;h2 id=&#34;markdown-编辑器分类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#markdown-编辑器分类&#34;&gt;#&lt;/a&gt; Markdown 编辑器分类&lt;/h2&gt;
+&lt;h2 id=&#34;markdown-编辑器分类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#markdown-编辑器分类&#34;&gt;#&lt;/a&gt; Markdown 编辑器分类&lt;/h2&gt;
 &lt;p&gt;按照 Markdown 编辑器的使用环境，可以将它们归纳为三类。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;平台集成工具：各大在线博客、社区平台自带的写作工具，比如 CSDN、博客园、简书等。&lt;/li&gt;
@@ -19,69 +26,105 @@
 &lt;li&gt;插件类：他自己本身是不能独立使用的，可以在你现有的主流编辑器安装，使你现有的编辑器具有 Markdown 的功能，比如 Atom、WebStorm、Sublime Text 等。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;这三类软件分别面向三类 Markdown 用户，大家可以根据自己的需求来选择使用。&lt;/p&gt;
-&lt;h2 id=&#34;typora&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#typora&#34;&gt;#&lt;/a&gt; Typora&lt;/h2&gt;
+&lt;h2 id=&#34;typora&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#typora&#34;&gt;#&lt;/a&gt; Typora&lt;/h2&gt;
 &lt;p&gt;我使用的就是这种编辑器，Typora 也是非常用名，非常好用的 markdown 编辑器，它的设计理念很不一样，是真正的即时预览型编辑器，不同于左右两个窗口的编辑器。Typora 的设计理念就是极致简洁，它将 &lt;code&gt;写字&lt;/code&gt; 和 &lt;code&gt;预览&lt;/code&gt; 这两件事情合并了。&lt;/p&gt;
 &lt;p&gt;如果要修改已经写好的 markdown 标记可以点击切换到 “源代码模式”。&lt;/p&gt;
 &lt;p&gt;Typora 同样支持 Windows、OS X 和 Linux 多个操作系统，支持数学编辑，可与 Word 直接格式转换，可以进行多种文档格式转换。Typora 流畅度和反应速度很快，特别适合那些手速快的人。&lt;/p&gt;
 &lt;p&gt;Typora 是独立的软件。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190914004721873.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt=&#34;typora&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;mou&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mou&#34;&gt;#&lt;/a&gt; Mou&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190914004721873.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt=&#34;typora&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;mou&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mou&#34;&gt;#&lt;/a&gt; Mou&lt;/h2&gt;
 &lt;p&gt;Mou 是一款由国人开发的 Markdown 编辑器，支持实时预览，但是仅支持 苹果操作系统，可以说是目前最好用的免费 Markdown 编辑器，对汉字兼容性非常好。提供语法高亮、在线预览、同步滚动、全屏模式，支持自定保存、自动匹配，允许自定义主题等等。支持 CSS，HTML 和 PDF 导出等功能。&lt;/p&gt;
 &lt;p&gt;Mou 是独立的软件。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190914004721844.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt=&#34;mou&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;markdownpad&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#markdownpad&#34;&gt;#&lt;/a&gt; MarkdownPad&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190914004721844.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt=&#34;mou&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;markdownpad&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#markdownpad&#34;&gt;#&lt;/a&gt; MarkdownPad&lt;/h2&gt;
 &lt;p&gt;MarkdownPad 被很多人称赞为 windows 下最好用的 Markdown 编辑器之一，不过仅支持 windows。它有免费版和收费版（MarkdownPad Pro），一般情况下免费版就够用了，想用 pro 版的可以自行网上下载，强大的国人 crack 无处不在的～~。&lt;/p&gt;
 &lt;p&gt;MarkdownPad 支持键盘快捷键和工具栏操作，即可添加标记也可移除，支持即时 HTML 预览、支持自定义配色方案、字体、大小和布局、支持音乐视频，可以导出 HTML 和 PDF。&lt;/p&gt;
 &lt;p&gt;MarkdownPad 是独立的软件。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://imgconvert.csdnimg.cn/aHR0cDovL21hcmtkb3ducGFkLmNvbS9pbWcvbWFya2Rvd25wYWQyLnBuZw?x-oss-process=image/format,png&#34; alt&gt;&lt;/p&gt;
-&lt;h2 id=&#34;atom&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#atom&#34;&gt;#&lt;/a&gt; Atom&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgconvert.csdnimg.cn/aHR0cDovL21hcmtkb3ducGFkLmNvbS9pbWcvbWFya2Rvd25wYWQyLnBuZw?x-oss-process=image/format,png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;atom&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#atom&#34;&gt;#&lt;/a&gt; Atom&lt;/h2&gt;
 &lt;p&gt;Atom 可以说是专门为程序员推出的一个文本编辑器，界面简洁，支持实时预览。功能非常多，除了 Markdown 同时支持 CSS，HTML，JavaScript 等网页编程语言，还支持宏定义，自动分屏功能等。Atom 还具有语义输入模式，比例输入 code 即会自动开启代码模式。&lt;/p&gt;
 &lt;p&gt;Atom 支持 windows、苹果、linux 等多种操作系统。Atom 是由著名的 github 平台出品的。&lt;/p&gt;
 &lt;p&gt;Atom 是独立的软件，也支持插件方式。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://imgconvert.csdnimg.cn/aHR0cHM6Ly90aW1nc2EuYmFpZHUuY29tL3RpbWc_aW1hZ2UmcXVhbGl0eT04MCZzaXplPWI5OTk5XzEwMDAwJnNlYz0xNTY4OTgzNDI1JmRpPWI1ZmI3OTUxODBhYWM3OTY0ZDM4ZmMxNDk5NWM0OGFlJmltZ3R5cGU9anBnJmVyPTEmc3JjPWh0dHAlM0ElMkYlMkZpbWcuOTU1My5jb20lMkZ1cGxvYWQlMkYyMDE1JTJGMDQyMiUyRjIwMTUwNDIyMDQ0NTAyNDc3LmpwZw?x-oss-process=image/format,png&#34; alt=&#34;atom&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;cmd-markdown&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#cmd-markdown&#34;&gt;#&lt;/a&gt; Cmd Markdown&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgconvert.csdnimg.cn/aHR0cHM6Ly90aW1nc2EuYmFpZHUuY29tL3RpbWc_aW1hZ2UmcXVhbGl0eT04MCZzaXplPWI5OTk5XzEwMDAwJnNlYz0xNTY4OTgzNDI1JmRpPWI1ZmI3OTUxODBhYWM3OTY0ZDM4ZmMxNDk5NWM0OGFlJmltZ3R5cGU9anBnJmVyPTEmc3JjPWh0dHAlM0ElMkYlMkZpbWcuOTU1My5jb20lMkZ1cGxvYWQlMkYyMDE1JTJGMDQyMiUyRjIwMTUwNDIyMDQ0NTAyNDc3LmpwZw?x-oss-process=image/format,png&#34; alt=&#34;atom&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;cmd-markdown&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cmd-markdown&#34;&gt;#&lt;/a&gt; Cmd Markdown&lt;/h2&gt;
 &lt;p&gt;Cmd Markdown 是一款不错的写作工具，同时也兼顾博客等写作平台，国内作业部落出品，同时支持 Windows、苹果、Linux 操作系统，也有 Web 在线创作平台，界面很舒服。&lt;/p&gt;
 &lt;p&gt;Cmd Markdown 是独立的软件、也有平台集成版本。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190914004721916.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt=&#34;dmd markdown&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;byword&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#byword&#34;&gt;#&lt;/a&gt; Byword&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190914004721916.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt=&#34;dmd markdown&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;byword&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#byword&#34;&gt;#&lt;/a&gt; Byword&lt;/h2&gt;
 &lt;p&gt;Byword。一款轻量级的 Markdown 编辑器，比较容易上手，适合新手使用。支持苹果系列系统，包括台式机、iPad 和 iPhone，收费软件。&lt;/p&gt;
 &lt;p&gt;Byword 是独立的软件。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190914004722257.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt=&#34;byword&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;marxico&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#marxico&#34;&gt;#&lt;/a&gt; Marxico&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190914004722257.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt=&#34;byword&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;marxico&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#marxico&#34;&gt;#&lt;/a&gt; Marxico&lt;/h2&gt;
 &lt;p&gt;Marxico 中文名马克飞象，有桌面版、Chrome App 插件，也支持 Web 集成版。这款编辑器的特点是可以直接把文本存到印象笔记平台中，另外还有导出 HTML 时可以将其中的图片自动转成 base64 保存。其他的实时预览、语法高亮也都支持。&lt;/p&gt;
 &lt;p&gt;不过这款软件是收费的～~&lt;/p&gt;
 &lt;p&gt;Marxico 是独立的软件、同时有 Chrome App 插件，也支持 Web 集成。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/2019091400472285.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt=&#34;marxico&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;markpad&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#markpad&#34;&gt;#&lt;/a&gt; MarkPad&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/2019091400472285.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt=&#34;marxico&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;markpad&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#markpad&#34;&gt;#&lt;/a&gt; MarkPad&lt;/h2&gt;
 &lt;p&gt;MarkPad 是免费开源的 Markdown 编辑器，界面风格与 window 系统类似，同时只支持 Window。支持实时预览，开放直接保存到你的博客或 github 的接口，有语法检查，支持代码高亮。&lt;/p&gt;
 &lt;p&gt;MarkPad 是独立的软件。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190914004722199.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt&gt;&lt;/p&gt;
-&lt;h2 id=&#34;总结&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#总结&#34;&gt;#&lt;/a&gt; 总结&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190914004722199.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#总结&#34;&gt;#&lt;/a&gt; 总结&lt;/h2&gt;
 &lt;p&gt;最后我用的是 Typora，在这里介绍一下使用过程中的感受，这个编辑器感觉很不错，无论是代码块的插入，还是公式块的插入，以及图片插入，都比较方便，需要注意的是，编辑每篇文章的标题的的时候，需要打开试图中的源代码模式，勾选上，不然的话，你写的 title 就会成为代码块模式，这样写出来的文章标题就会显示 &lt;code&gt;未命名&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;如果你也喜欢或者也想使用这块编辑器那么 &lt;code&gt;下载地址&lt;/code&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudHlwb3JhLmlvLw==&#34;&gt;请戳此处&lt;/span&gt;&lt;/p&gt;
 </content>
         <updated>2020-11-11T02:06:03.155Z</updated>
     </entry>
     <entry>
-        <id>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%89%91%E8%B1%AA/</id>
+        <id>https://lklyx.github.io/computer-science/java/course-1/index%20-%20%E5%89%AF%E6%9C%AC/</id>
+        <title>欢迎来到我的个人空间^_^！</title>
+        <link rel="alternate" href="https://lklyx.github.io/computer-science/java/course-1/index%20-%20%E5%89%AF%E6%9C%AC/"/>
+        <content type="html">&lt;h2 id=&#34;个人介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#个人介绍&#34;&gt;#&lt;/a&gt; 个人介绍&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我是博主，来自 &lt;code&gt;贵州&lt;/code&gt; 。。。很高兴能认识你们！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;基本信息&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基本信息&#34;&gt;#&lt;/a&gt; 基本信息&lt;/h2&gt;
+&lt;p&gt;等待更新中。。。&lt;/p&gt;
+&lt;h2 id=&#34;目的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#目的&#34;&gt;#&lt;/a&gt; 目的&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;混口饭吃&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <updated>2020-11-06T09:12:04.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://lklyx.github.io/computer-science/java/course-1/index/</id>
+        <title>欢迎来到我的个人空间^_^！</title>
+        <link rel="alternate" href="https://lklyx.github.io/computer-science/java/course-1/index/"/>
+        <content type="html">&lt;h2 id=&#34;个人介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#个人介绍&#34;&gt;#&lt;/a&gt; 个人介绍&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我是博主，来自 &lt;code&gt;贵州&lt;/code&gt; 。。。很高兴能认识你们！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;基本信息&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基本信息&#34;&gt;#&lt;/a&gt; 基本信息&lt;/h2&gt;
+&lt;p&gt;等待更新中。。。&lt;/p&gt;
+&lt;h2 id=&#34;目的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#目的&#34;&gt;#&lt;/a&gt; 目的&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;混口饭吃&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <updated>2020-11-06T09:12:04.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://lklyx.github.io/%E5%89%91%E8%B1%AA/</id>
         <title>长路漫漫，唯剑作伴。</title>
-        <link rel="alternate" href="https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%89%91%E8%B1%AA/"/>
+        <link rel="alternate" href="https://lklyx.github.io/%E5%89%91%E8%B1%AA/"/>
         <content type="html">&lt;p&gt;&lt;code&gt;死亡如风，常伴吾身&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;压缩 —— 疾风剑豪&lt;/p&gt;
 </content>
         <updated>2020-11-06T09:03:11.490Z</updated>
     </entry>
     <entry>
-        <id>https://lklyx.github.io/%E5%A5%8B%E6%96%97%E7%AF%87/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</id>
+        <id>https://lklyx.github.io/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</id>
         <title>搭建博客</title>
-        <link rel="alternate" href="https://lklyx.github.io/%E5%A5%8B%E6%96%97%E7%AF%87/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
-        <content type="html">&lt;h1 id=&#34;准备&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#准备&#34;&gt;#&lt;/a&gt; 准备&lt;/h1&gt;
+        <link rel="alternate" href="https://lklyx.github.io/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+        <content type="html">&lt;h1 id=&#34;准备&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#准备&#34;&gt;#&lt;/a&gt; 准备&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;安装 &lt;code&gt;git&lt;/code&gt; ===》&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXQtc2NtLmNvbS9kb3dubG9hZHM=&#34;&gt;下载地址戳这里&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;安装 &lt;code&gt;node.js&lt;/code&gt; ===》&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ub2RlanMub3JnL3poLWNuL2Rvd25sb2FkLw==&#34;&gt;下载地址戳这里&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;因为是一些傻瓜式（猛点下一步）安装，所以安装过程我这里就不展示了，当然也可以自己选择路径，不过我建议安装到默认盘符。需要注意的是安装好 &lt;code&gt;node.js&lt;/code&gt;  以后需要配置环境变量，依次点击 ===》右击此电脑 ===》属性 ===》高级系统设置 ===》高级 ===》环境变量。。。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;安装hexo&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#安装hexo&#34;&gt;#&lt;/a&gt; 安装 Hexo&lt;/h1&gt;
+&lt;h1 id=&#34;安装hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装hexo&#34;&gt;#&lt;/a&gt; 安装 Hexo&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -102,7 +145,7 @@
 &lt;/ol&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;在浏览器输入 &lt;code&gt;http://localhost:4000&lt;/code&gt;  或者&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2xvY2FsaG9zdDo0MDAw&#34;&gt;戳此处&lt;/span&gt;如果能显示出来默认页面，说明 &lt;code&gt;Hexo&lt;/code&gt;  安装成功。&lt;/p&gt;
-&lt;h1 id=&#34;将hexo部署到github上&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#将hexo部署到github上&#34;&gt;#&lt;/a&gt; 将 hexo 部署到 github 上&lt;/h1&gt;
+&lt;h1 id=&#34;将hexo部署到github上&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#将hexo部署到github上&#34;&gt;#&lt;/a&gt; 将 hexo 部署到 github 上&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -123,19 +166,19 @@
         <updated>2020-11-06T09:03:05.586Z</updated>
     </entry>
     <entry>
-        <id>https://lklyx.github.io/%E8%B8%A9%E5%9D%91%E7%AF%87/%E4%B8%BB%E9%A2%98%E8%B8%A9%E5%9D%91%E7%AF%87/</id>
+        <id>https://lklyx.github.io/%E4%B8%BB%E9%A2%98%E8%B8%A9%E5%9D%91%E7%AF%87/</id>
         <title>前端到处是坑坑！</title>
-        <link rel="alternate" href="https://lklyx.github.io/%E8%B8%A9%E5%9D%91%E7%AF%87/%E4%B8%BB%E9%A2%98%E8%B8%A9%E5%9D%91%E7%AF%87/"/>
-        <content type="html">&lt;h1 id=&#34;hexo代码块样式调整-1&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hexo代码块样式调整-1&#34;&gt;#&lt;/a&gt; hexo 代码块样式调整 1&lt;/h1&gt;
+        <link rel="alternate" href="https://lklyx.github.io/%E4%B8%BB%E9%A2%98%E8%B8%A9%E5%9D%91%E7%AF%87/"/>
+        <content type="html">&lt;h1 id=&#34;hexo代码块样式调整-1&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hexo代码块样式调整-1&#34;&gt;#&lt;/a&gt; hexo 代码块样式调整 1&lt;/h1&gt;
 &lt;blockquote&gt;
-&lt;h2 id=&#34;问题描述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#问题描述&#34;&gt;#&lt;/a&gt;  &lt;code&gt;问题描述&lt;/code&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;问题描述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#问题描述&#34;&gt;#&lt;/a&gt;  &lt;code&gt;问题描述&lt;/code&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;代码显示在代码的头部，代码块 body 部分是空白的。&lt;/li&gt;
 &lt;li&gt;代码块前面的三个不同颜色的小点被遮挡。&lt;/li&gt;
 &lt;li&gt;代码块区域放大以后不能点返回箭头，否则页面卡住，必须刷新页面才能继续浏览。&lt;/li&gt;
 &lt;li&gt;代码块的行号从头部开始显示。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;解决方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#解决方法&#34;&gt;#&lt;/a&gt;  &lt;code&gt;解决方法&lt;/code&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;解决方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决方法&#34;&gt;#&lt;/a&gt;  &lt;code&gt;解决方法&lt;/code&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;前四个问题我找了一天的答案，总是有瑕疵，终于，第二天中午的时候，我找到了，原来是主题配置的问题，所以啊，都是不认真看主题配置的原因，我用的是 hexo 中的 shoka 主题。主题配置里面有提到。&lt;strong&gt;停用默认代码高亮功能，否则代码块的 mac 样式不能正常显示&lt;/strong&gt;。找到 &lt;code&gt;highlight&lt;/code&gt;  和 &lt;code&gt;prismjs&lt;/code&gt;  把 &lt;code&gt;enable&lt;/code&gt;  改成 &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
@@ -145,14 +188,14 @@
 &lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;highlight&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;false&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 主题配置需要停用&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;auto_detect&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 代码块高亮&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;line_number&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;tab_replace&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;wrap&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;hljs&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;prismjs&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;false&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 主题配置需要停用&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;preprocess&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;line_number&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;tab_replace&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;hexo代码块样式调整-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hexo代码块样式调整-2&#34;&gt;#&lt;/a&gt; hexo 代码块样式调整 2&lt;/h1&gt;
+&lt;h1 id=&#34;hexo代码块样式调整-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hexo代码块样式调整-2&#34;&gt;#&lt;/a&gt; hexo 代码块样式调整 2&lt;/h1&gt;
 &lt;blockquote&gt;
-&lt;h2 id=&#34;问题描述-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#问题描述-2&#34;&gt;#&lt;/a&gt;  &lt;code&gt;问题描述&lt;/code&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;问题描述-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#问题描述-2&#34;&gt;#&lt;/a&gt;  &lt;code&gt;问题描述&lt;/code&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;代码块自动换行&lt;/li&gt;
 &lt;li&gt;代码块前后有空白行问题&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;解决方法-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#解决方法-2&#34;&gt;#&lt;/a&gt;  &lt;code&gt;解决方法&lt;/code&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;解决方法-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决方法-2&#34;&gt;#&lt;/a&gt;  &lt;code&gt;解决方法&lt;/code&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;找到 &lt;code&gt;hexo-util/lib/highlight.js&lt;/code&gt;  文件，一般路径为 &lt;code&gt;root/node_modules/hexo-util/lib/highlight.js&lt;/code&gt;&lt;/p&gt;
@@ -171,15 +214,15 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;在hexo插入本地图片&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#在hexo插入本地图片&#34;&gt;#&lt;/a&gt; 在 Hexo 插入本地图片&lt;/h1&gt;
+&lt;h1 id=&#34;在hexo插入本地图片&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在hexo插入本地图片&#34;&gt;#&lt;/a&gt; 在 Hexo 插入本地图片&lt;/h1&gt;
 &lt;blockquote&gt;
-&lt;h2 id=&#34;问题描述-3&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#问题描述-3&#34;&gt;#&lt;/a&gt;  &lt;code&gt;问题描述&lt;/code&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;问题描述-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#问题描述-3&#34;&gt;#&lt;/a&gt;  &lt;code&gt;问题描述&lt;/code&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;图片显示不成功&lt;/li&gt;
 &lt;li&gt;页面没反应，或者显示图片的地方只显示 &lt;code&gt;alt&lt;/code&gt;  里面的类容&lt;/li&gt;
 &lt;li&gt;或者成功以后打印出 &lt;code&gt;no src attr skipped...&lt;/code&gt;  这类似的代码&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;解决方法-3&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#解决方法-3&#34;&gt;#&lt;/a&gt;  &lt;code&gt;解决方法&lt;/code&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;解决方法-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决方法-3&#34;&gt;#&lt;/a&gt;  &lt;code&gt;解决方法&lt;/code&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;首先我们需要安装一个插件&lt;/p&gt;
@@ -200,12 +243,12 @@
         <updated>2020-11-06T09:02:30.450Z</updated>
     </entry>
     <entry>
-        <id>https://lklyx.github.io/%E5%94%A0%E5%97%91%E7%AF%87/%E7%BC%98%E8%B5%B7/</id>
+        <id>https://lklyx.github.io/%E7%BC%98%E8%B5%B7/</id>
         <title>缘起 ^_^</title>
-        <link rel="alternate" href="https://lklyx.github.io/%E5%94%A0%E5%97%91%E7%AF%87/%E7%BC%98%E8%B5%B7/"/>
+        <link rel="alternate" href="https://lklyx.github.io/%E7%BC%98%E8%B5%B7/"/>
         <content type="html">&lt;blockquote&gt;
-&lt;p&gt;      传说，在 2500 万年前，一颗带着蓝色火焰的陨石从天而降，此时，有个少年正放羊回来，顺着河边，沿岸踱步、怡然自得。突然 …&lt;/p&gt;
-&lt;hr&gt;
+&lt;p&gt;      传说，在 2500 万年前，一颗带着蓝色火焰的陨石从天而降，此时，有个少年正放羊回来，顺着河边，沿岸踱步、怡然自得。突然 ......&lt;/p&gt;
+&lt;hr /&gt;
 &lt;p&gt;哈哈，扯远了。不好意思啊！各位，我是一个学习前端的小小白，很荣幸，我能来到前端的世界，我站在这个陌生而又充满挑战的世界里，一眼望去，有土坡绵延而成的山脉，也有雨滴溪水汇成的江河海洋。可谓是 —— 那啥！忘词了，反正就是啥都有！大学以来，就很喜欢写页面，我读的也是计算机相关的专业。学过的课程也很多， &lt;code&gt;java&lt;/code&gt; 、 &lt;code&gt;c++&lt;/code&gt; 、 &lt;code&gt;ps&lt;/code&gt; 、 &lt;code&gt;综合布线&lt;/code&gt; 、 &lt;code&gt;网络协议&lt;/code&gt; 、 &lt;code&gt;html&lt;/code&gt;  、 &lt;code&gt;css&lt;/code&gt; 、 &lt;code&gt;Javascript&lt;/code&gt; 。其中最喜欢的就是做网页了。就因为简单，容易上手。写出来就能看得到。尽管如此喜欢，还是一事无成，其他的课程也都学得半斤八两。多多少少了解一点。看得懂，写不出来。浑浑噩噩，三年结束了。等到工作了，才自学了一些东西。在此，和大家分享一下，我有很多不足的地方，希望在接下来的日子里。不断完善。&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
