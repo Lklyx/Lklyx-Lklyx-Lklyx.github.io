@@ -74,7 +74,7 @@ Watching Autumn = 沿岸踱步 = subtitle</title>
       <i class="ic i-pen"></i>
     </span>
     <span class="text">本文字数</span>
-    <span>1.1k</span>
+    <span>3.6k</span>
     <span class="text">字</span>
   </span>
   <span class="item" title="阅读时长">
@@ -82,7 +82,7 @@ Watching Autumn = 沿岸踱步 = subtitle</title>
       <i class="ic i-clock"></i>
     </span>
     <span class="text">阅读时长</span>
-    <span>1 分钟</span>
+    <span>3 分钟</span>
   </span>
 </div>
 
@@ -115,12 +115,12 @@ Watching Autumn = 沿岸踱步 = subtitle</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gicmnywqgpj20zk0m8dwx.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giclj61ylzj20zk0m8b29.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gicljgocqbj20zk0m8e81.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giclwrdwyaj20zk0m8are.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gipey84bjtj20zk0m8hdt.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giciuja1j1j20zk0m8kjl.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gicitcxhpij20zk0m8hdt.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipewr8iypj20zk0m8b29.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giclh5u05ej20zk0m87df.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giclgrvbd6j20zk0m8qv5.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giph4lm9i7j20zk0m84qp.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipexoj0moj20zk0m8kgu.jpg"></li>
         </ul>
       </div>
     </header>
@@ -166,17 +166,17 @@ Watching Autumn = 沿岸踱步 = subtitle</title>
 
     <h1 id="hexo代码块样式调整-1"><a class="markdownIt-Anchor" href="#hexo代码块样式调整-1">#</a> hexo 代码块样式调整 1</h1>
 <blockquote>
-<p><code>问题描述</code></p>
+<h2 id="问题描述"><a class="markdownIt-Anchor" href="#问题描述">#</a>  <code>问题描述</code></h2>
 <ul>
 <li>代码显示在代码的头部，代码块 body 部分是空白的。</li>
 <li>代码块前面的三个不同颜色的小点被遮挡。</li>
 <li>代码块区域放大以后不能点返回箭头，否则页面卡住，必须刷新页面才能继续浏览。</li>
 <li>代码块的行号从头部开始显示。</li>
 </ul>
-<p><code>解决方法</code></p>
+<h2 id="解决方法"><a class="markdownIt-Anchor" href="#解决方法">#</a>  <code>解决方法</code></h2>
 <ol>
 <li>
-<p>前四个问题我找了一天的答案，总是有瑕疵，终于，第二天中午的时候，我找到了，原来是主题配置的问题，我用的是 hexo 中的 shoka 主题。主题配置里面有提到。<strong>停用默认代码高亮功能，否则代码块的 mac 样式不能正常显示</strong>。找到 <code>highlight</code>  和 <code>prismjs</code>  把 <code>enable</code>  改成 <code>false</code></p>
+<p>前四个问题我找了一天的答案，总是有瑕疵，终于，第二天中午的时候，我找到了，原来是主题配置的问题，所以啊，都是不认真看主题配置的原因，我用的是 hexo 中的 shoka 主题。主题配置里面有提到。<strong>停用默认代码高亮功能，否则代码块的 mac 样式不能正常显示</strong>。找到 <code>highlight</code>  和 <code>prismjs</code>  把 <code>enable</code>  改成 <code>false</code></p>
 </li>
 <li>
 <p>以下是我的代码：</p>
@@ -185,12 +185,12 @@ Watching Autumn = 沿岸踱步 = subtitle</title>
 </blockquote>
 <h1 id="hexo代码块样式调整-2"><a class="markdownIt-Anchor" href="#hexo代码块样式调整-2">#</a> hexo 代码块样式调整 2</h1>
 <blockquote>
-<p><code>问题描述</code></p>
+<h2 id="问题描述-2"><a class="markdownIt-Anchor" href="#问题描述-2">#</a>  <code>问题描述</code></h2>
 <ul>
 <li>代码块自动换行</li>
 <li>代码块前后有空白行问题</li>
 </ul>
-<p><code>解决方法</code></p>
+<h2 id="解决方法-2"><a class="markdownIt-Anchor" href="#解决方法-2">#</a>  <code>解决方法</code></h2>
 <ol>
 <li>
 <p>找到 <code>hexo-util/lib/highlight.js</code>  文件，一般路径为 <code>root/node_modules/hexo-util/lib/highlight.js</code></p>
@@ -211,17 +211,27 @@ Watching Autumn = 沿岸踱步 = subtitle</title>
 </blockquote>
 <h1 id="在hexo插入本地图片"><a class="markdownIt-Anchor" href="#在hexo插入本地图片">#</a> 在 Hexo 插入本地图片</h1>
 <blockquote>
-<p><code>问题描述</code></p>
+<h2 id="问题描述-3"><a class="markdownIt-Anchor" href="#问题描述-3">#</a>  <code>问题描述</code></h2>
 <ul>
 <li>图片显示不成功</li>
 <li>页面没反应，或者显示图片的地方只显示 <code>alt</code>  里面的类容</li>
-<li>或者成功以后打印出 <code>no src attr, skipped...</code>  这类似的代码</li>
+<li>或者成功以后打印出 <code>no src attr skipped...</code>  这类似的代码</li>
 </ul>
-<p><code>解决方法</code></p>
+<h2 id="解决方法-3"><a class="markdownIt-Anchor" href="#解决方法-3">#</a>  <code>解决方法</code></h2>
 <ol>
 <li>
 <p>首先我们需要安装一个插件</p>
-<figure class="highlight yaml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre>npm install https<span class="token punctuation">:</span>//github.com/CodeFalling/hexo<span class="token punctuation">-</span>asset<span class="token punctuation">-</span>image <span class="token punctuation">-</span><span class="token punctuation">-</span>save</pre></td></tr></table></figure></li>
+<figure class="highlight yaml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre>npm install https<span class="token punctuation">:</span>//github.com/CodeFalling/hexo<span class="token punctuation">-</span>asset<span class="token punctuation">-</span>image <span class="token punctuation">-</span><span class="token punctuation">-</span>save</pre></td></tr></table></figure><p><code>不要忘记修改配置文件</code> <strong> post_asset_folder</strong> 值为 <strong>true</strong></p>
+</li>
+<li>
+<p>由于本身的 asset-image 有 bug ，我们需要在 node_modules 中寻找到 hexo-asset-image 插件，修改 index.js 内容为以下：</p>
+<figure class="highlight js"><figcaption data-lang="JavaScript"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token string">'use strict'</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token keyword">var</span> cheerio <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'cheerio'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token comment">// http://stackoverflow.com/questions/14480345/how-to-get-the-nth-occurrence-in-a-string</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token keyword">function</span> <span class="token function">getPosition</span><span class="token punctuation">(</span><span class="token parameter">str<span class="token punctuation">,</span> m<span class="token punctuation">,</span> i</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="6"></td><td><pre>  <span class="token keyword">return</span> str<span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span>m<span class="token punctuation">,</span> i<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>m<span class="token punctuation">)</span><span class="token punctuation">.</span>length<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="8"></td><td><pre></pre></td></tr><tr><td data-num="9"></td><td><pre><span class="token keyword">var</span> version <span class="token operator">=</span> <span class="token function">String</span><span class="token punctuation">(</span>hexo<span class="token punctuation">.</span>version<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">'.'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="10"></td><td><pre>hexo<span class="token punctuation">.</span>extend<span class="token punctuation">.</span>filter<span class="token punctuation">.</span><span class="token function">register</span><span class="token punctuation">(</span><span class="token string">'after_post_render'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="11"></td><td><pre>  <span class="token keyword">var</span> config <span class="token operator">=</span> hexo<span class="token punctuation">.</span>config<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="12"></td><td><pre>  <span class="token keyword">if</span><span class="token punctuation">(</span>config<span class="token punctuation">.</span>post_asset_folder<span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="13"></td><td><pre>    <span class="token keyword">var</span> link <span class="token operator">=</span> data<span class="token punctuation">.</span>permalink<span class="token punctuation">;</span></pre></td></tr><tr><td data-num="14"></td><td><pre>	<span class="token keyword">if</span><span class="token punctuation">(</span>version<span class="token punctuation">.</span>length <span class="token operator">></span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> <span class="token function">Number</span><span class="token punctuation">(</span>version<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">3</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="15"></td><td><pre>	   <span class="token keyword">var</span> beginPos <span class="token operator">=</span> <span class="token function">getPosition</span><span class="token punctuation">(</span>link<span class="token punctuation">,</span> <span class="token string">'/'</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="16"></td><td><pre>	<span class="token keyword">else</span></pre></td></tr><tr><td data-num="17"></td><td><pre>	   <span class="token keyword">var</span> beginPos <span class="token operator">=</span> <span class="token function">getPosition</span><span class="token punctuation">(</span>link<span class="token punctuation">,</span> <span class="token string">'/'</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="18"></td><td><pre>	<span class="token comment">// In hexo 3.1.1, the permalink of "about" page is like ".../about/index.html".</span></pre></td></tr><tr><td data-num="19"></td><td><pre>	<span class="token keyword">var</span> endPos <span class="token operator">=</span> link<span class="token punctuation">.</span><span class="token function">lastIndexOf</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="20"></td><td><pre>    link <span class="token operator">=</span> link<span class="token punctuation">.</span><span class="token function">substring</span><span class="token punctuation">(</span>beginPos<span class="token punctuation">,</span> endPos<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="21"></td><td><pre></pre></td></tr><tr><td data-num="22"></td><td><pre>    <span class="token keyword">var</span> toprocess <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'excerpt'</span><span class="token punctuation">,</span> <span class="token string">'more'</span><span class="token punctuation">,</span> <span class="token string">'content'</span><span class="token punctuation">]</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="23"></td><td><pre>    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> toprocess<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="24"></td><td><pre>      <span class="token keyword">var</span> key <span class="token operator">=</span> toprocess<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="25"></td><td><pre> </pre></td></tr><tr><td data-num="26"></td><td><pre>      <span class="token keyword">var</span> $ <span class="token operator">=</span> cheerio<span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span>data<span class="token punctuation">[</span>key<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="27"></td><td><pre>        ignoreWhitespace<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="28"></td><td><pre>        xmlMode<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="29"></td><td><pre>        lowerCaseTags<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="30"></td><td><pre>        decodeEntities<span class="token operator">:</span> <span class="token boolean">false</span></pre></td></tr><tr><td data-num="31"></td><td><pre>      <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="32"></td><td><pre></pre></td></tr><tr><td data-num="33"></td><td><pre>      <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'img'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">each</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="34"></td><td><pre>		<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">$</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'src'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="35"></td><td><pre>		<span class="token comment">// For windows style path, we replace '\' to '/'.</span></pre></td></tr><tr><td data-num="36"></td><td><pre>		<span class="token keyword">var</span> src <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'src'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token string">'\\'</span><span class="token punctuation">,</span> <span class="token string">'/'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="37"></td><td><pre>		<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">http[s]*.*|\/\/.*</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">.</span><span class="token function">test</span><span class="token punctuation">(</span>src<span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span></pre></td></tr><tr><td data-num="38"></td><td><pre>			<span class="token operator">!</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">^\s*\/</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">.</span><span class="token function">test</span><span class="token punctuation">(</span>src<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="39"></td><td><pre>			 <span class="token comment">// For "about" page, the first part of "src" can't be removed.</span></pre></td></tr><tr><td data-num="40"></td><td><pre>			 <span class="token comment">// In addition, to support multi-level local directory.</span></pre></td></tr><tr><td data-num="41"></td><td><pre>			 <span class="token keyword">var</span> linkArray <span class="token operator">=</span> link<span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">elem</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="42"></td><td><pre>				<span class="token keyword">return</span> elem <span class="token operator">!=</span> <span class="token string">''</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="43"></td><td><pre>			  <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="44"></td><td><pre>			  <span class="token keyword">var</span> srcArray <span class="token operator">=</span> src<span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">elem</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="45"></td><td><pre>				<span class="token keyword">return</span> elem <span class="token operator">!=</span> <span class="token string">''</span> <span class="token operator">&amp;&amp;</span> elem <span class="token operator">!=</span> <span class="token string">'.'</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="46"></td><td><pre>			  <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="47"></td><td><pre>			  <span class="token keyword">if</span><span class="token punctuation">(</span>srcArray<span class="token punctuation">.</span>length <span class="token operator">></span> <span class="token number">1</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="48"></td><td><pre>				srcArray<span class="token punctuation">.</span><span class="token function">shift</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="49"></td><td><pre>			  src <span class="token operator">=</span> srcArray<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="50"></td><td><pre>			  <span class="token function">$</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">attr</span><span class="token punctuation">(</span><span class="token string">'src'</span><span class="token punctuation">,</span> config<span class="token punctuation">.</span>root <span class="token operator">+</span> link <span class="token operator">+</span> src<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="51"></td><td><pre>			  console<span class="token punctuation">.</span>info<span class="token operator">&amp;&amp;</span>console<span class="token punctuation">.</span><span class="token function">info</span><span class="token punctuation">(</span><span class="token string">"update link as:-->"</span><span class="token operator">+</span>config<span class="token punctuation">.</span>root <span class="token operator">+</span> link <span class="token operator">+</span> src<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="52"></td><td><pre>			<span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="53"></td><td><pre>		<span class="token punctuation">&#125;</span><span class="token keyword">else</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="54"></td><td><pre>	<span class="token comment">// 注释这两条打印是为了不报打印结果，不然你的命令窗口总会显示 no src attr skipped... 这类似的字样。</span></pre></td></tr><tr><td data-num="55"></td><td><pre>		<span class="token comment">//console.info&amp;&amp;console.info("no src attr, skipped...");</span></pre></td></tr><tr><td data-num="56"></td><td><pre>		<span class="token comment">//console.info&amp;&amp;console.info($(this));</span></pre></td></tr><tr><td data-num="57"></td><td><pre>		<span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="58"></td><td><pre>      <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="59"></td><td><pre>      data<span class="token punctuation">[</span>key<span class="token punctuation">]</span> <span class="token operator">=</span> $<span class="token punctuation">.</span><span class="token function">html</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="60"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="61"></td><td><pre>  <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="62"></td><td><pre><span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr></table></figure></li>
+<li>
+<p>最后，打开_config.yml 修改下述内容</p>
+<figure class="highlight yaml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment"># URL</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token comment">## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token comment"># url: http://example.com</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//XXXXX.github.io <span class="token comment"># 主要修改这里，把前面的 XXXXX 改为自己的 github 地址即可。</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token key atrule">root</span><span class="token punctuation">:</span> /</pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token comment"># permalink: :year/:month/:day/:title/</span></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token key atrule">permalink</span><span class="token punctuation">:</span> <span class="token punctuation">:</span>title/</pre></td></tr><tr><td data-num="8"></td><td><pre>permalink_defaults<span class="token punctuation">:</span></pre></td></tr></table></figure></li>
+<li>
+<p>总结，由于我用的是 Typora 编辑器，对于 markdown 来说，有很多编辑器，可能各不相同，在插入图片的时候我是直接 QQ 截图再需要放的地方直接 <code>Ctrl</code> + <code>V</code> ，这样的话，就会出现图片，上面会弹出将这个图片复制到。。。一般是在 root/source/images（这个文件夹是自己新建的，以后写文章里面的插图，我都放在这里面）之下。除了这里，还有文章的相同路径下也会保存一张相同的图片，（这张图片可以删除，不影响渲染。）如果感觉有重复，就删掉文章之下的图片，这是它自动生成的。</p>
+</li>
 </ol>
 </blockquote>
 
@@ -235,7 +245,7 @@ Watching Autumn = 沿岸踱步 = subtitle</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2020-11-10 18:22:36" itemprop="dateModified" datetime="2020-11-10T18:22:36+08:00">2020-11-10</time>
+    <time title="修改时间：2020-11-11 10:02:41" itemprop="dateModified" datetime="2020-11-11T10:02:41+08:00">2020-11-11</time>
   </span>
 </div>
 
@@ -285,7 +295,7 @@ Watching Autumn = 沿岸踱步 = subtitle</title>
     <div class="item left">
       
 
-  <a href="/%E5%94%A0%E5%97%91%E7%AF%87/%E7%BC%98%E8%B5%B7/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giph4fomxoj20zk0m8axp.jpg" title="缘起 ^_^">
+  <a href="/%E5%94%A0%E5%97%91%E7%AF%87/%E7%BC%98%E8%B5%B7/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva2.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giclx29mstj20zk0m8hdt.jpg" title="缘起 ^_^">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> </span>
   <h3>缘起 ^_^</h3>
@@ -295,7 +305,7 @@ Watching Autumn = 沿岸踱步 = subtitle</title>
     <div class="item right">
       
 
-  <a href="/%E5%A5%8B%E6%96%97%E7%AF%87/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva4.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicitspjpbj20zk0m81ky.jpg" title="搭建博客">
+  <a href="/%E5%A5%8B%E6%96%97%E7%AF%87/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva2.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giclgi503lj20zk0m8hdt.jpg" title="搭建博客">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> </span>
   <h3>搭建博客</h3>
@@ -317,7 +327,7 @@ Watching Autumn = 沿岸踱步 = subtitle</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#hexo%E4%BB%A3%E7%A0%81%E5%9D%97%E6%A0%B7%E5%BC%8F%E8%B0%83%E6%95%B4-1"><span class="toc-number">1.</span> <span class="toc-text"> hexo 代码块样式调整 1</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#hexo%E4%BB%A3%E7%A0%81%E5%9D%97%E6%A0%B7%E5%BC%8F%E8%B0%83%E6%95%B4-2"><span class="toc-number">2.</span> <span class="toc-text"> hexo 代码块样式调整 2</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9C%A8hexo%E6%8F%92%E5%85%A5%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87"><span class="toc-number">3.</span> <span class="toc-text"> 在 Hexo 插入本地图片</span></a></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#hexo%E4%BB%A3%E7%A0%81%E5%9D%97%E6%A0%B7%E5%BC%8F%E8%B0%83%E6%95%B4-1"><span class="toc-number">1.</span> <span class="toc-text"> hexo 代码块样式调整 1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0"><span class="toc-number">1.1.</span> <span class="toc-text">  问题描述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95"><span class="toc-number">1.2.</span> <span class="toc-text">  解决方法</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#hexo%E4%BB%A3%E7%A0%81%E5%9D%97%E6%A0%B7%E5%BC%8F%E8%B0%83%E6%95%B4-2"><span class="toc-number">2.</span> <span class="toc-text"> hexo 代码块样式调整 2</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0-2"><span class="toc-number">2.1.</span> <span class="toc-text">  问题描述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95-2"><span class="toc-number">2.2.</span> <span class="toc-text">  解决方法</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9C%A8hexo%E6%8F%92%E5%85%A5%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87"><span class="toc-number">3.</span> <span class="toc-text"> 在 Hexo 插入本地图片</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0-3"><span class="toc-number">3.1.</span> <span class="toc-text">  问题描述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95-3"><span class="toc-number">3.2.</span> <span class="toc-text">  解决方法</span></a></li></ol></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
       </div>
@@ -332,7 +342,7 @@ Watching Autumn = 沿岸踱步 = subtitle</title>
 <nav class="state">
     <div class="item posts">
       <a href="/archives/">
-        <span class="count">12</span>
+        <span class="count">5</span>
         <span class="name">文章</span>
       </a>
     </div>
@@ -428,61 +438,7 @@ Watching Autumn = 沿岸踱步 = subtitle</title>
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%87%86%E5%A4%87%E5%A5%BD%E8%BF%9B%E5%85%A5%E7%81%AB%E7%84%B0%E4%B8%96%E7%95%8C%E4%BA%86%E5%90%97%EF%BC%9F%E5%98%BF%E5%98%BF%E5%98%BF%E5%98%BF/" title="准备好进入火焰世界了吗？嘿嘿嘿嘿^_^">准备好进入火焰世界了吗？嘿嘿嘿嘿^_^</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/%E5%A5%8B%E6%96%97%E7%AF%87/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" title="搭建博客">搭建博客</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E7%9A%84%E6%AF%92%EF%BC%8C%E6%B2%A1%E6%9C%89%E8%A7%A3%E8%8D%AF/" title="我的毒,没有解药">我的毒,没有解药</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%86%B0%E5%87%A4%E5%B1%95%E7%BF%85/" title="冰凤展翅">冰凤展翅</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E4%BB%AC%E5%BF%83%E6%9C%89%E7%81%B5%E7%8A%80%EF%BC%8C%E4%B8%8D%E6%98%AF%E5%90%97/" title="我们心有灵犀，不是吗？">我们心有灵犀，不是吗？</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%B8%80%E8%BD%AE%E6%96%B0%E6%9C%88%E6%AD%A3%E5%9C%A8%E5%86%89%E5%86%89%E5%8D%87%E8%B5%B7/" title="一轮新月正在冉冉升起">一轮新月正在冉冉升起</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%BD%A0%E6%83%B3%E8%A6%81%E4%BD%A0%E6%89%80%E7%9F%A5%E7%9A%84%E4%B8%96%E7%95%8C%E6%AF%81%E7%81%AD%E4%B8%80%E6%98%AF%E5%90%97%EF%BC%9F/" title="你想要你所知的世界毁灭一是吗？">你想要你所知的世界毁灭一是吗？</a></span>
+    <span><a href="/%E8%B8%A9%E5%9D%91%E7%AF%87/%E4%B8%BB%E9%A2%98%E8%B8%A9%E5%9D%91%E7%AF%87/" title="前端到处是坑坑！">前端到处是坑坑！</a></span>
   </li>
 
       
@@ -500,7 +456,7 @@ Watching Autumn = 沿岸踱步 = subtitle</title>
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%B2%A1%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E6%8A%8A%E4%BF%BA%E5%87%BB%E9%80%80/" title="没什么可以把俺击退">没什么可以把俺击退</a></span>
+    <span><a href="/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%89%91%E8%B1%AA/" title="长路漫漫，唯剑作伴。">长路漫漫，唯剑作伴。</a></span>
   </li>
 
       
@@ -509,7 +465,16 @@ Watching Autumn = 沿岸踱步 = subtitle</title>
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%A5%BD%E6%88%8F%E5%BC%80%E5%9C%BA%E4%BA%86/" title="好戏开场了">好戏开场了</a></span>
+    <span><a href="/%E8%B8%A9%E5%9D%91%E7%AF%87/markdown/" title="markdown 编辑器介绍">markdown 编辑器介绍</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/%E5%A5%8B%E6%96%97%E7%AF%87/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" title="搭建博客">搭建博客</a></span>
   </li>
 
   </ul>
@@ -534,13 +499,13 @@ Watching Autumn = 沿岸踱步 = subtitle</title>
     <span class="post-meta-item-icon">
       <i class="ic i-chart-area"></i>
     </span>
-    <span title="站点总字数">4k 字</span>
+    <span title="站点总字数">7k 字</span>
 
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="ic i-coffee"></i>
     </span>
-    <span title="站点阅读时长">3 分钟</span>
+    <span title="站点阅读时长">6 分钟</span>
   </div>
   <div class="powered-by">
     基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>

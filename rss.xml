@@ -5,185 +5,73 @@
         <link>https://Lklyx.github.io</link>
         <description>沿岸踱步 &amp; 成长记录</description>
         <language>zh-CN</language>
-        <pubDate>Fri, 06 Nov 2020 17:53:02 +0800</pubDate>
-        <lastBuildDate>Fri, 06 Nov 2020 17:53:02 +0800</lastBuildDate>
+        <pubDate>Wed, 11 Nov 2020 10:06:03 +0800</pubDate>
+        <lastBuildDate>Wed, 11 Nov 2020 10:06:03 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E7%9A%84%E6%AF%92%EF%BC%8C%E6%B2%A1%E6%9C%89%E8%A7%A3%E8%8D%AF/</guid>
-            <title>我的毒,没有解药</title>
-            <link>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E7%9A%84%E6%AF%92%EF%BC%8C%E6%B2%A1%E6%9C%89%E8%A7%A3%E8%8D%AF/</link>
-            <pubDate>Fri, 06 Nov 2020 17:53:02 +0800</pubDate>
-            <description><![CDATA[ &lt;blockquote&gt;
-&lt;p&gt;蛇女 ——— 我的毒，没有解药&lt;/p&gt;
-&lt;/blockquote&gt;
+            <guid isPermalink="true">https://lklyx.github.io/%E8%B8%A9%E5%9D%91%E7%AF%87/markdown/</guid>
+            <title>markdown 编辑器介绍</title>
+            <link>https://lklyx.github.io/%E8%B8%A9%E5%9D%91%E7%AF%87/markdown/</link>
+            <pubDate>Wed, 11 Nov 2020 10:06:03 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;markdown编辑器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#markdown编辑器&#34;&gt;#&lt;/a&gt; &lt;strong&gt;Markdown 编辑器&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Markdown 其实在 2004 年就有了，不过之前一直很小众，这几年随着相关应用平台的发展，Markdown 以其独到的优势迅速火起来了。Markdown 编辑器使用一套格式标记语言来对文档内容进行排版和格式显示。而 Markdown 的标记很少，常用的也就十个左右，它是一种非常轻量的标记语言。&lt;/p&gt;
+&lt;p&gt;Markdown 编辑器深受技术人员的喜爱，Markdown 可以用来编写说明文档，用它写的文档很多技术平台都能通用；Markdown 可以用来写技术博客，可以使说明部分和代码都非常清晰易读；Markdown 格式转换方便，还可以轻松地将文本转换为 html、pdf 等。&lt;/p&gt;
+&lt;h2 id=&#34;markdown-编辑器分类&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#markdown-编辑器分类&#34;&gt;#&lt;/a&gt; Markdown 编辑器分类&lt;/h2&gt;
+&lt;p&gt;按照 Markdown 编辑器的使用环境，可以将它们归纳为三类。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;平台集成工具：各大在线博客、社区平台自带的写作工具，比如 CSDN、博客园、简书等。&lt;/li&gt;
+&lt;li&gt;独立软件类：下载到自己机器上使用的独立产品，可以编辑本地文件，比如 Mou、MarkdownEditor、Haroopad 等。&lt;/li&gt;
+&lt;li&gt;插件类：他自己本身是不能独立使用的，可以在你现有的主流编辑器安装，使你现有的编辑器具有 Markdown 的功能，比如 Atom、WebStorm、Sublime Text 等。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这三类软件分别面向三类 Markdown 用户，大家可以根据自己的需求来选择使用。&lt;/p&gt;
+&lt;h2 id=&#34;typora&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#typora&#34;&gt;#&lt;/a&gt; Typora&lt;/h2&gt;
+&lt;p&gt;我使用的就是这种编辑器，Typora 也是非常用名，非常好用的 markdown 编辑器，它的设计理念很不一样，是真正的即时预览型编辑器，不同于左右两个窗口的编辑器。Typora 的设计理念就是极致简洁，它将 &lt;code&gt;写字&lt;/code&gt; 和 &lt;code&gt;预览&lt;/code&gt; 这两件事情合并了。&lt;/p&gt;
+&lt;p&gt;如果要修改已经写好的 markdown 标记可以点击切换到 “源代码模式”。&lt;/p&gt;
+&lt;p&gt;Typora 同样支持 Windows、OS X 和 Linux 多个操作系统，支持数学编辑，可与 Word 直接格式转换，可以进行多种文档格式转换。Typora 流畅度和反应速度很快，特别适合那些手速快的人。&lt;/p&gt;
+&lt;p&gt;Typora 是独立的软件。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190914004721873.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt=&#34;typora&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;mou&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mou&#34;&gt;#&lt;/a&gt; Mou&lt;/h2&gt;
+&lt;p&gt;Mou 是一款由国人开发的 Markdown 编辑器，支持实时预览，但是仅支持 苹果操作系统，可以说是目前最好用的免费 Markdown 编辑器，对汉字兼容性非常好。提供语法高亮、在线预览、同步滚动、全屏模式，支持自定保存、自动匹配，允许自定义主题等等。支持 CSS，HTML 和 PDF 导出等功能。&lt;/p&gt;
+&lt;p&gt;Mou 是独立的软件。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190914004721844.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt=&#34;mou&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;markdownpad&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#markdownpad&#34;&gt;#&lt;/a&gt; MarkdownPad&lt;/h2&gt;
+&lt;p&gt;MarkdownPad 被很多人称赞为 windows 下最好用的 Markdown 编辑器之一，不过仅支持 windows。它有免费版和收费版（MarkdownPad Pro），一般情况下免费版就够用了，想用 pro 版的可以自行网上下载，强大的国人 crack 无处不在的～~。&lt;/p&gt;
+&lt;p&gt;MarkdownPad 支持键盘快捷键和工具栏操作，即可添加标记也可移除，支持即时 HTML 预览、支持自定义配色方案、字体、大小和布局、支持音乐视频，可以导出 HTML 和 PDF。&lt;/p&gt;
+&lt;p&gt;MarkdownPad 是独立的软件。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgconvert.csdnimg.cn/aHR0cDovL21hcmtkb3ducGFkLmNvbS9pbWcvbWFya2Rvd25wYWQyLnBuZw?x-oss-process=image/format,png&#34; alt&gt;&lt;/p&gt;
+&lt;h2 id=&#34;atom&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#atom&#34;&gt;#&lt;/a&gt; Atom&lt;/h2&gt;
+&lt;p&gt;Atom 可以说是专门为程序员推出的一个文本编辑器，界面简洁，支持实时预览。功能非常多，除了 Markdown 同时支持 CSS，HTML，JavaScript 等网页编程语言，还支持宏定义，自动分屏功能等。Atom 还具有语义输入模式，比例输入 code 即会自动开启代码模式。&lt;/p&gt;
+&lt;p&gt;Atom 支持 windows、苹果、linux 等多种操作系统。Atom 是由著名的 github 平台出品的。&lt;/p&gt;
+&lt;p&gt;Atom 是独立的软件，也支持插件方式。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://imgconvert.csdnimg.cn/aHR0cHM6Ly90aW1nc2EuYmFpZHUuY29tL3RpbWc_aW1hZ2UmcXVhbGl0eT04MCZzaXplPWI5OTk5XzEwMDAwJnNlYz0xNTY4OTgzNDI1JmRpPWI1ZmI3OTUxODBhYWM3OTY0ZDM4ZmMxNDk5NWM0OGFlJmltZ3R5cGU9anBnJmVyPTEmc3JjPWh0dHAlM0ElMkYlMkZpbWcuOTU1My5jb20lMkZ1cGxvYWQlMkYyMDE1JTJGMDQyMiUyRjIwMTUwNDIyMDQ0NTAyNDc3LmpwZw?x-oss-process=image/format,png&#34; alt=&#34;atom&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;cmd-markdown&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#cmd-markdown&#34;&gt;#&lt;/a&gt; Cmd Markdown&lt;/h2&gt;
+&lt;p&gt;Cmd Markdown 是一款不错的写作工具，同时也兼顾博客等写作平台，国内作业部落出品，同时支持 Windows、苹果、Linux 操作系统，也有 Web 在线创作平台，界面很舒服。&lt;/p&gt;
+&lt;p&gt;Cmd Markdown 是独立的软件、也有平台集成版本。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190914004721916.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt=&#34;dmd markdown&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;byword&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#byword&#34;&gt;#&lt;/a&gt; Byword&lt;/h2&gt;
+&lt;p&gt;Byword。一款轻量级的 Markdown 编辑器，比较容易上手，适合新手使用。支持苹果系列系统，包括台式机、iPad 和 iPhone，收费软件。&lt;/p&gt;
+&lt;p&gt;Byword 是独立的软件。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190914004722257.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt=&#34;byword&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;marxico&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#marxico&#34;&gt;#&lt;/a&gt; Marxico&lt;/h2&gt;
+&lt;p&gt;Marxico 中文名马克飞象，有桌面版、Chrome App 插件，也支持 Web 集成版。这款编辑器的特点是可以直接把文本存到印象笔记平台中，另外还有导出 HTML 时可以将其中的图片自动转成 base64 保存。其他的实时预览、语法高亮也都支持。&lt;/p&gt;
+&lt;p&gt;不过这款软件是收费的～~&lt;/p&gt;
+&lt;p&gt;Marxico 是独立的软件、同时有 Chrome App 插件，也支持 Web 集成。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/2019091400472285.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt=&#34;marxico&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;markpad&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#markpad&#34;&gt;#&lt;/a&gt; MarkPad&lt;/h2&gt;
+&lt;p&gt;MarkPad 是免费开源的 Markdown 编辑器，界面风格与 window 系统类似，同时只支持 Window。支持实时预览，开放直接保存到你的博客或 github 的接口，有语法检查，支持代码高亮。&lt;/p&gt;
+&lt;p&gt;MarkPad 是独立的软件。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/20190914004722199.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhdmlkaHpx,size_16,color_FFFFFF,t_70&#34; alt&gt;&lt;/p&gt;
+&lt;h2 id=&#34;总结&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#总结&#34;&gt;#&lt;/a&gt; 总结&lt;/h2&gt;
+&lt;p&gt;最后我用的是 Typora，在这里介绍一下使用过程中的感受，这个编辑器感觉很不错，无论是代码块的插入，还是公式块的插入，以及图片插入，都比较方便，需要注意的是，编辑每篇文章的标题的的时候，需要打开试图中的源代码模式，勾选上，不然的话，你写的 title 就会成为代码块模式，这样写出来的文章标题就会显示 &lt;code&gt;未命名&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;如果你也喜欢或者也想使用这块编辑器那么 &lt;code&gt;下载地址&lt;/code&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudHlwb3JhLmlvLw==&#34;&gt;请戳此处&lt;/span&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%BD%A0%E6%83%B3%E8%A6%81%E4%BD%A0%E6%89%80%E7%9F%A5%E7%9A%84%E4%B8%96%E7%95%8C%E6%AF%81%E7%81%AD%E4%B8%80%E6%98%AF%E5%90%97%EF%BC%9F/</guid>
-            <title>你想要你所知的世界毁灭一是吗？</title>
-            <link>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%BD%A0%E6%83%B3%E8%A6%81%E4%BD%A0%E6%89%80%E7%9F%A5%E7%9A%84%E4%B8%96%E7%95%8C%E6%AF%81%E7%81%AD%E4%B8%80%E6%98%AF%E5%90%97%EF%BC%9F/</link>
-            <pubDate>Fri, 06 Nov 2020 17:53:01 +0800</pubDate>
-            <description><![CDATA[ &lt;blockquote&gt;
-&lt;p&gt;虚空恐惧：大虫子&lt;/p&gt;
-&lt;/blockquote&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%B8%80%E8%BD%AE%E6%96%B0%E6%9C%88%E6%AD%A3%E5%9C%A8%E5%86%89%E5%86%89%E5%8D%87%E8%B5%B7/</guid>
-            <title>一轮新月正在冉冉升起</title>
-            <link>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E4%B8%80%E8%BD%AE%E6%96%B0%E6%9C%88%E6%AD%A3%E5%9C%A8%E5%86%89%E5%86%89%E5%8D%87%E8%B5%B7/</link>
-            <pubDate>Fri, 06 Nov 2020 17:53:00 +0800</pubDate>
-            <description><![CDATA[ &lt;blockquote&gt;
-&lt;p&gt;皎月女神 ——— 一轮新月正在冉冉升起&lt;/p&gt;
-&lt;/blockquote&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%A5%BD%E6%88%8F%E5%BC%80%E5%9C%BA%E4%BA%86/</guid>
-            <title>好戏开场了</title>
-            <link>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%A5%BD%E6%88%8F%E5%BC%80%E5%9C%BA%E4%BA%86/</link>
-            <pubDate>Fri, 06 Nov 2020 17:52:53 +0800</pubDate>
-            <description><![CDATA[ &lt;blockquote&gt;
-&lt;p&gt;女警&lt;/p&gt;
-&lt;/blockquote&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%87%86%E5%A4%87%E5%A5%BD%E8%BF%9B%E5%85%A5%E7%81%AB%E7%84%B0%E4%B8%96%E7%95%8C%E4%BA%86%E5%90%97%EF%BC%9F%E5%98%BF%E5%98%BF%E5%98%BF%E5%98%BF/</guid>
-            <title>准备好进入火焰世界了吗？嘿嘿嘿嘿^_^</title>
-            <link>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%87%86%E5%A4%87%E5%A5%BD%E8%BF%9B%E5%85%A5%E7%81%AB%E7%84%B0%E4%B8%96%E7%95%8C%E4%BA%86%E5%90%97%EF%BC%9F%E5%98%BF%E5%98%BF%E5%98%BF%E5%98%BF/</link>
-            <pubDate>Fri, 06 Nov 2020 17:50:42 +0800</pubDate>
-            <description><![CDATA[ &lt;blockquote&gt;
-&lt;p&gt;    火男&lt;/p&gt;
-&lt;/blockquote&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%B2%A1%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E6%8A%8A%E4%BF%BA%E5%87%BB%E9%80%80/</guid>
-            <title>没什么可以把俺击退</title>
-            <link>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%B2%A1%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E6%8A%8A%E4%BF%BA%E5%87%BB%E9%80%80/</link>
-            <pubDate>Fri, 06 Nov 2020 17:34:27 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;牛头&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E4%BB%AC%E5%BF%83%E6%9C%89%E7%81%B5%E7%8A%80%EF%BC%8C%E4%B8%8D%E6%98%AF%E5%90%97/</guid>
-            <title>我们心有灵犀，不是吗？</title>
-            <link>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E6%88%91%E4%BB%AC%E5%BF%83%E6%9C%89%E7%81%B5%E7%8A%80%EF%BC%8C%E4%B8%8D%E6%98%AF%E5%90%97/</link>
+            <guid isPermalink="true">https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%89%91%E8%B1%AA/</guid>
+            <title>长路漫漫，唯剑作伴。</title>
+            <link>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%89%91%E8%B1%AA/</link>
             <pubDate>Fri, 06 Nov 2020 17:03:11 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;狐狸&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E7%81%AB%E7%84%B0%EF%BC%8C%E6%98%AF%E6%88%91%E6%9C%80%E5%96%9C%E6%AC%A2%E7%9A%84%E7%8E%A9%E5%85%B7/</guid>
-            <title>火焰，是我最喜欢的玩具！</title>
-            <link>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E7%81%AB%E7%84%B0%EF%BC%8C%E6%98%AF%E6%88%91%E6%9C%80%E5%96%9C%E6%AC%A2%E7%9A%84%E7%8E%A9%E5%85%B7/</link>
-            <pubDate>Fri, 06 Nov 2020 17:03:11 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;火女&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%86%B0%E5%87%A4%E5%B1%95%E7%BF%85/</guid>
-            <title>冰凤展翅</title>
-            <link>https://lklyx.github.io/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E7%AF%87/%E5%86%B0%E5%87%A4%E5%B1%95%E7%BF%85/</link>
-            <pubDate>Fri, 06 Nov 2020 17:03:11 +0800</pubDate>
-            <description><![CDATA[ &lt;blockquote&gt;
-&lt;p&gt;德莱文 ——— 欢迎来到德莱联盟&lt;br&gt;
-蒙多医生 ——— 蒙多～&lt;br&gt;
- 艾克 ——— 时间，不在于你拥有多少，而在于你怎么使用&lt;br&gt;
-蜘蛛女皇 ——— 蛛网之内，只有蜘蛛才能安然无恙&lt;br&gt;
-寡妇 ——— 黑夜，就是我的面纱，哈哈哈哈哈&lt;/p&gt;
-&lt;p&gt;探险家 ——— 是时候表演真正的技术了&lt;br&gt;
-末日 ——— 听候您的吩咐，主人（不是前面听从）&lt;br&gt;
-小鱼人 ——— 要我吃掉它们&lt;br&gt;
-加里奥 ——— 石像展翅&lt;br&gt;
-船长 ——— 不管是烈火还是深海，都取不走我的命&lt;br&gt;
-酒桶 ——— 您买单，我就来&lt;br&gt;
-男枪 ——— 我与死亡同行&lt;br&gt;
-人马 ——— 见识下暗影岛之力吧&lt;br&gt;
-大头 ——— 确实是个明智的选择&lt;br&gt;
-俄洛伊 ——— 说教无益，折断的骨头是更好的课本&lt;br&gt;
-刀妹 ——— 我的剑刃愿为您效劳&lt;br&gt;
-风女 ——— 风之化身，听候您的差遣&lt;br&gt;
-杰斯 ——— 为了更美好的明天而战&lt;br&gt;
-烬 ——— 我与杀戮之中盛放，亦如黎明中的花朵&lt;br&gt;
-金克斯 ——— 规则，就是用来打破的&lt;br&gt;
-卡里斯塔 ——— 所有背叛者都得死&lt;br&gt;
-扇子妈 ——— 要永远相信你的灵魂&lt;br&gt;
-死歌 ——— 极悲，极乐，平和，每个必经阶段都有其美妙之处&lt;br&gt;
-卡萨丁 ——— 必须维持力量的均衡&lt;br&gt;
-卡特 ——— 我已经做出了我的选择&lt;br&gt;
-凯南 ——— 均衡，存乎万物之间&lt;br&gt;
-螳螂 ——— 改变就是好事&lt;br&gt;
-千珏 ——— 执子之魂，与子共生&lt;br&gt;
-大嘴 ——— 用餐时间到了&lt;br&gt;
-妖姬 ——— 黑玫瑰将再次绽放&lt;br&gt;
-曙光女神 ——— 黎明就在眼前&lt;br&gt;
-丽桑卓 ——— 所有人都将诚服，只是时机未到&lt;br&gt;
-奥巴马 ——— 人终有一死，而有些人则需要一点小小的帮助&lt;br&gt;
-璐璐 ——— 见到你很高兴&lt;br&gt;
-光辉 ——— 真是个深思熟虑的选择&lt;br&gt;
-蚂蚱 ——— 等待湮灭&lt;br&gt;
-树精 ——— 现在，让我们先打一场吧&lt;br&gt;
-好运姐 ——— 好运，不会眷顾傻瓜&lt;br&gt;
-金属大师 ——— 我将带来巨大的痛苦&lt;br&gt;
-娜美 ——— 我的命运，由我做主&lt;br&gt;
-狗头 ——— 生与死轮回不止，我们生，他们死&lt;br&gt;
-深海泰坦 ——— 大海无量&lt;br&gt;
-豹女 ——— 狂野，将使他们感到畏惧&lt;br&gt;
-梦魇 ——— 拥抱黑暗吧&lt;br&gt;
-努努 ——— 该我们了，呜～&lt;br&gt;
- 狂战士 ——— 所到之处，寸草不生&lt;br&gt;
-波比 ——— 我不是英雄，只是个拿锤子的约德尔人&lt;br&gt;
-奎因 ——— 正义，展翅翱翔&lt;br&gt;
-龙龟 ——— 一起找点乐子吧&lt;br&gt;
-雷克塞 ———(吼叫)&lt;br&gt;
- 鳄鱼 ——— 所有人都得死&lt;br&gt;
-狮子 ——— 今晚，猎个痛快&lt;br&gt;
-瑞文 ——— 断剑重铸之日，骑士 (其势) 归来之时&lt;br&gt;
-兰博 ——— 我们战斗吧&lt;br&gt;
-光头 ——— 灾难始终慢我一步&lt;br&gt;
-猪女 ——— 值得我信赖的，只有力量&lt;br&gt;
-小丑 ——— 来次魔术戏法，怎么样？&lt;br&gt;
- 慎 ——— 您果然深思熟虑&lt;br&gt;
-龙女 ——— 在敌人眼里，我就是恐惧&lt;br&gt;
-炼金 ——— 要来一杯吗？&lt;br&gt;
- 亡灵勇士 ——— 交给我吧&lt;br&gt;
-战争女神 ——— 我总能拿带买路钱，要么拿钱，要么拿命&lt;br&gt;
-蝎子 ——— 我的毒刺不会让你失望的&lt;br&gt;
-琴女 ——— 只有你能听到我的话，召唤师，今天我们演奏哪一首曲子？&lt;br&gt;
- 星妈 ——— 只要我还活着，就不会有人遭受苦难&lt;br&gt;
-乌鸦 ——— 早起的鸟儿有虫吃&lt;br&gt;
-辛德拉 ——— 我的能量无穷无尽&lt;br&gt;
-塔姆 ——— 叫我国王，叫我恶魔！河水会遗忘那些已被淹没的名字&lt;br&gt;
-岩雀 ——— 命数如知，当为磐石&lt;br&gt;
-泰隆 ——— 刀下生，刀下死&lt;br&gt;
-宝石骑士 ——— 我曾踏足山边，也曾进入低谷，二者都让我受益良多&lt;br&gt;
-锤石 ——— 我们要怎样进行这令人愉悦的折磨呢？&lt;br&gt;
- 小炮 ——— 一日为班德尔炮手，终生为班德尔炮手&lt;br&gt;
-巨魔之王 ——— 巨魔时间到了&lt;br&gt;
-蛮王 ——— 我的大刀早已饥渴难耐了&lt;br&gt;
-卡牌 ——— 胜利女神在微笑&lt;br&gt;
-老鼠 ——— 哈呵！你想要什么&lt;br&gt;
-兽灵行者 ——— 我们的狂怒，你驾驭不住&lt;br&gt;
-螃蟹 ——— 永恒的生命，无尽的折磨&lt;br&gt;
-维鲁斯 ——— 罪恶将知道，什么是痛苦&lt;br&gt;
-薇恩 ——— 让我们来猎杀那些陷入黑暗中的人吧&lt;br&gt;
-虚空之眼 ——— 知识，来源于分解&lt;br&gt;
-蔚 ——— 先打一拳，打的时候再把问题问遍&lt;br&gt;
-机械先驱 ——— 加入光荣的进化吧&lt;br&gt;
-吸血鬼 ——— 血流成河&lt;br&gt;
-狗熊 ——— 熊霸天下&lt;br&gt;
-狼人 ——— 狩猎的时候到了&lt;br&gt;
-泽拉斯 ——— 我来让你见识一下正真的魔法把！召唤师&lt;br&gt;
-赵信 ——— 长枪依在&lt;br&gt;
-亚索 ——— 死亡如风，常伴吾身&lt;br&gt;
-掘墓 ——— 死亡，仅仅是个开始&lt;br&gt;
-扎克 ——— 我，为了战斗而生&lt;br&gt;
-劫 ——— 无形之刃，最为致命&lt;br&gt;
-炸弹人 ——— 来，炸个痛快&lt;br&gt;
-时光守护者 ——— 就知道你会选我&lt;br&gt;
-荆棘之兴 ——— 感受荆棘的拥抱吧&lt;/p&gt;
-&lt;/blockquote&gt;
+            <description><![CDATA[ &lt;p&gt;&lt;code&gt;死亡如风，常伴吾身&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;压缩 —— 疾风剑豪&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -224,7 +112,6 @@
 &lt;li&gt;
 &lt;p&gt;注册 github 账号&lt;/p&gt;
 &lt;p&gt;这一步过于简单，我就提一下，进入 github 官网，你也可以直接戳这里&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tLw==&#34;&gt; github 官网&lt;/span&gt;，这里提一下，有些人的电脑进不了 github 官网，提示 &lt;code&gt;请求超时&lt;/code&gt; 这类事的情况是因为需要解析，可能是因为是国外的网站的原因吧！要在 c 盘改一个扫描文件来着，当时搞了我好半天，这里我就不做展示了。如果能进官网，就直接输入 name，email，password。注册就完事了。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;../../images/image-20201110181000559.png&#34; alt=&#34;image-20201110181000559&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;创建 github 仓库。&lt;/p&gt;
@@ -236,7 +123,6 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img data-src=&#34;../../images/image-20201110181416459.png&#34; alt=&#34;image-20201110181416459&#34;&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -246,17 +132,17 @@
             <pubDate>Fri, 06 Nov 2020 17:02:30 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;hexo代码块样式调整-1&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hexo代码块样式调整-1&#34;&gt;#&lt;/a&gt; hexo 代码块样式调整 1&lt;/h1&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;问题描述&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;问题描述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#问题描述&#34;&gt;#&lt;/a&gt;  &lt;code&gt;问题描述&lt;/code&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;代码显示在代码的头部，代码块 body 部分是空白的。&lt;/li&gt;
 &lt;li&gt;代码块前面的三个不同颜色的小点被遮挡。&lt;/li&gt;
 &lt;li&gt;代码块区域放大以后不能点返回箭头，否则页面卡住，必须刷新页面才能继续浏览。&lt;/li&gt;
 &lt;li&gt;代码块的行号从头部开始显示。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;解决方法&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;解决方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#解决方法&#34;&gt;#&lt;/a&gt;  &lt;code&gt;解决方法&lt;/code&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;前四个问题我找了一天的答案，总是有瑕疵，终于，第二天中午的时候，我找到了，原来是主题配置的问题，我用的是 hexo 中的 shoka 主题。主题配置里面有提到。&lt;strong&gt;停用默认代码高亮功能，否则代码块的 mac 样式不能正常显示&lt;/strong&gt;。找到 &lt;code&gt;highlight&lt;/code&gt;  和 &lt;code&gt;prismjs&lt;/code&gt;  把 &lt;code&gt;enable&lt;/code&gt;  改成 &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;前四个问题我找了一天的答案，总是有瑕疵，终于，第二天中午的时候，我找到了，原来是主题配置的问题，所以啊，都是不认真看主题配置的原因，我用的是 hexo 中的 shoka 主题。主题配置里面有提到。&lt;strong&gt;停用默认代码高亮功能，否则代码块的 mac 样式不能正常显示&lt;/strong&gt;。找到 &lt;code&gt;highlight&lt;/code&gt;  和 &lt;code&gt;prismjs&lt;/code&gt;  把 &lt;code&gt;enable&lt;/code&gt;  改成 &lt;code&gt;false&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;以下是我的代码：&lt;/p&gt;
@@ -265,12 +151,12 @@
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;hexo代码块样式调整-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hexo代码块样式调整-2&#34;&gt;#&lt;/a&gt; hexo 代码块样式调整 2&lt;/h1&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;问题描述&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;问题描述-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#问题描述-2&#34;&gt;#&lt;/a&gt;  &lt;code&gt;问题描述&lt;/code&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;代码块自动换行&lt;/li&gt;
 &lt;li&gt;代码块前后有空白行问题&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;解决方法&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;解决方法-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#解决方法-2&#34;&gt;#&lt;/a&gt;  &lt;code&gt;解决方法&lt;/code&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;找到 &lt;code&gt;hexo-util/lib/highlight.js&lt;/code&gt;  文件，一般路径为 &lt;code&gt;root/node_modules/hexo-util/lib/highlight.js&lt;/code&gt;&lt;/p&gt;
@@ -291,17 +177,27 @@
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;在hexo插入本地图片&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#在hexo插入本地图片&#34;&gt;#&lt;/a&gt; 在 Hexo 插入本地图片&lt;/h1&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;问题描述&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;问题描述-3&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#问题描述-3&#34;&gt;#&lt;/a&gt;  &lt;code&gt;问题描述&lt;/code&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;图片显示不成功&lt;/li&gt;
 &lt;li&gt;页面没反应，或者显示图片的地方只显示 &lt;code&gt;alt&lt;/code&gt;  里面的类容&lt;/li&gt;
-&lt;li&gt;或者成功以后打印出 &lt;code&gt;no src attr, skipped...&lt;/code&gt;  这类似的代码&lt;/li&gt;
+&lt;li&gt;或者成功以后打印出 &lt;code&gt;no src attr skipped...&lt;/code&gt;  这类似的代码&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;解决方法&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;解决方法-3&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#解决方法-3&#34;&gt;#&lt;/a&gt;  &lt;code&gt;解决方法&lt;/code&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;首先我们需要安装一个插件&lt;/p&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;npm install https&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;//github.com/CodeFalling/hexo&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;asset&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;image &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;save&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;npm install https&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;//github.com/CodeFalling/hexo&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;asset&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;image &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;save&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;code&gt;不要忘记修改配置文件&lt;/code&gt; &lt;strong&gt; post_asset_folder&lt;/strong&gt; 值为 &lt;strong&gt;true&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;由于本身的 asset-image 有 bug ，我们需要在 node_modules 中寻找到 hexo-asset-image 插件，修改 index.js 内容为以下：&lt;/p&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token string&#34;&gt;&#39;use strict&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; cheerio &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;cheerio&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// http://stackoverflow.com/questions/14480345/how-to-get-the-nth-occurrence-in-a-string&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;getPosition&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;str&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; m&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; i&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; str&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;split&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;m&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; i&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;join&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;m&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;length&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; version &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;hexo&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;version&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;split&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;.&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;extend&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;filter&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;register&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;after_post_render&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; config &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; hexo&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;config&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;config&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;post_asset_folder&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; link &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; data&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;permalink&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;version&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;length &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;Number&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;version&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	   &lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; beginPos &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;getPosition&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;link&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;/&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;else&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	   &lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; beginPos &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;getPosition&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;link&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;/&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token comment&#34;&gt;// In hexo 3.1.1, the permalink of &#34;about&#34; page is like &#34;.../about/index.html&#34;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; endPos &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; link&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;lastIndexOf&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;/&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    link &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; link&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;substring&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;beginPos&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; endPos&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; toprocess &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;excerpt&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;more&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;content&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; toprocess&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;length&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; key &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; toprocess&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; $ &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; cheerio&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;load&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;data&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;key&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        ignoreWhitespace&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        xmlMode&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        lowerCaseTags&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        decodeEntities&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token function&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;img&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;each&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;attr&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;src&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token comment&#34;&gt;// For windows style path, we replace &#39;\&#39; to &#39;/&#39;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; src &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;attr&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;src&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;replace&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;\\&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;/&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;token regex&#34;&gt;&lt;span class=&#34;token regex-delimiter&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token regex-source language-regex&#34;&gt;http[s]*.*|\/\/.*&lt;/span&gt;&lt;span class=&#34;token regex-delimiter&#34;&gt;/&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;test&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;src&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;token regex&#34;&gt;&lt;span class=&#34;token regex-delimiter&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token regex-source language-regex&#34;&gt;^\s*\/&lt;/span&gt;&lt;span class=&#34;token regex-delimiter&#34;&gt;/&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;test&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;src&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			 &lt;span class=&#34;token comment&#34;&gt;// For &#34;about&#34; page, the first part of &#34;src&#34; can&#39;t be removed.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			 &lt;span class=&#34;token comment&#34;&gt;// In addition, to support multi-level local directory.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			 &lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; linkArray &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; link&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;split&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;/&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;filter&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;elem&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;42&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;				&lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; elem &lt;span class=&#34;token operator&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;43&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;44&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			  &lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; srcArray &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; src&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;split&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;/&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;filter&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;elem&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;45&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;				&lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; elem &lt;span class=&#34;token operator&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;&#39;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; elem &lt;span class=&#34;token operator&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;.&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;46&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;47&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			  &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;srcArray&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;length &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;48&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;				srcArray&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;shift&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;49&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			  src &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; srcArray&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;join&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;/&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;50&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			  &lt;span class=&#34;token function&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;attr&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;src&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; config&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;root &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; link &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; src&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;51&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			  console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;info&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt;console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;info&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;update link as:--&gt;&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;config&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;root &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; link &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; src&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;52&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;53&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;else&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;54&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token comment&#34;&gt;// 注释这两条打印是为了不报打印结果，不然你的命令窗口总会显示 no src attr skipped... 这类似的字样。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;55&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token comment&#34;&gt;//console.info&amp;amp;&amp;amp;console.info(&#34;no src attr, skipped...&#34;);&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;56&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token comment&#34;&gt;//console.info&amp;amp;&amp;amp;console.info($(this));&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;57&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;58&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;59&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      data&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;key&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; $&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;60&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;61&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;62&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;最后，打开_config.yml 修改下述内容&lt;/p&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# URL&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;## If your site is put in a subdirectory, set url as &#39;http://example.com/child&#39; and root as &#39;/child/&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# url: http://example.com&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; https&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;//XXXXX.github.io &lt;span class=&#34;token comment&#34;&gt;# 主要修改这里，把前面的 XXXXX 改为自己的 github 地址即可。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;root&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; /&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# permalink: :year/:month/:day/:title/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;permalink&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;title/&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;permalink_defaults&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;总结，由于我用的是 Typora 编辑器，对于 markdown 来说，有很多编辑器，可能各不相同，在插入图片的时候我是直接 QQ 截图再需要放的地方直接 &lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;V&lt;/code&gt; ，这样的话，就会出现图片，上面会弹出将这个图片复制到。。。一般是在 root/source/images（这个文件夹是自己新建的，以后写文章里面的插图，我都放在这里面）之下。除了这里，还有文章的相同路径下也会保存一张相同的图片，（这张图片可以删除，不影响渲染。）如果感觉有重复，就删掉文章之下的图片，这是它自动生成的。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
  ]]></description>
