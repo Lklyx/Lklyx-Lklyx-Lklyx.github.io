@@ -92,6 +92,21 @@
  ]]></description>
         </item>
         <item>
+            <guid isPermalink="true">https://lklyx.github.io/Growth-Diary/CSS/html+css%E9%81%87%E5%88%B0%E7%9A%84%E7%9F%A5%E8%AF%86%E7%82%B9/</guid>
+            <title>css知识点</title>
+            <link>https://lklyx.github.io/Growth-Diary/CSS/html+css%E9%81%87%E5%88%B0%E7%9A%84%E7%9F%A5%E8%AF%86%E7%82%B9/</link>
+            <category term="历练ing" scheme="https://lklyx.github.io/categories/Growth-Diary/" />
+            <category term="CSS" scheme="https://lklyx.github.io/categories/Growth-Diary/CSS/" />
+            <category term="css" scheme="https://lklyx.github.io/tags/css/" />
+            <pubDate>Tue, 17 Nov 2020 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;在vue中如何让背景图片填满整个屏幕&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在vue中如何让背景图片填满整个屏幕&#34;&gt;#&lt;/a&gt; 在 vue 中如何让背景图片填满整个屏幕&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;代码如下&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight css&#34;&gt;&lt;figcaption data-lang=&#34;CSS&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;.backimg&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;background-image&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token url&#34;&gt;&lt;span class=&#34;token function&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string url&#34;&gt;&#39;../../assets/smarthome/隔离透明背景.png&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 100%&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 100%&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;background-size&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 100% 100%&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;position&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; fixed&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token property&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 100%&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;新建一个 div，使这个 div 的宽高都为 100%，设置背景图片，背景图片的大小设置为宽高 100%，最后使用 &lt;code&gt;position: fixed;&lt;/code&gt;  属性，让这个新建的 div 脱离文档流，如果有其他的定位属性，可以给当前的 div 添加 z- &lt;code&gt;index: -1&lt;/code&gt; ;&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">https://lklyx.github.io/Growth-Diary/Blog/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
             <title>搭建博客</title>
             <link>https://lklyx.github.io/Growth-Diary/Blog/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
@@ -375,6 +390,7 @@
 &lt;li&gt;&lt;code&gt;主题介绍&lt;/code&gt; ，这个是你精选分类卡片中最右上角显示的字样。 &lt;code&gt;shoka&lt;/code&gt; ，这个是文件夹的名字，这是我文件夹的路径 &lt;code&gt;root\source\_posts\shoka&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;主题配置&lt;/code&gt; ，这个是显示在精选分类卡片正中间的文字标题。 &lt;code&gt;Theme-Configuration&lt;/code&gt;  这个是 &lt;code&gt;shoka&lt;/code&gt;  目录之下的子文件夹的名称&lt;/li&gt;
 &lt;li&gt;在这个 &lt;code&gt;Theme-Configuration&lt;/code&gt;  文件夹中，放着你写好的.md 文件和一张以 &lt;code&gt;cover.jpg&lt;/code&gt;  命名的图片。这里需要 &lt;code&gt;注意的是&lt;/code&gt; 图片格式为 jpg，名字为 cover。千万不要弄错了。到这里，只是配置好了 &lt;code&gt;_config.yml&lt;/code&gt;  文件。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;这一步配置.yml其是可以省略&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -383,9 +399,10 @@
 &lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; Step.1 依赖插件&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;date&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 2020/08/13&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;categories&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;主题介绍&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; 主题配置&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;tags&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; Hexo&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; 教程&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
 &lt;li&gt;title，该文章的标题，我就不多说了。&lt;/li&gt;
 &lt;li&gt;date，时间，显示写这篇文章的时间，是自己定义的，主题不会自动生成。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;categories&lt;/code&gt;  类别。主要的就是这个了。- [第一个是显示在卡片右上角的字样，第二个是卡片中间的标题，。。。] 句号代码后面可有可无，如果有，就是翻转以后显示的文件夹名称，而不是直接能看到里面的文章，如果没有，就是可以直接看到 &lt;code&gt;主题配置: Theme-Configuration&lt;/code&gt; （这个可以在上方的 &lt;code&gt;_config.yml&lt;/code&gt;  配置查看）这个文件夹之下的文章标题。点击即可调到相应的文章。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;categories&lt;/code&gt;  类别。主要的就是这个了。- [第一个是显示在卡片右上角的字样，第二个是卡片中间的标题，。。。句号代码后面可有可无，如果有，就是翻转以后显示的文件夹名称，而不是直接能看到里面的文章，如果没有，就是可以直接看到这个文件夹之下的文章标题。点击即可调到相应的文章。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;命名格式&lt;/code&gt; 文件夹命名格式 &lt;code&gt;不能以+符号链接&lt;/code&gt; 否则精选卡片显示不出来。可以是英文，也可以是中文，还可以是中文与英文结合。 &lt;code&gt;但是&lt;/code&gt; 中间不能出现 &lt;code&gt;+&lt;/code&gt;  号。图片名字一定是 &lt;code&gt;cover&lt;/code&gt;  加 &lt;code&gt;.jpg&lt;/code&gt;  格式。&lt;/li&gt;
 &lt;li&gt;tags，给当前的这篇文章添加标签，这个标签会自动在你的用户栏生成。&lt;/li&gt;
-&lt;li&gt;总结：单词一定不要打错，图片的命名不要打错，图片的格式不要搞错， &lt;code&gt;重点&lt;/code&gt; 在 &lt;code&gt;.md&lt;/code&gt;  的配置中，除了字以外，其他的全部都是英文状态下的。包括 &lt;code&gt;标点符号&lt;/code&gt; 也是英文状态下的。 &lt;code&gt;categories&lt;/code&gt;  类别之下的 &lt;code&gt;-&lt;/code&gt;  后面有一个空格。&lt;/li&gt;
+&lt;li&gt;总结：图片的命名与图片格式不要弄错， &lt;code&gt;重点&lt;/code&gt; 在 &lt;code&gt;.md&lt;/code&gt;  的配置中，（后期熟悉了以后， &lt;code&gt;.yml文件可以不用配置&lt;/code&gt; ）除了字以外，其他的全部都是英文状态下的。包括 &lt;code&gt;标点符号&lt;/code&gt; 也是英文状态下的。 &lt;code&gt;categories&lt;/code&gt;  类别之下的 &lt;code&gt;-&lt;/code&gt;  后面有一个空格。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
