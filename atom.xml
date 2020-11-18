@@ -40,6 +40,14 @@
 &lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo algolia&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
+&lt;h1 id=&#34;在文章中添加相册&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在文章中添加相册&#34;&gt;#&lt;/a&gt; 在文章中添加相册&lt;/h1&gt;
+&lt;p&gt;在插入的图片最后一张末尾加上 &lt;code&gt;&amp;#123;.gallery&amp;#125;&lt;/code&gt;  或 &lt;code&gt;&amp;#123;.gallery data-height=&amp;quot;120&amp;quot;&amp;#125;&lt;/code&gt; ，记得换行，不要跟在图片后面。&lt;/p&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;.gallery&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#  这是排列起来&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;.gallery data&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;height=&#34;120&#34;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 这是自定义高排列&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;添加评论功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#添加评论功能&#34;&gt;#&lt;/a&gt; 添加评论功能&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;进入 Valine 官网，注册登录， 安照快速开始步骤进行。&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly92YWxpbmUuanMub3JnLw==&#34;&gt;Valine 官网&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
 </content>
         <category term="历练ing" scheme="https://lklyx.github.io/categories/Growth-Diary/" />
         <category term="Blog" scheme="https://lklyx.github.io/categories/Growth-Diary/Blog/" />
@@ -125,17 +133,39 @@
         <link rel="alternate" href="https://lklyx.github.io/we-games/LOL/%E5%88%BA%E5%AE%A2/%E7%96%BE%E9%A3%8E%E5%89%91%E8%B1%AA/"/>
         <content type="html">&lt;h2 id=&#34;经典台词&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#经典台词&#34;&gt;#&lt;/a&gt; 经典台词&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;code&gt;我命由我不由天。&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;一剑，一念。&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;死亡如风，常伴吾身。&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;吾之荣耀，离别已久。&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;明日安在，无人能允。&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;想杀我，你可以试一试。&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;且随疾风前行，身后易需留心。&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;我的剑，比什么都重要，除了美酒。&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;正义，好个冠冕堂皇之词。&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;不是你死 就是我亡。&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;面对疾风吧！&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;我命由我不由天。&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;一剑，一念。&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;死亡如风，常伴吾身。&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;吾之荣耀，离别已久。&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;明日安在，无人能允。&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;想杀我，你可以试一试。&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;且随疾风前行，身后易需留心。&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;我的剑，比什么都重要，除了美酒。&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;正义，好个冠冕堂皇之词。&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;不是你死 就是我亡。&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;面对疾风吧！&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;背景故事&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#背景故事&#34;&gt;#&lt;/a&gt; 背景故事&lt;/h2&gt;
 &lt;p&gt;        亚索是一个百折不屈的艾欧尼亚人，还是一名身手敏捷的剑客，能够运用风的力量来斩杀敌人。这位曾经春风得意的战士因为诬告而身败名裂，并且被迫卷入了一场令人绝望的生存之战。即使整个世界都已与他为敌，他也要竭尽所能地去将罪恶绳之以法，并恢复自身的名誉。&lt;/p&gt;
@@ -175,12 +205,11 @@
 &lt;/ol&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;皮肤展示&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#皮肤展示&#34;&gt;#&lt;/a&gt; 皮肤展示&lt;/h2&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://timgsa.baidu.com/timg?image&amp;amp;quality=80&amp;amp;size=b9999_10000&amp;amp;sec=1605268702196&amp;amp;di=2a6381510be1574cb8b19ab6b792ca43&amp;amp;imgtype=0&amp;amp;src=http%3A%2F%2Fc.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2F6159252dd42a283476d00d6858b5c9ea15cebf5a.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://timgsa.baidu.com/timg?image&amp;amp;quality=80&amp;amp;size=b9999_10000&amp;amp;sec=1605268828886&amp;amp;di=53ade29d6ded2e3cb390b4b59ffc67f0&amp;amp;imgtype=0&amp;amp;src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20170606%2F451070cee45349929e7137c90b46c808_th.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://timgsa.baidu.com/timg?image&amp;amp;quality=80&amp;amp;size=b9999_10000&amp;amp;sec=1605268845525&amp;amp;di=094f2ac069e1823d5d129597bcf85cfe&amp;amp;imgtype=0&amp;amp;src=http%3A%2F%2Fimg.kuai8.com%2Fnewspic%2Fimage%2F201907%2F01%2F3cce72cc09.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://timgsa.baidu.com/timg?image&amp;amp;quality=80&amp;amp;size=b9999_10000&amp;amp;sec=1605268870834&amp;amp;di=9e311d62cfee8a0bda862b6e2e5e283a&amp;amp;imgtype=0&amp;amp;src=http%3A%2F%2Ftx-free-imgs.acfun.cn%2Fo_1ecmi2vo11as39e31jvl1btrvid0.png%3Fimageslim&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://timgsa.baidu.com/timg?image&amp;amp;quality=80&amp;amp;size=b9999_10000&amp;amp;sec=1605268970506&amp;amp;di=ff1960d950c75b8823be1e2940a65f1b&amp;amp;imgtype=0&amp;amp;src=http%3A%2F%2Fimages.h128.com%2Fupload%2F201911%2F01%2F201911011011124835.jpg%3Fx-oss-process%3Dimage%2Fauto-orient%2C1%2Fresize%2Cm_fill%2Cw_1421%2Ch_1066%2Fquality%2Cq_100%2Fformat%2Cjpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p class=&#34;gallery&#34; data-height=&#34;120&#34;&gt;&lt;/p&gt;
+&lt;p class=&#34;gallery&#34;&gt;&lt;img data-src=&#34;https://timgsa.baidu.com/timg?image&amp;amp;quality=80&amp;amp;size=b9999_10000&amp;amp;sec=1605268702196&amp;amp;di=2a6381510be1574cb8b19ab6b792ca43&amp;amp;imgtype=0&amp;amp;src=http%3A%2F%2Fc.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2F6159252dd42a283476d00d6858b5c9ea15cebf5a.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://timgsa.baidu.com/timg?image&amp;amp;quality=80&amp;amp;size=b9999_10000&amp;amp;sec=1605268828886&amp;amp;di=53ade29d6ded2e3cb390b4b59ffc67f0&amp;amp;imgtype=0&amp;amp;src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20170606%2F451070cee45349929e7137c90b46c808_th.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://timgsa.baidu.com/timg?image&amp;amp;quality=80&amp;amp;size=b9999_10000&amp;amp;sec=1605268845525&amp;amp;di=094f2ac069e1823d5d129597bcf85cfe&amp;amp;imgtype=0&amp;amp;src=http%3A%2F%2Fimg.kuai8.com%2Fnewspic%2Fimage%2F201907%2F01%2F3cce72cc09.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://timgsa.baidu.com/timg?image&amp;amp;quality=80&amp;amp;size=b9999_10000&amp;amp;sec=1605268870834&amp;amp;di=9e311d62cfee8a0bda862b6e2e5e283a&amp;amp;imgtype=0&amp;amp;src=http%3A%2F%2Ftx-free-imgs.acfun.cn%2Fo_1ecmi2vo11as39e31jvl1btrvid0.png%3Fimageslim&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://timgsa.baidu.com/timg?image&amp;amp;quality=80&amp;amp;size=b9999_10000&amp;amp;sec=1605268970506&amp;amp;di=ff1960d950c75b8823be1e2940a65f1b&amp;amp;imgtype=0&amp;amp;src=http%3A%2F%2Fimages.h128.com%2Fupload%2F201911%2F01%2F201911011011124835.jpg%3Fx-oss-process%3Dimage%2Fauto-orient%2C1%2Fresize%2Cm_fill%2Cw_1421%2Ch_1066%2Fquality%2Cq_100%2Fformat%2Cjpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </content>
         <category term="We-Games" scheme="https://lklyx.github.io/categories/we-games/" />
         <category term="英雄联盟" scheme="https://lklyx.github.io/categories/we-games/LOL/" />
