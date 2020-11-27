@@ -90,6 +90,7 @@
         <category term="游戏" scheme="https://lklyx.github.io/tags/%E6%B8%B8%E6%88%8F/" />
         <category term="英雄联盟" scheme="https://lklyx.github.io/tags/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F/" />
         <category term="辅助" scheme="https://lklyx.github.io/tags/%E8%BE%85%E5%8A%A9/" />
+        <category term="坦克" scheme="https://lklyx.github.io/tags/%E5%9D%A6%E5%85%8B/" />
         <updated>2020-11-25T16:00:00.000Z</updated>
     </entry>
     <entry>
@@ -157,23 +158,25 @@
         <updated>2020-11-24T16:00:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://lklyx.github.io/we-games/LOL/%E5%B0%84%E6%89%8B/%E6%88%98%E4%BA%89%E5%A5%B3%E7%A5%9E/</id>
-        <title>他们就是见不得女人当战神!</title>
-        <link rel="alternate" href="https://lklyx.github.io/we-games/LOL/%E5%B0%84%E6%89%8B/%E6%88%98%E4%BA%89%E5%A5%B3%E7%A5%9E/"/>
+        <id>https://lklyx.github.io/we-games/LOL/%E5%9D%A6%E5%85%8B/%E5%A5%A5%E6%8B%89%E5%A4%AB/</id>
+        <title>所到之处寸草不生</title>
+        <link rel="alternate" href="https://lklyx.github.io/we-games/LOL/%E5%9D%A6%E5%85%8B/%E5%A5%A5%E6%8B%89%E5%A4%AB/"/>
         <content type="html">&lt;h2 id=&#34;英雄名称&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#英雄名称&#34;&gt;#&lt;/a&gt; 英雄名称&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;战争女神--希维尔&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;奥拉夫--狂战士&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;经典台词&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#经典台词&#34;&gt;#&lt;/a&gt; 经典台词&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;code&gt;为荣誉而战!&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;……咋样，有明星范儿么?&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;狩猎开始!&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;好好享受你的最后一次呼吸吧!&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;拿钱，走人。&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;我会为了理想而战，但不会因此，丢掉性命。&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;国王们来来去去，但留下的只有金币。&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;对于我这种人来说，财富，也是一种负担&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;扒手?不对，杀手?对了&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;他们说沙漠是一位严厉的女神，我喜欢这个称号&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;快点参战&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;掠夺吧!&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;行动吧!&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;彻底消灭!&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;吃我一斧!&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;我砍!我再砍!&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;终于有点乐子了!&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;洛克法的力量接近了!&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;杀戮的欲望正在高涨!&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;我的大斧早已饥渴难耐了!&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;来吧，我不会伤害你的，我保证&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;一个男人的价值，可以从他胡子的长度，以及皮带的长度上看出来&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;人物关系&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#人物关系&#34;&gt;#&lt;/a&gt; 人物关系&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -189,52 +192,34 @@
 &lt;/ol&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;背景故事&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#背景故事&#34;&gt;#&lt;/a&gt; 背景故事&lt;/h2&gt;
-&lt;p&gt;希维尔是著名的宝藏猎人和雇佣兵队长，在恕瑞玛沙漠中进行频繁的契约交易。她的兵器是一柄颇具传奇色彩的十字刃，她曾赢得过无数次战斗，虽然她本人报价不菲，但却深得雇主青睐。她有着著名的无畏决心和无尽的野心，并且以自己的事业为傲 —— 只要赏金够高，她就能从凶险的恕瑞玛古墓中寻回深埋于地下的宝藏。不过随着好几股远古的力量搅动着恕瑞玛的根骨，希维尔突然发现自己被裹挟着、拉扯着，卷入了截然不同的命运。&lt;/p&gt;
-&lt;p&gt;希维尔是著名的宝藏猎人和雇佣兵队长，在恕瑞玛沙漠中进行频繁的契约交易。她的兵器是一柄颇具传奇色彩的十字刃，她曾赢得过无数次战斗，虽然价格不菲，但却深得雇主青睐。她有着著名的无畏决心和无尽的野心，并且以自己的事业为傲 —— 只要赏金够高，她就能从凶险的恕瑞玛古墓中寻回深埋于地下的宝藏。不过随着好几股远古的力量搅动着恕瑞玛的根骨，希维尔突然发现自己被裹挟着、拉扯着，卷入了两种截然不同的命运。&lt;/p&gt;
-&lt;p&gt;希维尔很小的时候就学到了沙漠生命的第一手残酷课程，那时，她所有家人都命丧萨恩斯人的屠刀之下，他们是恕瑞玛地区最令人闻风丧胆的强盗部落。屠杀过后的几个月之中，她逐渐学会了求生，学会了在当地市场中偷取食物、在偏僻废墟中搜寻值钱的器物。&lt;/p&gt;
-&lt;p&gt;大多数废墟都已经被盗墓贼洗劫一空了，但希维尔非常善于找到其他人漏掉的宝藏。她凭借敏锐的观察和不变的决心，发现了许多秘密通道，解开了许多线索谜题，找到了隐藏于表面以下的墓穴，并且躲过了途中凶险的陷阱。&lt;/p&gt;
-&lt;p&gt;有的时候，他会说服其他孩子与他一同闯入古墓，盗取那些她无法凭一己之力得手的宝藏。绳索和蜡烛是他们仅有的装备。这些食不果腹的流浪儿就这样降入扭曲的走廊，在废墟之下寻找任何可以卖钱的东西。&lt;/p&gt;
-&lt;p&gt;一天，希维尔和她的伙伴们冒险进入一座庞大的秘密古墓，她向伙伴们发誓，这座古墓里装满了超乎想象的财宝。经过好几个小时的探索，他们终于找到了一扇暗门，但推开门以后里面的墓室空空如也，所有人都倍受打击。希维尔最年长的一位伙伴，麦拉，因为白费力气恼羞成怒，要求希维尔放弃自己的领头地位。希维尔拒绝了，随后二人凶狠地扭打起来。麦拉的个子更高力量更大，很快就用蛮力压倒了希维尔，然后将她从高台上推了下去。数个小时以后，希维尔独自在黑暗中醒来。她竭力抵抗住自己的慌乱，开始寻找回去的路，在一片漆黑之中慢慢地摸索着找到了白昼的光亮。而当她回到自己的藏身之处，却发现她那些背信弃义的朋友们全都不见了，而且将希维尔的全部家当都带走了。&lt;/p&gt;
-&lt;p&gt;希维尔发誓她绝不会再让自己遭到背叛。她决定要学会如何保护自己，于是加入了一支佣兵团，团长是传奇人物艾哈？翟哈洛，希维尔从最基本的武器侍者、领路者、杂役开始做起，在佣兵团中寻找自己的位置。&lt;/p&gt;
-&lt;p&gt;之后的几年中，希维尔在睡觉的时候永远都在自己的毯子下卷着一把匕首。她从来都不相信翟哈洛的手下，她知道这些人只对金币最忠诚，但她依然竭尽全力从这里学习一切。希维尔接受了战斗训练，带着刚毅的决心辛勤练习，而且每天都会和一些年轻的佣兵进行切磋。&lt;/p&gt;
-&lt;p&gt;希维尔毫不动摇的专心和进步神速的武艺吸引了艾哈？翟哈洛的注意力，她将希维尔纳入自己的保护和训练之下 —— 很少有人接受过此等光荣。几年过去了，希维尔成为了一名技艺恐怖的武士，同时担任艾哈的副手，参与了许多次战斗，面对过的对手有正规军、土匪、以及好战尚武的蛮族部落。随着各大派系之间的战争平息，雇佣兵越来越难找到赚钱的活了，于是希维尔开始率领探险队，深入废墟遗迹，寻找恕瑞玛古国的遗落宝藏。&lt;/p&gt;
-&lt;p&gt;终于有一天，希维尔不再甘愿活在翟哈洛的阴影之中。这位专横的领袖总是要拿走最大一份报酬，还要抢走全部的名声 —— 然而事实上一切都是靠希维尔对恕瑞玛古墓的知识才让他们找到这么多财宝。更糟的是，翟哈洛拒绝为一些残暴无度的军阀而战，因为这有违她的个人荣誉准则。但是对希维尔来说，金子就是金子，支付金子的手有多血腥无所谓 —— 拿人钱财替人消灾，交易之中不涉及任何道德。&lt;/p&gt;
-&lt;p&gt;许多佣兵也赞同希维尔的想法，因此与她共同密谋取代翟哈洛的地位。就在他们发动兵变的前一夜，翟哈洛知道了他们的计划。她勃然大怒，先下手为强，想要在她这位曾经的学徒熟睡的时候捅死她。然而希维尔也对这样的袭击早有防范，在随后爆发的一场匕首的恶战中，希维尔击败了翟哈洛。但是，她却惊讶地发现自己无法下手杀死自己曾经的导师，因为她无法忘记翟哈洛当初在她还是一无所有的孩子的时候接纳了她。所以她将翟哈洛抛弃在沙漠中，留了半袋水，一枚金币，还有一句好运。&lt;/p&gt;
-&lt;p&gt;希维尔的佣兵团很快赢得了令人敬畏的名声，他们是著名的武士和探险家，能够寻找传说中失落已久的宝物。沙漠男爵、商贾财团和魔法物品收藏者全都雇佣希维尔为他们作战或寻找稀奇古怪的宝藏。许多探险家都会花费重金邀请希维尔带领他们穿过危险地带，在恕瑞玛古国的废墟中指引方向。部落首领们纷纷雇佣她的佣兵团共同对抗诺克萨斯人的劫掠，而军阀们则会尽量提早购买他们的服务，以此确保速战速决。&lt;/p&gt;
-&lt;p&gt;在 “风暴千禧年” 来临之际，恕瑞玛古城纳舍拉迈的一位领主雇佣希维尔寻找一柄独一无二的十字形兵刃，他声称这是本应属于他的传家宝。他将自己的贴身保镖派去跟随希维尔，以此确保遗物能够顺利带回。经过数月的搜寻，希维尔终于找到了这把武器。她敲开了一具远古石棺，里面埋葬的是一位早已被遗忘的英雄。在无数坍塌的碎石瓦砾之下，希维尔有一种奇怪的感觉，她整个人生都在为这个瞬间做准备。这把武器闪着金色和翡翠的珠光，虽然十字刃已经非常古老，但其锋利程度却像是那一天刚刚被锻造出来一样。&lt;/p&gt;
-&lt;p&gt;希维尔被这把十字刃摄住了魂魄，她觉得它一直都在等待自己。当纳舍拉迈的保镖队长要求将宝物带回到主顾家里的时候，希维尔意识到自己永远都无法交出这把武器了。她扔出了这柄十字刃，画出了一道大大的弧线，惊奇地看着它不仅斩落了保镖队长的项上人头，同时还斩首了他身后的另外三个人，然后又飞回了她手中。没有任何武器能像这样顺手，同时又如此强大。她在古墓中杀出了一条血路，将领主的保镖丢在脑后。&lt;/p&gt;
-&lt;p&gt;希维尔的战绩和战斗中表现出的勇猛都是恕瑞玛地区最负盛名的，但随着她的传奇故事越来越多，她的名声被传播到了沙漠以外的土地上。在诺克萨斯，希维尔的故事传入了卡西奥佩娅的耳朵里，她是一位野心勃勃的贵族，正好想要得到一件被认为是埋藏于沙漠中心的宝物。卡西奥佩娅不缺钱，于是雇佣希维尔作为向导，进入了恕瑞玛遗落都城的深渊之中。&lt;/p&gt;
-&lt;p&gt;虽然希维尔的直觉告诉她不能信任卡西奥佩娅，但她却不能拒绝如此利润丰厚的探险任务。他们不断深入地下城市的扭曲墓穴，许多希维尔的佣兵同伴都被致命的陷阱夺去性命，但卡西奥佩娅却始终不允许撤退。他们在黑暗中摸索了数日，最终希维尔和卡西奥佩娅终于找到了一副浮雕，上面刻画了古代的帝王和兽首飞升者武士。他们此前见过的大多数被掩埋的建筑都已经在千年的尘封中支离破碎了，但这堵墙和它上面的浮雕却完好无损。希维尔感觉到自己的血液正在翻腾，一种似曾相识的感觉油然而生，让她精神恍惚。这一刹那的疏忽，导致了她命运的圆满。&lt;/p&gt;
-&lt;p&gt;卡西奥佩娅抓住了希维尔出神的瞬间，她突然靠近并在希维尔的后背插入一把刀。希维尔在剧痛中倒下，生命流逝浸润了沙土。卡西奥佩娅从希维尔手中夺走了十字刃，随后，希维尔的意识就像燃尽的蜡烛一样暗淡下去。她的体温渐渐退去，死亡步步逼近。&lt;/p&gt;
-&lt;p&gt;但是希维尔的命运并没有结束。她的生命逐渐流逝，与此同时她的祖先，死去已久的皇帝阿兹尔，在她的皇室血脉产生的命运回响中复活了。他抱着她来到了 “黎明绿洲”，这里曾经是神圣的水池，注满了治愈之水。经过数千年的枯竭，如今在阿兹尔的莅临之下，再次注满了清澈的圣水。治愈之水包裹住了希维尔的身躯，奇迹般地治愈了卡西奥佩娅留下的致命刀伤。&lt;/p&gt;
-&lt;p&gt;随着一声竭力的抽吸声，希维尔睁开了双眼，她头晕脑胀，充满疑惑，似乎如梦初醒。一张似曾相识的面孔用慈爱的目光注视着她，希维尔眨了眨眼，试图搞清楚自己是否还活着。在她周围，沙尘被旋风卷起数百英尺的漩涡，构成了雄伟的宫殿、堂皇的神庙、还有宽阔的广场。恕瑞玛古城从沙漠坟墓之中崛起，恢复了往昔的荣耀与壮丽，巨大的金色圆盘漂浮在空中，光辉闪耀胜过午日阳光，为这座都城加冕。阿兹尔的回归，让这座古城恢复了曾经的伟大辉煌。&lt;/p&gt;
-&lt;p&gt;希维尔从小就是听着那些飞升者的传奇故事长大的，但她以为只有小孩子和傻子才会真正相信那些幻想。现在她周围的城市，一砖一瓦全都是从凭空出现的，而且还有一位去世已久的皇帝与她面对面交谈，自顾自地说着他流传下来的血脉和王国复兴的愿景，希维尔深受震撼。曾经坚信过的一切，现在都在遭到质疑。&lt;/p&gt;
-&lt;p&gt;皇帝的话语依然回荡在她耳边，她选择了逃避，回到了曾经的佣兵生活，卖命赚钱的真实感给她带来生命的慰藉。她辗转反侧，艰难地接受了自己可能是一个遗忘帝国继承人的事实，但随后又努力将这种想法抛在脑后。即使阿兹尔所说的一切都是真的，她也依然确信没人能够将恕瑞玛分崩离析的派系部族统一起来。最强大的军阀或许可以靠足够的金子和人手在一段时间内掌控一小块土地，这片大陆永远不会集结在某一面旗帜之下，更别说让他们服从于某一个人 —— 即使这个人真的是古代皇帝。&lt;/p&gt;
-&lt;p&gt;阿兹尔正在全力重建他那曾经伟大的帝国。希维尔则陷入痛苦折磨之中，怀疑自己永远无法找回曾经的生活。若隐若现的神秘力量正在侵蚀她的世界，无论是好是坏，命运都给了她第二种人生的选择。&lt;/p&gt;
-&lt;p&gt;现在她必须选择自己的道路，铸造一段新的传承。&lt;/p&gt;
+&lt;p&gt;多数人都会惧怕死亡，但这里面绝对不包括奥拉夫。这个男人生存的全部意义就在于战斗的怒吼和兵刃的碰击。出于对荣誉的追求，以及那个诡异的自己将会平淡死去的诅咒，奥拉夫勇猛地参与到每一场战斗之中，从不退缩。由于灵魂深处的杀戮欲望，奥拉夫只有在与死神搏斗之时才能真正感受到自己的存在。&lt;/p&gt;
+&lt;p&gt;洛克法是海边的一个半岛，这是弗雷尔卓德地区最野蛮的区域之一。在那里，只有狂怒才能温暖冰冷的躯体，只有鲜血才能自由流淌。在那里，没有比变老、变弱并逐渐被遗忘更可悲的事情了。奥拉夫是洛克法的战士，从不吝于展示自己的荣耀。某个夜晚在一座刚被抹平的村落前，当奥拉夫指着被烧毁的房屋余烬向族人炫耀时，一位年长的战士终于厌烦了奥拉夫的狂妄。这位老战士说奥拉夫应该去占卜一下，看看他的未来命运是否真如他吹嘘的那样伟大。受此挑衅，奥拉夫对年长战士的忌妒报以嘲讽，并从一具野兽尸体上扯下膝盖骨，占卜他的荣耀最终将达到的高度。当族人解读卦象时候，周围的欢笑声都消失了：骨头预示着他漫长的一生将在平静中结束。&lt;/p&gt;
+&lt;p&gt;怒不可遏的奥拉夫冲进了夜幕之中，决心要找到并猎杀洛克法大陆上令人恐惧的冰霜之蛇，以此证明预言是错误的。这个怪物已经残害了数以千计的过客以及他们的船只，似乎与它搏斗至死正是作为一个战士的理想归宿。当奥拉夫的身躯被怪物体内的一片漆黑吞没时，他的灵魂似乎坠入了更深沉的黑暗。当冰冷的海水将他从黑暗中唤醒时，身旁漂浮着已被切成无数块的怪物残骸。之后奥拉夫前往各处猎杀那些传说中的凶恶生物，虽然历尽艰险，却从未战败。他总是希望下一场战斗就将是自己的末日。虽然每次他都义无反顾地冲向看似无法避免的死亡结局，但每次死亡的身影却仅仅与他擦肩而过。&lt;/p&gt;
+&lt;p&gt;奥拉夫最后得出结论，仅仅野兽已经无法给予他期望中的战死归宿。于是他决定挑战弗雷尔卓德最令人恐惧的部族：凛冬之爪。瑟庄妮看到奥拉夫前来挑战她的部落时感到很可笑，但是奥拉夫的粗野使她决定不再留情。她发出冲锋的号令，派出数十名手下的战士打算将奥拉夫彻底击垮。但是他们一个接一个地倒下了，奥拉夫再一次为杀戮欲所笼罩，他轻松地杀出一条血路，直冲向凛冬之爪部族的头领。奥拉夫和瑟庄妮的交战让冰原为之震颤。虽然奥拉夫看起来是无法阻挡的，但是在战斗中瑟庄妮却让奥拉夫突然静止下来。在双方站立对峙时候，瑟庄妮的目光以超越任何兵刃的锐利穿透了奥拉夫的狂暴迷雾。瑟庄妮的提议让奥拉夫的狂躁逐渐趋于缓和：瑟庄妮保证到，只要奥拉夫将他的利斧借用于自己的征服之路，她会为奥拉夫找到一个荣耀的战死沙场结局。在这一刻，奥拉夫发誓要把自己的传奇镌刻于弗雷尔卓德土地上。&lt;/p&gt;
+&lt;p&gt;在你们见到自己的先祖之时，告诉他们，是奥拉夫送你们来相见的。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2 id=&#34;技能介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#技能介绍&#34;&gt;#&lt;/a&gt; 技能介绍&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;code&gt;敏锐疾行&lt;/code&gt;  —— 被动技能&lt;/p&gt;
-&lt;p&gt;希维尔在攻击一名敌方英雄时，会短暂地获得移动速度提升。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;狂战之怒&lt;/code&gt;  —— 被动技能&lt;/p&gt;
+&lt;p&gt;奥拉夫每损失 1% 的生命值，就会增加 1% 的攻击速度。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;code&gt;回旋之刃——Q&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;希维尔像挥舞回力标一样挥出她的十字刃，并在往返时造成伤害。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;逆流投掷——Q&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;奥拉夫将战斧投至目标区域，对所有被战斧穿过的敌人造成伤害并减速。如果奥拉夫捡起斧头，那么该技能冷却时间就会减少 4.5 秒。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;code&gt;弹射——W&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;希维尔的下几次普通攻击将弹射到周围的目标上，对次要目标造成较少伤害。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;残暴打击——W&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;奥拉夫的攻击速度得到提升，并获得生命偷取，且他损失的生命值越多，所受的治疗效果也越多。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;code&gt;法术护盾——E&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;制造一层法术屏障，来格挡一次敌方单体技能。如果希维尔成功格挡了一次技能，那么就会回复法力值。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;鲁莽挥击——E&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;奥拉夫以破釜沉舟之势发动进攻，对目标造成真实伤害（不受护甲与魔抗减免），同时，自身也会根据敌方所受的伤害而受到真实伤害的反噬。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;code&gt;狩猎——R&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;希维尔在战斗中引领她的友军，为他们提供持续一段时间的爆发性移动速度加成。此外，这个技能还会在弹射激活时，为希维尔提供被动的攻击速度加成。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;诸神黄昏——R&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;奥拉夫暂时免疫控制技能。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
@@ -282,16 +267,15 @@
 &lt;p&gt;第一朵浪花几乎让希维尓失足跪倒。波浪的冲击寒冷刺骨，但随着水流漫没了她的腰肢和双腿，凉爽的温度开始为她带来抚慰。希维尓躺在水中，任凭河水冲刷她的全身。沙漠的燥痛被冲走，她的秀发自由地漂在水中。&lt;/p&gt;
 &lt;p&gt;我死过一次。我必须让它意味些什么。&lt;/p&gt;
 &lt;h2 id=&#34;皮肤展示&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#皮肤展示&#34;&gt;#&lt;/a&gt; 皮肤展示&lt;/h2&gt;
-&lt;p class=&#34;gallery&#34;&gt;&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big15002.jpg&#34; alt=&#34;&#34; title=&#34;亮丽女神 希维尔&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big15003.jpg&#34; alt=&#34;&#34; title=&#34;女猎手 希维尔&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big15004.jpg&#34; alt=&#34;&#34; title=&#34;钢铁之心 希维尔&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big15005.jpg&#34; alt=&#34;&#34; title=&#34;创战纪 希维尔&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big15006.jpg&#34; alt=&#34;&#34; title=&#34;冰雪风暴 希维尔&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big15007.jpg&#34; alt=&#34;&#34; title=&#34;光明骑士 希维尔&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big15008.jpg&#34; alt=&#34;&#34; title=&#34;胜利女神 希维尔&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big15010.jpg&#34; alt=&#34;&#34; title=&#34;送披萨的小姐姐 希维尔&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big15016.jpg&#34; alt=&#34;&#34; title=&#34;腥红之月 希维尔&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big15025.jpg&#34; alt=&#34;&#34; title=&#34;奥德赛 希维尔&#34; /&gt;&lt;/p&gt;
+&lt;p class=&#34;gallery&#34;&gt;&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big2000.jpg&#34; alt=&#34;&#34; title=&#34;狂战士&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big2001.jpg&#34; alt=&#34;&#34; title=&#34;烈焰猛士 奥拉夫&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big2002.jpg&#34; alt=&#34;&#34; title=&#34;冰河时代 奥拉夫&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big2003.jpg&#34; alt=&#34;&#34; title=&#34;铁哥们儿 奥拉夫&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big2004.jpg&#34; alt=&#34;&#34; title=&#34;五杀摇滚鼓手 奥拉夫&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big2005.jpg&#34; alt=&#34;&#34; title=&#34;黑暗骑士 奥拉夫&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big2006.jpg&#34; alt=&#34;&#34; title=&#34;牛扒狂战 奥拉夫&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big2015.jpg&#34; alt=&#34;&#34; title=&#34;SKT T1 奥拉夫&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://game.gtimg.cn/images/lol/act/img/skin/big2016.jpg&#34; alt=&#34;&#34; title=&#34;屠龙勇士 奥拉夫&#34; /&gt;&lt;/p&gt;
 </content>
         <category term="We-Games" scheme="https://lklyx.github.io/categories/we-games/" />
         <category term="英雄联盟" scheme="https://lklyx.github.io/categories/we-games/LOL/" />
@@ -302,9 +286,9 @@
         <updated>2020-11-23T16:00:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://lklyx.github.io/we-games/LOL/%E5%9D%A6%E5%85%8B/%E6%88%98%E4%BA%89%E5%A5%B3%E7%A5%9E/</id>
+        <id>https://lklyx.github.io/we-games/LOL/%E5%B0%84%E6%89%8B/%E6%88%98%E4%BA%89%E5%A5%B3%E7%A5%9E/</id>
         <title>他们就是见不得女人当战神!</title>
-        <link rel="alternate" href="https://lklyx.github.io/we-games/LOL/%E5%9D%A6%E5%85%8B/%E6%88%98%E4%BA%89%E5%A5%B3%E7%A5%9E/"/>
+        <link rel="alternate" href="https://lklyx.github.io/we-games/LOL/%E5%B0%84%E6%89%8B/%E6%88%98%E4%BA%89%E5%A5%B3%E7%A5%9E/"/>
         <content type="html">&lt;h2 id=&#34;英雄名称&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#英雄名称&#34;&gt;#&lt;/a&gt; 英雄名称&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;战争女神--希维尔&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;经典台词&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#经典台词&#34;&gt;#&lt;/a&gt; 经典台词&lt;/h2&gt;
@@ -725,6 +709,7 @@
         <category term="战士" scheme="https://lklyx.github.io/categories/we-games/LOL/%E6%88%98%E5%A3%AB/" />
         <category term="游戏" scheme="https://lklyx.github.io/tags/%E6%B8%B8%E6%88%8F/" />
         <category term="英雄联盟" scheme="https://lklyx.github.io/tags/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F/" />
+        <category term="刺客" scheme="https://lklyx.github.io/tags/%E5%88%BA%E5%AE%A2/" />
         <category term="战士" scheme="https://lklyx.github.io/tags/%E6%88%98%E5%A3%AB/" />
         <updated>2020-11-19T16:00:00.000Z</updated>
     </entry>
@@ -938,6 +923,7 @@
         <category term="游戏" scheme="https://lklyx.github.io/tags/%E6%B8%B8%E6%88%8F/" />
         <category term="英雄联盟" scheme="https://lklyx.github.io/tags/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F/" />
         <category term="刺客" scheme="https://lklyx.github.io/tags/%E5%88%BA%E5%AE%A2/" />
+        <category term="战士" scheme="https://lklyx.github.io/tags/%E6%88%98%E5%A3%AB/" />
         <updated>2020-11-11T16:00:00.000Z</updated>
     </entry>
     <entry>
