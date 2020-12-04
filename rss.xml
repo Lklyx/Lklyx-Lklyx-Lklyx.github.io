@@ -10,10 +10,22 @@
         </author>
         <description>沿岸踱步 &amp; 成长记录</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 26 Nov 2020 00:00:00 +0800</pubDate>
-        <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0800</lastBuildDate>
+        <pubDate>Fri, 04 Dec 2020 00:00:00 +0800</pubDate>
+        <lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0800</lastBuildDate>
         <category term="YAN" />
         <category term="DUO" />
+        <item>
+            <guid isPermalink="true">https://lklyx.github.io/Growth-Diary/WX-APP/vue%E9%81%87%E5%88%B0%E7%9A%84%E7%9F%A5%E8%AF%86%E7%82%B9/</guid>
+            <title>微信小程序开发。</title>
+            <link>https://lklyx.github.io/Growth-Diary/WX-APP/vue%E9%81%87%E5%88%B0%E7%9A%84%E7%9F%A5%E8%AF%86%E7%82%B9/</link>
+            <category term="历练ing" scheme="https://lklyx.github.io/categories/Growth-Diary/" />
+            <category term="WX-小程序" scheme="https://lklyx.github.io/categories/Growth-Diary/WX-APP/" />
+            <category term="微信小程序" scheme="https://lklyx.github.io/categories/Growth-Diary/WX-APP/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/" />
+            <category term="小程序" scheme="https://lklyx.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" />
+            <pubDate>Fri, 04 Dec 2020 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;小程序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#小程序&#34;&gt;#&lt;/a&gt; 小程序&lt;/h2&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://lklyx.github.io/we-games/LOL/%E8%BE%85%E5%8A%A9/%E5%BC%97%E9%9B%B7%E5%B0%94%E5%8D%93%E5%BE%B7%E4%B9%8B%E5%BF%83/</guid>
             <title>心脏 是最强壮的肌肉</title>
@@ -756,7 +768,13 @@
 &lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;.gallery&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#  这是排列起来&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;.gallery data&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;height=&#34;120&#34;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 这是自定义高排列&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;添加评论功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#添加评论功能&#34;&gt;#&lt;/a&gt; 添加评论功能&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;ol&gt;
-&lt;li&gt;进入 Valine 官网，注册登录， 安照快速开始步骤进行。&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly92YWxpbmUuanMub3JnLw==&#34;&gt;Valine 官网&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;进入 Valine 官网，注册登录， 安照快速开始步骤进行。&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly92YWxpbmUuanMub3JnLw==&#34;&gt;Valine 官网&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在评论的时候填入对应 MD5 值，在评论区头像上右击自己的头像，后面有一段字符串例如： &lt;code&gt;https://gravatar.loli.net/avatar/131ab989394372ace9fd15f9fc257a75?size=80&amp;amp;d=mp&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;中有，avatar 后面的字符串。记得在前面加上 &lt;code&gt;-&lt;/code&gt; 。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
  ]]></description>
