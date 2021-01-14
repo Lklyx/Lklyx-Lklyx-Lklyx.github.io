@@ -858,6 +858,27 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
+&lt;h1 id=&#34;vue中引用bootstarpvue&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vue中引用bootstarpvue&#34;&gt;#&lt;/a&gt; vue 中引用 bootstarpVue&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;进入你的项目里&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开命令行工具，安装 BootstrapVue,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;figure class=&#34;highlight javascript&#34;&gt;&lt;figcaption data-lang=&#34;javascript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;npm i bootstrap&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;vue &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token constant&#34;&gt;S&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安装后，打开 main.js 主程序入口文件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; BootstrapVue &lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;bootstrap-vue&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;bootstrap/dist/css/bootstrap.css&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;bootstrap-vue/dist/bootstrap-vue.css&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 注册为全局组件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Vue&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;use&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;BootstrapVue&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;完成，可以直接使用它的组件了&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
  ]]></description>
         </item>
         <item>
@@ -1156,8 +1177,8 @@
             <category term="战士" scheme="https://lklyx.github.io/categories/we-games/LOL/%E6%88%98%E5%A3%AB/" />
             <category term="游戏" scheme="https://lklyx.github.io/tags/%E6%B8%B8%E6%88%8F/" />
             <category term="英雄联盟" scheme="https://lklyx.github.io/tags/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F/" />
-            <category term="刺客" scheme="https://lklyx.github.io/tags/%E5%88%BA%E5%AE%A2/" />
             <category term="战士" scheme="https://lklyx.github.io/tags/%E6%88%98%E5%A3%AB/" />
+            <category term="刺客" scheme="https://lklyx.github.io/tags/%E5%88%BA%E5%AE%A2/" />
             <pubDate>Fri, 20 Nov 2020 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;英雄名称&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#英雄名称&#34;&gt;#&lt;/a&gt; 英雄名称&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;刀锋舞者--艾瑞莉娅&lt;/code&gt;&lt;/p&gt;
@@ -1445,8 +1466,8 @@
             <category term="刺客" scheme="https://lklyx.github.io/categories/we-games/LOL/%E5%88%BA%E5%AE%A2/" />
             <category term="游戏" scheme="https://lklyx.github.io/tags/%E6%B8%B8%E6%88%8F/" />
             <category term="英雄联盟" scheme="https://lklyx.github.io/tags/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F/" />
-            <category term="刺客" scheme="https://lklyx.github.io/tags/%E5%88%BA%E5%AE%A2/" />
             <category term="战士" scheme="https://lklyx.github.io/tags/%E6%88%98%E5%A3%AB/" />
+            <category term="刺客" scheme="https://lklyx.github.io/tags/%E5%88%BA%E5%AE%A2/" />
             <pubDate>Thu, 12 Nov 2020 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;英雄名称&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#英雄名称&#34;&gt;#&lt;/a&gt; 英雄名称&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;疾风剑豪--亚索&lt;/code&gt;&lt;/p&gt;
