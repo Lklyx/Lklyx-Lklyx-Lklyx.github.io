@@ -7,6 +7,18 @@
     "home_page_url": "https://Lklyx.github.io",
     "items": [
         {
+            "id": "https://lklyx.github.io/Growth-Diary/Blog/GitHub%E5%AD%A6%E4%B9%A0%E7%AF%87/",
+            "url": "https://lklyx.github.io/Growth-Diary/Blog/GitHub%E5%AD%A6%E4%B9%A0%E7%AF%87/",
+            "title": "GitHub中遇到的问题",
+            "date_published": "2021-03-16T16:00:00.000Z",
+            "content_html": "<h1 id=\"打不开github官网\"><a class=\"anchor\" href=\"#打不开github官网\">#</a> 打不开 GitHub 官网</h1>\n<ol>\n<li>\n<p>百度搜<em>索查询网址 dns</em>，或者直接打开<span class=\"exturl\" data-url=\"aHR0cHM6Ly90b29sLmNoaW5hei5jb20vZG5zLw==\">网址查询</span></p>\n</li>\n<li>\n<p>检测到<span class=\"exturl\" data-url=\"aHR0cHM6Ly9saW5rcy5qaWFuc2h1LmNvbS9nbz90bz1odHRwcyUzQSUyRiUyRmdpdGh1Yi5jb20=\"> https://github.com</span> 网址响应的 IP，将得到的 IP 添加到 hosts 文件中去。</p>\n</li>\n<li>\n<p>hosts 文件路径为：电脑磁盘中 <code>windows C:\\Windows\\System32\\drivers\\etc\\hosts</code>  右击，以管理员身份打开，打开方式为记事本。将上面查询到的 IP 地址输入到文件中保存即可。</p>\n</li>\n<li>\n<p>现在我加入的是：</p>\n<blockquote>\n<p>13.229.188.59 <span class=\"exturl\" data-url=\"aHR0cDovL2dpdGh1Yi5jb20=\">github.com</span><br />\n140.82.112.4 <span class=\"exturl\" data-url=\"aHR0cDovL2dpdGh1Yi5jb20=\">github.com</span></p>\n</blockquote>\n</li>\n</ol>\n",
+            "tags": [
+                "历练ing",
+                "Blog",
+                "GitHub"
+            ]
+        },
+        {
             "id": "https://lklyx.github.io/Growth-Diary/Blog/%E6%B7%BB%E5%8A%A0%E5%8D%9A%E5%AE%A2%E5%8A%9F%E8%83%BD/",
             "url": "https://lklyx.github.io/Growth-Diary/Blog/%E6%B7%BB%E5%8A%A0%E5%8D%9A%E5%AE%A2%E5%8A%9F%E8%83%BD/",
             "title": "完善博客功能",
