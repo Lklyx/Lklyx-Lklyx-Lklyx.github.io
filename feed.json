@@ -130,7 +130,7 @@
             "url": "https://lklyx.github.io/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Webpack/Webpack/",
             "title": "webpack打包工具",
             "date_published": "2021-03-25T16:00:00.000Z",
-            "content_html": "<h1 id=\"webpack打包工具是什么\"><a class=\"anchor\" href=\"#webpack打包工具是什么\">#</a> webpack 打包工具是什么？</h1>\n",
+            "content_html": "<h1 id=\"webpack五个核心概念\"><a class=\"anchor\" href=\"#webpack五个核心概念\">#</a> webpack 五个核心概念</h1>\n<ol>\n<li>\n<p>Entry</p>\n<p>入口（Entry）指示 Webpack 以那个文件为入口起点开始打包，分析构建内部依赖图。从哪儿打包。</p>\n</li>\n<li>\n<p>Output</p>\n<p>输出（Output）指示 webpack 打包后的资源 bundles 输出到哪里去，以及如何命名。</p>\n</li>\n<li>\n<p>Loader</p>\n<p>Loader 让 Webpack 能够去处理那些非 JavaScript 文件（Webpack）自身只理解 JavaScript 文件。就是翻译 css。以及茹铺，让他成为 Webpack 可以认识的东西。</p>\n</li>\n<li>\n<p>Plugins</p>\n<p>插件（Plugins）可以用于执行范围更广的任务。插件的范围包括，从打包优化和压缩，一直到重新定义环境中的变量等。做些功能更加强大的事。</p>\n</li>\n<li>\n<p>Mode</p>\n<p>模式（Mode）指示 Webpack 使用相应的模式配置。</p>\n<ul>\n<li>\n<p>development</p>\n<p>测试环境，能让代码本地调试、运行的环境，配置相对来说，简单一点。</p>\n</li>\n<li>\n<p>production</p>\n<p>生产环境，能让代码优化上线，运行的环境。优化更好。配置也比较全面。</p>\n</li>\n</ul>\n</li>\n</ol>\n",
             "tags": [
                 "历练ing",
                 "扩展知识",

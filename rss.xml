@@ -1429,7 +1429,39 @@ reg = /ab {3,} c/ 表示 a 和 c 中间的 b 出现 3 次，或 3 次以上。&l
             <category term="Webpack" scheme="https://lklyx.github.io/categories/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Webpack/" />
             <category term="Webpack" scheme="https://lklyx.github.io/tags/Webpack/" />
             <pubDate>Fri, 26 Mar 2021 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;webpack打包工具是什么&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#webpack打包工具是什么&#34;&gt;#&lt;/a&gt; webpack 打包工具是什么？&lt;/h1&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;webpack五个核心概念&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#webpack五个核心概念&#34;&gt;#&lt;/a&gt; webpack 五个核心概念&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Entry&lt;/p&gt;
+&lt;p&gt;入口（Entry）指示 Webpack 以那个文件为入口起点开始打包，分析构建内部依赖图。从哪儿打包。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Output&lt;/p&gt;
+&lt;p&gt;输出（Output）指示 webpack 打包后的资源 bundles 输出到哪里去，以及如何命名。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Loader&lt;/p&gt;
+&lt;p&gt;Loader 让 Webpack 能够去处理那些非 JavaScript 文件（Webpack）自身只理解 JavaScript 文件。就是翻译 css。以及茹铺，让他成为 Webpack 可以认识的东西。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Plugins&lt;/p&gt;
+&lt;p&gt;插件（Plugins）可以用于执行范围更广的任务。插件的范围包括，从打包优化和压缩，一直到重新定义环境中的变量等。做些功能更加强大的事。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mode&lt;/p&gt;
+&lt;p&gt;模式（Mode）指示 Webpack 使用相应的模式配置。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;development&lt;/p&gt;
+&lt;p&gt;测试环境，能让代码本地调试、运行的环境，配置相对来说，简单一点。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;production&lt;/p&gt;
+&lt;p&gt;生产环境，能让代码优化上线，运行的环境。优化更好。配置也比较全面。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
  ]]></description>
         </item>
         <item>
