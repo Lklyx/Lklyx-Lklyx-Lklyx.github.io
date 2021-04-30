@@ -27,9 +27,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://lklyx.github.io/Growth-Diary/Blog/Git%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/</guid>
-            <title>Git仓库管理</title>
-            <link>https://lklyx.github.io/Growth-Diary/Blog/Git%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/</link>
+            <guid isPermalink="true">https://lklyx.github.io/Growth-Diary/Blog/Git%E5%AD%A6%E4%B9%A0%E4%BD%BF%E7%94%A8/</guid>
+            <title>Git常用命令</title>
+            <link>https://lklyx.github.io/Growth-Diary/Blog/Git%E5%AD%A6%E4%B9%A0%E4%BD%BF%E7%94%A8/</link>
             <category term="历练ing" scheme="https://lklyx.github.io/categories/Growth-Diary/" />
             <category term="Blog" scheme="https://lklyx.github.io/categories/Growth-Diary/Blog/" />
             <category term="Git" scheme="https://lklyx.github.io/tags/Git/" />
@@ -154,7 +154,9 @@ error: pathspec did not match any files known to git&lt;/p&gt;
 git checkout filename 回退未添加到缓存区的文件，但是对未 track 的文件不生效。git checkout 未 track 文件 git 以为是切分支&lt;br /&gt;
 解决方法：&lt;br /&gt;
 更新如果不需要该文件，直接删除&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;rm filename&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;rm filename&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;git查看当前的仓库地址&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git查看当前的仓库地址&#34;&gt;#&lt;/a&gt; git 查看当前的仓库地址&lt;/h1&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;git remote &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;v&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;git查看当前仓库的基本信息&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git查看当前仓库的基本信息&#34;&gt;#&lt;/a&gt; git 查看当前仓库的基本信息&lt;/h1&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;git remote show origin&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://lklyx.github.io/Diary/%E7%94%9F%E6%B4%BB/%E4%BC%BC%E6%B0%B4%E6%B5%81%E5%B9%B4%E5%B0%8F%E6%96%87%E6%A1%88/%E5%8A%B1%E5%BF%97%E7%B1%BB/%E5%8A%AA%E5%8A%9B%E4%B8%8D%E6%98%AF%E6%B2%A1%E6%9C%89%E7%94%A8%EF%BC%8C%E5%B0%B1%E6%98%AF%E6%8B%8D%E4%BD%A0%E4%B8%8D%E5%A4%9F%E5%8A%AA%E5%8A%9B/</guid>

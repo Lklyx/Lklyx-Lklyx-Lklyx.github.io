@@ -24,9 +24,9 @@
         <updated>2021-04-28T16:00:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://lklyx.github.io/Growth-Diary/Blog/Git%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/</id>
-        <title>Git仓库管理</title>
-        <link rel="alternate" href="https://lklyx.github.io/Growth-Diary/Blog/Git%E4%BB%93%E5%BA%93%E7%AE%A1%E7%90%86/"/>
+        <id>https://lklyx.github.io/Growth-Diary/Blog/Git%E5%AD%A6%E4%B9%A0%E4%BD%BF%E7%94%A8/</id>
+        <title>Git常用命令</title>
+        <link rel="alternate" href="https://lklyx.github.io/Growth-Diary/Blog/Git%E5%AD%A6%E4%B9%A0%E4%BD%BF%E7%94%A8/"/>
         <content type="html">&lt;h1 id=&#34;git使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git使用&#34;&gt;#&lt;/a&gt; Git 使用&lt;/h1&gt;
 &lt;p&gt;git bash 命令窗口写命令：&lt;/p&gt;
 &lt;ol&gt;
@@ -147,7 +147,9 @@ error: pathspec did not match any files known to git&lt;/p&gt;
 git checkout filename 回退未添加到缓存区的文件，但是对未 track 的文件不生效。git checkout 未 track 文件 git 以为是切分支&lt;br /&gt;
 解决方法：&lt;br /&gt;
 更新如果不需要该文件，直接删除&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;rm filename&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;rm filename&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;git查看当前的仓库地址&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git查看当前的仓库地址&#34;&gt;#&lt;/a&gt; git 查看当前的仓库地址&lt;/h1&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;git remote &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;v&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;git查看当前仓库的基本信息&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git查看当前仓库的基本信息&#34;&gt;#&lt;/a&gt; git 查看当前仓库的基本信息&lt;/h1&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;git remote show origin&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="历练ing" scheme="https://lklyx.github.io/categories/Growth-Diary/" />
         <category term="Blog" scheme="https://lklyx.github.io/categories/Growth-Diary/Blog/" />
         <category term="Git" scheme="https://lklyx.github.io/tags/Git/" />
