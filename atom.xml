@@ -30,13 +30,80 @@
 &lt;p&gt;这些不同的目录都有不同的作用。每个目录的作用介绍可查看&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5jbmJsb2dzLmNvbS9kdWFuamkvcC95dWVkaW5nMi5odG1s&#34;&gt; Linux 目录介绍&lt;/span&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Linux 常用目录&lt;/p&gt;
+&lt;p&gt;Linux 常用命令&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;pwd&lt;/strong&gt; 查看当前在那个目录以及是那个用户。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ls&lt;/strong&gt; 查看当前目录下有那些文件夹，有颜色的或者有后缀名的是文件夹，可以打开，没有的是文件。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;cd&lt;/strong&gt; 进入到文件夹。进去了之后可以用 &lt;code&gt;pwd&lt;/code&gt;  查看，== 注意：== 区分大小写&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;pwd&lt;/strong&gt; 查看当前在那个目录以及是那个用户。当前路径。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ls&lt;/strong&gt; 查看当前目录下有那些文件夹，有颜色的或者有后缀名的是文件夹，可以打开，没有的是文件。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;cd&lt;/strong&gt; 进入到文件夹。进去了之后可以用 &lt;code&gt;pwd&lt;/code&gt;  查看，使用 cd 可以打开多级路径，用 / 隔开，表示子目录。== 注意：== 区分大小写&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;cd 快捷键，我们可以使用 &lt;code&gt;cd ..&lt;/code&gt;  进入目录，cd 目录之下有些很长的文件夹名字，我们可能记不住，用 ls 查看很长也不想敲。这时候可以使用&lt;strong&gt; Tab&lt;/strong&gt; 键，快捷键打出来。点一下是直接获取到输入的首字母的文件，两下是打开以你输入的字母开头的文件。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;回到家目录。直接&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cd &lt;span class=&#34;token operator&#34;&gt;~&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;clear&lt;/strong&gt;，清空屏幕命令。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ls -l&lt;/strong&gt;: 罗列出目录，是以竖排这样的方式展示的，ls 后面也可以跟路径，此时，罗列出来的目录就是该路径下的目录。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ls -a&lt;/strong&gt;: 罗列出影藏的文件目录。可以和&lt;strong&gt; ls -l&lt;/strong&gt; 一起使用。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;**ls -l -a**&lt;/code&gt; ：竖排查看所有文件，包含隐藏文件。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;**ls -lha**&lt;/code&gt; ：竖排显示所有文件，包含隐藏文件，且大小以 &lt;code&gt;k&lt;/code&gt;  单位显示出来&lt;/p&gt;
+&lt;p&gt;只要是隐藏的文件或隐藏的文件夹。用 ls 查看到的都是前面带个小点的。&lt;/p&gt;
+&lt;p&gt;在 Ubuntu 中，如果想创建一个隐藏的文件或者文件夹，只需要在前面加一个点。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;通配符&lt;/strong&gt;：类似正则表达式。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;*&lt;/code&gt; ：表示一个或多个。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;？&lt;/code&gt; ：一个字符。&lt;/li&gt;
+&lt;li&gt;[1、2、3]，也是代表一个字符，但是只能从中括号中选择一个字符。&lt;/li&gt;
+&lt;li&gt;[a-z]，是代表 a 到 z 中的任意一个字符。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;mv&lt;/strong&gt;：移动文件夹或文件，也就是剪切。如下：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;mv ceshi.txt /home/siki/weiwei
+mv hello2.txt /home/siki/Desktop/aa/127.txt 	//移动以后改名字为127.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;将 &lt;code&gt;ceshi.txt&lt;/code&gt;  文件移动到 &lt;code&gt;/home/siki/weiwei&lt;/code&gt;  文件夹之下。我们不但可以移动，还可以在移动的时候给他修改文件名字。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;cp&lt;/strong&gt;：复制文件夹或文件，和移动类似。复制是不删除原来位置的文件。复制的过程中，也可以重新命名。&lt;mark&gt;注意：&lt;/mark&gt;&lt;strong&gt;cp&lt;/strong&gt; 复制时如果是文件夹需要在前面加上  &lt;code&gt;-r&lt;/code&gt; 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;find&lt;/strong&gt;：精确搜索，&lt;/p&gt;
+&lt;figure class=&#34;highlight apl&#34;&gt;&lt;figcaption data-lang=&#34;APL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;find &lt;span class=&#34;token monadic-operator operator&#34;&gt;/&lt;/span&gt;home &lt;span class=&#34;token function&#34;&gt;-&lt;/span&gt;name test&lt;span class=&#34;token dyadic-operator operator&#34;&gt;.&lt;/span&gt;txt&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;上面代码说明，在&lt;strong&gt; home&lt;/strong&gt; 路径下搜索名字为&lt;strong&gt; test&lt;/strong&gt; 的文件，只要是 home 下的任何子目录下的 test 文件都看搜索出来，搜索结果为：展示搜索文件的路径。&lt;/p&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;find &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;home &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;name he&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; 	&lt;span class=&#34;token comment&#34;&gt;// 名字中含有 he 的文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;find &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;home &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;name &lt;span class=&#34;token string&#34;&gt;&#39;12*&#39;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 名字以 12 开头的文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;find &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;home &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;iname &lt;span class=&#34;token string&#34;&gt;&#39;abd&#39;&lt;/span&gt;		&lt;span class=&#34;token comment&#34;&gt;//	名字为 abc 开头且不区分大小写。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;搜索&lt;strong&gt; home&lt;/strong&gt; 之下所有目录中，&lt;strong&gt;名字&lt;/strong&gt;带有&lt;strong&gt; he&lt;/strong&gt; 的所有文件及文件夹。&lt;/p&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;locate &lt;span class=&#34;token number&#34;&gt;123&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 搜索索引库中的带有 123 的文件或者文件夹或者路径带有 123 的都索引出来。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;查看帮助手册， &lt;code&gt;需要查看帮助的命令&lt;/code&gt;  + &lt;code&gt;–-help&lt;/code&gt; ， &lt;code&gt;man&lt;/code&gt;  + 需要查看的命令：如下&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ls --help
+mv --help
+
+man ls
+man mv  	//man命令使用q退出来。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;cat&lt;/strong&gt;：查看文件类容。所有类容直接打印出来，适用于查看类容少的文件。&lt;/p&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cat &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;b &lt;span class=&#34;token number&#34;&gt;123.&lt;/span&gt;txt &lt;span class=&#34;token comment&#34;&gt;// 查看文件 123.txt 的类容，使用 - b，是显示行号。此行号不包含空行。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cat &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;n &lt;span class=&#34;token number&#34;&gt;123.&lt;/span&gt;txt &lt;span class=&#34;token comment&#34;&gt;// 查看文件 123.txt 的类容，使用 - n，是显示行号。此行行包括空行。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;moar&lt;/strong&gt;：也是查看文件类容。所有类容直接打印出来，适用于查看类容少的文件。这个会打印换行。其他的与 cat 相似。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;grep&lt;/strong&gt;：抓取文件中的类容；&lt;/p&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;grpe user &lt;span class=&#34;token number&#34;&gt;123.&lt;/span&gt;txt &lt;span class=&#34;token comment&#34;&gt;// 搜索文件名为 123.txt 中，包含 user 字段的哪一行类容。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;grep &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;n user &lt;span class=&#34;token number&#34;&gt;123.&lt;/span&gt;txt &lt;span class=&#34;token comment&#34;&gt;// 加上一个 - n，是为了显示搜索到的内容显示行号。空行也算行号的&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;grpe &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;v user &lt;span class=&#34;token number&#34;&gt;123.&lt;/span&gt;txt &lt;span class=&#34;token comment&#34;&gt;// 反向搜索，搜索文件名为 123.txt 中，不包含 user 字段的哪一行类容。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </content>
         <category term="历练ing" scheme="https://lklyx.github.io/categories/Growth-Diary/" />
