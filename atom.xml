@@ -41,7 +41,7 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;实现上传压缩包&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实现上传压缩包&#34;&gt;#&lt;/a&gt; 实现上传压缩包&lt;/h1&gt;
+&lt;h1 id=&#34;实现上传压缩包rz&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实现上传压缩包rz&#34;&gt;#&lt;/a&gt; 实现上传压缩包 rz&lt;/h1&gt;
 &lt;p&gt;安装&lt;strong&gt; lrzsz&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yum &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;y install lrzsz&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;解压压缩包命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解压压缩包命令&#34;&gt;#&lt;/a&gt; 解压压缩包命令&lt;/h1&gt;
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;tar &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;xvf &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; apache&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;tomcat&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;9.0&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.46&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;fulldocs&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;tar&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;gz &lt;span class=&#34;token comment&#34;&gt;// + 后面这个是安装包名字。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;linux中配置安装jdk及环境配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux中配置安装jdk及环境配置&#34;&gt;#&lt;/a&gt; Linux 中配置安装 jdk 及环境配置。&lt;/h1&gt;
@@ -286,6 +286,24 @@
 &lt;p&gt;二、如果没有安装其他依赖先安装依赖&lt;/p&gt;
 &lt;p&gt;yum install gcc gcc-c++ autoconf automake&lt;/p&gt;
 &lt;p&gt;yum -y install zlib zlib-devel openssl openssl-devel pcre pcre-devel （安装依赖 zlib、openssl 和 pcre&lt;/p&gt;
+&lt;h1 id=&#34;在centos虚拟机中无法使用yum命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在centos虚拟机中无法使用yum命令&#34;&gt;#&lt;/a&gt; 在 centOs 虚拟机中无法使用 yum 命令&lt;/h1&gt;
+&lt;p&gt;敲 yum 命令时，出现以下错误：&lt;/p&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@Linux1 home&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;# yum &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;y install gcc zlib zlib&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;devel pcre&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;devel openssl openssl&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;devel&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Loaded plugins&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; fastestmirror&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; refresh&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;packagekit&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; security&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Loading mirror speeds &lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; cached hostfile&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;YumRepo Error&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; All mirror URLs are not using ftp&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; http&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;s&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; or file&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; Eg&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt; Invalid release&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;repo&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;arch combination&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;removing mirrorlist &lt;span class=&#34;token keyword&#34;&gt;with&lt;/span&gt; no valid mirrors&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;cache&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;yum&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;x86_64&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;base&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;mirrorlist&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;txt&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Error&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; Cannot find a valid baseurl &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; repo&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; base&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;首先，这里说一下具体的原因：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;CentOS 6 已经随着 2020 年 11 月的结束进入了 EOL（Reaches End of Life），不过有一些老设备依然需要支持，CentOS 官方也给这些还不想把 CentOS6 扔进垃圾堆的用户保留了最后一个版本的镜像，只是这个镜像不会再有更新了&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;官方便在 12 月 2 日正式将 CentOS 6 相关的软件源移出了官方源，随之而来逐级镜像也会陆续将其删除。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不过有一些老设备依然需要维持在当前系统，CentOS 官方也给这些还不想把 CentOS6 扔进垃圾堆的用户保留了各个版本软件源的镜像，只是这个软件源不会再有更新了。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;简单的说就是&lt;/code&gt; ：Centos 6 已经不被官方支持，所以想要使用就要用其他代理比如阿里云 Vault 镜像。&lt;/p&gt;
+&lt;p&gt;所以我下面使用的是阿里云的镜像。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
 </content>
         <category term="历练ing" scheme="https://lklyx.github.io/categories/Growth-Diary/" />
         <category term="扩展知识" scheme="https://lklyx.github.io/categories/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/" />
