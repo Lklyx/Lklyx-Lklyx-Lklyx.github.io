@@ -15,6 +15,91 @@
         <category term="YAN" />
         <category term="DUO" />
         <item>
+            <guid isPermalink="true">https://lklyx.github.io/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Nginx/Nginx%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/</guid>
+            <title>Nginx踩坑篇</title>
+            <link>https://lklyx.github.io/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Nginx/Nginx%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/</link>
+            <category term="历练ing" scheme="https://lklyx.github.io/categories/Growth-Diary/" />
+            <category term="扩展知识" scheme="https://lklyx.github.io/categories/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/" />
+            <category term="Nginx" scheme="https://lklyx.github.io/categories/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Nginx/" />
+            <category term="Nginx" scheme="https://lklyx.github.io/tags/Nginx/" />
+            <pubDate>Mon, 31 May 2021 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;xshell&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#xshell&#34;&gt;#&lt;/a&gt; Xshell&lt;/h1&gt;
+&lt;p&gt;学习 Nginx 需要装 &lt;code&gt;Xshell&lt;/code&gt;  这个工具。装这个连接远程，方便操作。&lt;/p&gt;
+&lt;p&gt;安装地址为：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMU5HVEQ0Vk5TYmwwYldDVDd6SjBrbEE=&#34;&gt;https://pan.baidu.com/s/1NGTD4VNSbl0bWCT7zJ0klA&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;提取码：7b8j&lt;/p&gt;
+&lt;p&gt;下载这个软件压缩包，里面有文档指导安装破解版的。&lt;/p&gt;
+&lt;h1 id=&#34;实现拖拽上传下载文件的解决方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实现拖拽上传下载文件的解决方法&#34;&gt;#&lt;/a&gt; 实现拖拽上传下载文件的解决方法&lt;/h1&gt;
+&lt;p&gt;安装&lt;strong&gt; lrzsz&lt;/strong&gt;，&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;yum -y install lrzsz
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;使用方法：这时候可以直接敲命令 rz、sz、下载和上传数据了。&lt;/p&gt;
+&lt;p&gt;上传文件：rz + 文件名&lt;/p&gt;
+&lt;p&gt;下载文件：sz + 文件名&lt;/p&gt;
+&lt;p&gt;如果报错，显示传输失败，有可能是名字相同了。或者改文件夹下这个名字已经存在该文件了。这时，我们只需要修改一下文件的名字即可。&lt;/p&gt;
+&lt;h1 id=&#34;配置好防火墙了端口也设置了80就是进不去nginx&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置好防火墙了端口也设置了80就是进不去nginx&#34;&gt;#&lt;/a&gt; 配置好防火墙了，端口也设置了 80. 就是进不去 nginx。&lt;/h1&gt;
+&lt;p&gt;我靠。这个问题我搞了一天。原来是因为服务器没有配置安全组。我的是阿里云服务器，需要配置安全组。&lt;img data-src=&#34;E:%5CLklyx.github.io%5Csource_posts%5CGrowth-Diary%5C%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86%5CNginx%5CNginx%5Cimage-20210603154118108.png&#34; alt=&#34;image-20210603154118108&#34;&gt;&lt;/p&gt;
+&lt;p&gt;感觉这个巨坑了。有的服务器不需要手动配置安全组。&lt;/p&gt;
+&lt;h1 id=&#34;阿里服务器需要配置安全组&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#阿里服务器需要配置安全组&#34;&gt;#&lt;/a&gt; 阿里服务器需要配置安全组&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&#34;E:%5CLklyx.github.io%5Csource_posts%5CGrowth-Diary%5C%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86%5CNginx%5CNginx%5Cimage-20210607115621226.png&#34; alt=&#34;image-20210607115621226&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;make-no-targets-specified-and-no-makefile-found-stop&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#make-no-targets-specified-and-no-makefile-found-stop&#34;&gt;#&lt;/a&gt; make: *** No targets specified and no makefile found. Stop.&lt;/h1&gt;
+&lt;p&gt;第一种：&lt;/p&gt;
+&lt;p&gt;第一、update 最新版本系统软件&lt;/p&gt;
+&lt;p&gt;yum update&lt;/p&gt;
+&lt;p&gt;这个必须要执行后才可以安装我们的系统软件或者一键包。&lt;/p&gt;
+&lt;p&gt;第二、编译缺失关联软件&lt;/p&gt;
+&lt;p&gt;yum install gcc build-essential&lt;/p&gt;
+&lt;p&gt;编译执行完毕之后，我们在执行./configure &amp;amp;&amp;amp; make 这类的执行命令就可以解决问题。&lt;/p&gt;
+&lt;p&gt;第二种：&lt;/p&gt;
+&lt;p&gt;一、Linux 下各种依赖都已经安装，是因为没有找到 makefile。&lt;/p&gt;
+&lt;p&gt;如果是自己写的，确定在当前目录下；如果是源码安装，先运行./configure，生成 makefile，再执行 make，即可正常运行。&lt;/p&gt;
+&lt;p&gt;二、如果没有安装其他依赖先安装依赖&lt;/p&gt;
+&lt;p&gt;yum install gcc gcc-c++ autoconf automake&lt;/p&gt;
+&lt;p&gt;yum -y install zlib zlib-devel openssl openssl-devel pcre pcre-devel （安装依赖 zlib、openssl 和 pcre&lt;/p&gt;
+&lt;h1 id=&#34;在centos虚拟机中无法使用yum命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在centos虚拟机中无法使用yum命令&#34;&gt;#&lt;/a&gt; 在 centOs 虚拟机中无法使用 yum 命令&lt;/h1&gt;
+&lt;p&gt;敲 yum 命令时，出现以下错误：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;[root@Linux1 home]# yum -y install gcc zlib zlib-devel pcre-devel openssl openssl-devel
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Loading mirror speeds from cached hostfile
+YumRepo Error: All mirror URLs are not using ftp, http[s] or file.
+ Eg. Invalid release/repo/arch combination/
+removing mirrorlist with no valid mirrors: /var/cache/yum/x86_64/6/base/mirrorlist.txt
+Error: Cannot find a valid baseurl for repo: base
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;首先，这里说一下具体的原因：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;CentOS 6 已经随着 2020 年 11 月的结束进入了 EOL（Reaches End of Life），不过有一些老设备依然需要支持，CentOS 官方也给这些还不想把 CentOS6 扔进垃圾堆的用户保留了最后一个版本的镜像，只是这个镜像不会再有更新了&lt;/li&gt;
+&lt;li&gt;官方便在 12 月 2 日正式将 CentOS 6 相关的软件源移出了官方源，随之而来逐级镜像也会陆续将其删除。&lt;/li&gt;
+&lt;li&gt;不过有一些老设备依然需要维持在当前系统，CentOS 官方也给这些还不想把 CentOS6 扔进垃圾堆的用户保留了各个版本软件源的镜像，只是这个软件源不会再有更新了。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;简单的说就是&lt;/code&gt; ：Centos 6 已经不被官方支持，所以想要使用就要用其他代理比如阿里云 Vault 镜像。我下面使用的是阿里云的镜像。第三条命令可以看出来。&lt;/p&gt;
+&lt;p&gt;解决方案：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;sed -i &amp;quot;s|enabled=1|enabled=0|g&amp;quot; /etc/yum/pluginconf.d/fastestmirror.conf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;curl -o /etc/yum.repos.d/CentOS-Base.repo https://www.xmpan.com/Centos-6-Vault-Aliyun.repo
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;yum clean all
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;yum makecache
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;以上五条命令，按照顺序依次敲进去就可以了 。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;another-app-is-currently-holding-the-yum-lock-waiting-for-it-to-exit&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#another-app-is-currently-holding-the-yum-lock-waiting-for-it-to-exit&#34;&gt;#&lt;/a&gt; Another app is currently holding the yum lock; waiting for it to exit...&lt;/h1&gt;
+&lt;p&gt;使用 yum 时出现这样的错误、且一直循环报错。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;vim /etc/yum.repos.d/CentOS-Base.repo # 进去修改enabled = 1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;rm -f /var/run/yum.pid #永久禁止该错误
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后就可以重新执行 yum 了。&lt;/p&gt;
+&lt;h1 id=&#34;-bash-systemctl-command-not-found&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#-bash-systemctl-command-not-found&#34;&gt;#&lt;/a&gt; -bash: systemctl: command not found&lt;/h1&gt;
+&lt;p&gt;开启防火墙，关闭防火墙。在虚拟机中打开防火墙。如果是服务器，记得在安全组中配置需要访问的端口。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">https://lklyx.github.io/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Nginx/Nginx/</guid>
             <title>Nginx学习</title>
             <link>https://lklyx.github.io/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Nginx/Nginx/</link>
@@ -26,6 +111,7 @@
             <description><![CDATA[ &lt;h1 id=&#34;学习地址&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#学习地址&#34;&gt;#&lt;/a&gt; 学习地址&lt;/h1&gt;
 &lt;p&gt;学习视屏地址&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMXpKNDExdzdTVj9wPTImYW1wO3NwbV9pZF9mcm9tPXBhZ2VEcml2ZXI=&#34;&gt; Nginx&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;学习视屏地址&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMWo0NDExSzdnMj9mcm9tPXNlYXJjaCZhbXA7c2VpZD0xMTI0MjUzOTM5MDQzMjczMzYxMg==&#34;&gt; Nginx&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;虚拟机安装视频&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMTV6NHkxOTdzaz90PTExOTE=&#34;&gt; centOs&lt;/span&gt;&lt;/p&gt;
 &lt;h1 id=&#34;nginx概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nginx概述&#34;&gt;#&lt;/a&gt; Nginx 概述&lt;/h1&gt;
 &lt;p&gt;Nginx（engine x）是一个高性能的 HTTP 和反向代理服务器，特点是占用内存少，并发能力强，事实上，Nginx 的并发能力确实在同类型的网页服务器中表现较好，中国大陆使用 nginx 的网站用户有：百度、京东、新浪、网易、腾讯、淘宝等。&lt;/p&gt;
 &lt;h1 id=&#34;安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装&#34;&gt;#&lt;/a&gt; 安装&lt;/h1&gt;
@@ -59,7 +145,7 @@
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;找到 java 安装的路径&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;whereis java &lt;span class=&#34;token comment&#34;&gt;// 查看路径&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// /usr/bin/java /usr/lib/java /etc/java /usr/share/java /usr/share/man/man1/java.1.gz&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; ls &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;lrt &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;usr&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;bin&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;java &lt;span class=&#34;token comment&#34;&gt;// 查看 java 的 bin 之下路径&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// /usr/bin/java -&gt; /etc/alternatives/java&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ls &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;lrt &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;etc&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;alternatives&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;java &lt;span class=&#34;token comment&#34;&gt;// 查看需要配置环境的路径&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token comment&#34;&gt;// /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/bin/java&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;whereis java &lt;span class=&#34;token comment&#34;&gt;// 查看路径&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// /usr/bin/java /usr/lib/java /etc/java /usr/share/java /usr/share/man/man1/java.1.gz&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; ls &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;lrt &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;usr&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;bin&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;java &lt;span class=&#34;token comment&#34;&gt;// 查看 java 的 bin 之下路径&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// /usr/bin/java -&gt; /etc/alternatives/java&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ls &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;lrt &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;etc&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;alternatives&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;java &lt;span class=&#34;token comment&#34;&gt;// 查看需要配置环境的路径&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; &lt;span class=&#34;token comment&#34;&gt;// /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.212.b04-0.el7_6.x86_64/jre/bin/java&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;usr&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;lib&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;jvm&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;jre&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1.7&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.0&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;openjdk&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;x86_64&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;bin&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;java&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;进入文件夹配置环境变量&lt;/p&gt;
 &lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;vim &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;etc&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;profile &lt;span class=&#34;token comment&#34;&gt;// 进入 java 环境变量配置单的文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;在文件的末尾处添加以下代码：&lt;/p&gt;
@@ -139,10 +225,22 @@
 &lt;li&gt;
 &lt;p&gt;准备两个 tomcat 服务器。&lt;/p&gt;
 &lt;p&gt;在目录：&lt;strong&gt;usr/src&lt;/strong&gt; 下创建两个文件夹，分别为 tomcat8080、tomcat8081。&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;mkdir tomcat8080&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;mkdir tomcat8081&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这是可以把之前的 tomcat 进程关闭。&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 查看当前的 tomcat 进程&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ps &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;ef &lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt; grep tomcat&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 关闭进程&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sill &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;9&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; id  &lt;span class=&#34;token comment&#34;&gt;// 这里是数字 9，而不是字母 G,ID. 查看进程时前面的就是&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;在两个文件里面分别放入 tomcat 的安装包、并解压、启动（&lt;strong&gt;/usr/src/tomcat8081/apache-tomcat-7.0.70/bin&lt;/strong&gt;）之下，执行命令&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;startup&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;sh&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;8080 和 8081 文件夹中的 tomcat 都启动以后，8080 默认的端口号就是 8080，所以不用我们修改。我们需要进入 8081 文件夹中，修改它的配置文件。路径为：&lt;strong&gt;/usr/src/tomcat8081/apache-tomcat-7.0.70/conf&lt;/strong&gt; 之中的 &lt;code&gt;server.xml&lt;/code&gt;  文件。&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;vi server&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;xml&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;E:%5CLklyx.github.io%5Csource_posts%5CGrowth-Diary%5C%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86%5CNginx%5CNginx%5C9.png&#34; alt=&#34;image-20210607172045416&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;mkdir tomcat8080
+mkdir tomcat8081
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这是可以把之前的 tomcat 进程关闭。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;# 查看当前的tomcat进程
+ps -ef | grep tomcat
+# 关闭进程
+sill -9 + id # 这里是数字9，而不是字母G,ID.查看进程时前面的就是
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;在两个文件里面分别放入 tomcat 的安装包、并解压、启动（&lt;strong&gt;/usr/src/tomcat8081/apache-tomcat-7.0.70/bin&lt;/strong&gt;）之下，执行命令&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;./startup.sh 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;8080 和 8081 文件夹中的 tomcat 都启动以后，8080 默认的端口号就是 8080，所以不用我们修改。我们需要进入 8081 文件夹中，修改它的配置文件。路径为：&lt;strong&gt;/usr/src/tomcat8081/apache-tomcat-7.0.70/conf&lt;/strong&gt; 之中的 &lt;code&gt;server.xml&lt;/code&gt;  文件。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;vi server.xml
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img data-src=&#34;E:%5CLklyx.github.io%5Csource_posts%5CGrowth-Diary%5C%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86%5CNginx%5CNginx%5C9.png&#34; alt=&#34;image-20210607172045416&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Server port 改为 8015，&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;E:%5CLklyx.github.io%5Csource_posts%5CGrowth-Diary%5C%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86%5CNginx%5CNginx%5C10.png&#34; alt=&#34;image-20210607172207668&#34;&gt;&lt;/p&gt;
 &lt;p&gt;主要的 connector port 改为 8081。&lt;/p&gt;
@@ -177,13 +275,17 @@
 &lt;li&gt;&lt;img data-src=&#34;E:%5CLklyx.github.io%5Csource_posts%5CGrowth-Diary%5C%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86%5CNginx%5CNginx%5C12.png&#34; alt=&#34;image-20210608114542443&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;在&lt;strong&gt; http&lt;/strong&gt; 块中，加一个&lt;mark&gt; upstreat myserver&lt;/mark&gt; 后面的&lt;strong&gt; myserver&lt;/strong&gt; 是名字，可以自定义。在新加块中加上我们的服务器列表。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;upstreat myserver&amp;#123;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;upstreat myserver&amp;#123;
 	server 106.15.176.231:8080
 	server 106.15.176.231:8081
 &amp;#125;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;在&lt;strong&gt; http==&amp;gt;server&lt;/strong&gt; 之中，修改 &lt;code&gt;server_name&lt;/code&gt;  的值为自己的 ip 地址。然后在之下的 &lt;code&gt;location&lt;/code&gt;  中，使用 proxy_pass  http:// + 上面自定义的名字。实现效果。&lt;/p&gt;
-&lt;figure class=&#34;highlight apl&#34;&gt;&lt;figcaption data-lang=&#34;APL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;location &lt;span class=&#34;token monadic-operator operator&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;token dfn builtin&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	proxy_pass  http&lt;span class=&#34;token dfn builtin&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token monadic-operator operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token monadic-operator operator&#34;&gt;/&lt;/span&gt;myserver  &lt;span class=&#34;token monadic-operator operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token monadic-operator operator&#34;&gt;/&lt;/span&gt;这里的myserver是自定义名字。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token dfn builtin&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;nginx负载均衡的策略&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nginx负载均衡的策略&#34;&gt;#&lt;/a&gt; nginx 负载均衡的策略&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;location / &amp;#123;
+	proxy_pass  http://myserver  #这里的myserver是自定义名字。
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;nginx负载均衡的策略&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nginx负载均衡的策略&#34;&gt;#&lt;/a&gt; nginx 负载均衡的策略&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;轮询&lt;/strong&gt;（默认）&lt;/p&gt;
@@ -192,16 +294,33 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;weight 权重&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;weight 代表权重，默认为 1. 权重越高被分配的客户端越多。指定轮询几率，weight 和访问比率成正比，用于后端服务器性能不均的情况。例：&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;upstreat myserver&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	server &lt;span class=&#34;token number&#34;&gt;106.15&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.176&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.231&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;8080&lt;/span&gt;  weight&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	server &lt;span class=&#34;token number&#34;&gt;106.15&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.176&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.231&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;8081&lt;/span&gt;  weight&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;以上代码的 8080 端口的权重低于 8081，这时 8081 端口的客户端量就会比 8080 多一倍。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;upstreat myserver&amp;#123;
+	server 106.15.176.231:8080  weight=5;
+	server 106.15.176.231:8081  weight=10;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;以上代码的 8080 端口的权重低于 8081，这时 8081 端口的客户端量就会比 8080 多一倍。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;ip_hash&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;upstreat myserver&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ip_hash&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 加上这句话就是 ip_hash&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	server &lt;span class=&#34;token number&#34;&gt;106.15&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.176&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.231&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;8080&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	server &lt;span class=&#34;token number&#34;&gt;106.15&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.176&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.231&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;8081&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;意思是。当你第一次访问的是 8080，他就默认记住你的这个 ip 访问的就是 8080，以后你的每次访问都会是 8080。这种方法可以解决 session 的问题。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;upstreat myserver&amp;#123;
+ip_hash;  #加上这句话就是ip_hash
+	server 106.15.176.231:8080;
+	server 106.15.176.231:8081;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;意思是。当你第一次访问的是 8080，他就默认记住你的这个 ip 访问的就是 8080，以后你的每次访问都会是 8080。这种方法可以解决 session 的问题。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;fair&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;按后端服务器的响应时间来分配请求，响应时间短的优先分配。&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;upstreat myserver&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	server &lt;span class=&#34;token number&#34;&gt;106.15&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.176&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.231&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;8080&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	server &lt;span class=&#34;token number&#34;&gt;106.15&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.176&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.231&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;8081&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	fair&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 加上这句话就是 fair 策略&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;解：同时发起访问请求。这是会默认有 8080、8081 接到请求。但是，谁先接受到。就是谁访问。就是看当前的服务器那个端口响应的时间短了。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;upstreat myserver&amp;#123;
+	server 106.15.176.231:8080;
+	server 106.15.176.231:8081;
+	fair;  #加上这句话就是fair策略
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;解：同时发起访问请求。这是会默认有 8080、8081 接到请求。但是，谁先接受到。就是谁访问。就是看当前的服务器那个端口响应的时间短了。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;nginx配置实例动静分离&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nginx配置实例动静分离&#34;&gt;#&lt;/a&gt; Nginx 配置实例 —— 动静分离。&lt;/h1&gt;
@@ -227,16 +346,24 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;nginx配置高可用集群&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nginx配置高可用集群&#34;&gt;#&lt;/a&gt; Nginx 配置高可用集群&lt;/h1&gt;
+&lt;p&gt;学习视频&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMXpKNDExdzdTVj9wPTE0JmFtcDtzcG1faWRfZnJvbT1wYWdlRHJpdmVy&#34;&gt;高可用集群&lt;/span&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;什么是高可用？&lt;/p&gt;
+&lt;p&gt;高可用集群&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;需要两台 nginx 服务器&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;什么是高可用？&lt;/p&gt;
+&lt;p&gt;高可用 HA（High Availability）是分布式系统架构设计中必须考虑的因素之一，它通常是指，通过设计减少系统不能提供服务的时间。如果一个系统能够一直提供服务，那么这个可用性则是百分之百，但是天有不测风云。所以我们只能尽可能的去减少服务的故障。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解决的问题？&lt;/p&gt;
+&lt;p&gt;在生产环境上很多时候是以 &lt;code&gt;Nginx&lt;/code&gt;  做反向代理对外提供服务，但是一天 Nginx 难免遇见故障，如：服务器宕机。当 &lt;code&gt;Nginx&lt;/code&gt;  宕机那么所有对外提供的接口都将导致无法访问。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;双机热备份？&lt;/p&gt;
+&lt;p&gt;这种方案是国内企业中最为普遍的一种高可用方案，双机热备其实就是指一台服务器在提供服务，另一台为某服务的备用状态，当一台服务器不可用另外一台就会顶替上去。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;需要 keepalived&lt;/li&gt;
-&lt;li&gt;需要虚拟 IP&lt;/li&gt;
-&lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;配置高可用的准备工作&lt;/p&gt;
@@ -252,66 +379,86 @@
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yum install keepalived &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;y&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;安装好以后，使用：rpm -q -a keepalived 这个命令查看安装的版本号。&lt;/p&gt;
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;rpm &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;q &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;a keepalived&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;keepalived 的安装位置在：&lt;/p&gt;
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cd &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;etc &lt;span class=&#34;token comment&#34;&gt;// 安装位置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cd keepalievd&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 进入目录&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;vi keepalievd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;conf &lt;span class=&#34;token comment&#34;&gt;// 进入配置文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;/ol&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://lklyx.github.io/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Nginx/Nginx%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/</guid>
-            <title>Nginx踩坑篇</title>
-            <link>https://lklyx.github.io/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Nginx/Nginx%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/</link>
-            <category term="历练ing" scheme="https://lklyx.github.io/categories/Growth-Diary/" />
-            <category term="扩展知识" scheme="https://lklyx.github.io/categories/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/" />
-            <category term="Nginx" scheme="https://lklyx.github.io/categories/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Nginx/" />
-            <category term="Nginx" scheme="https://lklyx.github.io/tags/Nginx/" />
-            <pubDate>Mon, 31 May 2021 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;xshell&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#xshell&#34;&gt;#&lt;/a&gt; Xshell&lt;/h1&gt;
-&lt;p&gt;学习 Nginx 需要装 &lt;code&gt;Xshell&lt;/code&gt;  这个工具。装这个连接远程，方便操作。&lt;/p&gt;
-&lt;p&gt;安装地址为：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMU5HVEQ0Vk5TYmwwYldDVDd6SjBrbEE=&#34;&gt;https://pan.baidu.com/s/1NGTD4VNSbl0bWCT7zJ0klA&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;提取码：7b8j&lt;/p&gt;
-&lt;p&gt;下载这个软件压缩包，里面有文档指导安装破解版的。&lt;/p&gt;
-&lt;h1 id=&#34;实现拖拽上传下载文件的解决方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实现拖拽上传下载文件的解决方法&#34;&gt;#&lt;/a&gt; 实现拖拽上传下载文件的解决方法&lt;/h1&gt;
-&lt;p&gt;安装&lt;strong&gt; lrzsz&lt;/strong&gt;，&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yum &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;y install lrzsz&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;使用方法：这时候可以直接敲命令 rz、sz、下载和上传数据了。&lt;/p&gt;
-&lt;p&gt;上传文件：rz + 文件名&lt;/p&gt;
-&lt;p&gt;下载文件：sz + 文件名&lt;/p&gt;
-&lt;p&gt;如果报错，显示传输失败，有可能是名字相同了。或者改文件夹下这个名字已经存在该文件了。这时，我们只需要修改一下文件的名字即可。&lt;/p&gt;
-&lt;h1 id=&#34;配置好防火墙了端口也设置了80就是进不去nginx&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置好防火墙了端口也设置了80就是进不去nginx&#34;&gt;#&lt;/a&gt; 配置好防火墙了，端口也设置了 80. 就是进不去 nginx。&lt;/h1&gt;
-&lt;p&gt;我靠。这个问题我搞了一天。原来是因为服务器没有配置安全组。我的是阿里云服务器，需要配置安全组。&lt;img data-src=&#34;E:%5CLklyx.github.io%5Csource_posts%5CGrowth-Diary%5C%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86%5CNginx%5CNginx%5Cimage-20210603154118108.png&#34; alt=&#34;image-20210603154118108&#34;&gt;&lt;/p&gt;
-&lt;p&gt;感觉这个巨坑了。有的服务器不需要手动配置安全组。&lt;/p&gt;
-&lt;h1 id=&#34;阿里服务器需要配置安全组&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#阿里服务器需要配置安全组&#34;&gt;#&lt;/a&gt; 阿里服务器需要配置安全组&lt;/h1&gt;
-&lt;p&gt;&lt;img data-src=&#34;E:%5CLklyx.github.io%5Csource_posts%5CGrowth-Diary%5C%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86%5CNginx%5CNginx%5Cimage-20210607115621226.png&#34; alt=&#34;image-20210607115621226&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;make-no-targets-specified-and-no-makefile-found-stop&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#make-no-targets-specified-and-no-makefile-found-stop&#34;&gt;#&lt;/a&gt; make: *** No targets specified and no makefile found. Stop.&lt;/h1&gt;
-&lt;p&gt;第一种：&lt;/p&gt;
-&lt;p&gt;第一、update 最新版本系统软件&lt;/p&gt;
-&lt;p&gt;yum update&lt;/p&gt;
-&lt;p&gt;这个必须要执行后才可以安装我们的系统软件或者一键包。&lt;/p&gt;
-&lt;p&gt;第二、编译缺失关联软件&lt;/p&gt;
-&lt;p&gt;yum install gcc build-essential&lt;/p&gt;
-&lt;p&gt;编译执行完毕之后，我们在执行./configure &amp;amp;&amp;amp; make 这类的执行命令就可以解决问题。&lt;/p&gt;
-&lt;p&gt;第二种：&lt;/p&gt;
-&lt;p&gt;一、Linux 下各种依赖都已经安装，是因为没有找到 makefile。&lt;/p&gt;
-&lt;p&gt;如果是自己写的，确定在当前目录下；如果是源码安装，先运行./configure，生成 makefile，再执行 make，即可正常运行。&lt;/p&gt;
-&lt;p&gt;二、如果没有安装其他依赖先安装依赖&lt;/p&gt;
-&lt;p&gt;yum install gcc gcc-c++ autoconf automake&lt;/p&gt;
-&lt;p&gt;yum -y install zlib zlib-devel openssl openssl-devel pcre pcre-devel （安装依赖 zlib、openssl 和 pcre&lt;/p&gt;
-&lt;h1 id=&#34;在centos虚拟机中无法使用yum命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在centos虚拟机中无法使用yum命令&#34;&gt;#&lt;/a&gt; 在 centOs 虚拟机中无法使用 yum 命令&lt;/h1&gt;
-&lt;p&gt;敲 yum 命令时，出现以下错误：&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;root@Linux1 home&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;# yum &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;y install gcc zlib zlib&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;devel pcre&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;devel openssl openssl&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;devel&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Loaded plugins&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; fastestmirror&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; refresh&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;packagekit&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; security&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Loading mirror speeds &lt;span class=&#34;token keyword&#34;&gt;from&lt;/span&gt; cached hostfile&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;YumRepo Error&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; All mirror URLs are not using ftp&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; http&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;s&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; or file&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; Eg&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt; Invalid release&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;repo&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;arch combination&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;removing mirrorlist &lt;span class=&#34;token keyword&#34;&gt;with&lt;/span&gt; no valid mirrors&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;cache&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;yum&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;x86_64&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;base&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;mirrorlist&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;txt&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Error&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; Cannot find a valid baseurl &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; repo&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; base&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;首先，这里说一下具体的原因：&lt;/p&gt;
-&lt;blockquote&gt;
+&lt;li&gt;
+&lt;p&gt;完成高可用配置（主从配置）&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;CentOS 6 已经随着 2020 年 11 月的结束进入了 EOL（Reaches End of Life），不过有一些老设备依然需要支持，CentOS 官方也给这些还不想把 CentOS6 扔进垃圾堆的用户保留了最后一个版本的镜像，只是这个镜像不会再有更新了&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;修改主机（192.168.16.128）keepalived 配置文件&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;#检测脚本
+vrrp_script chk_http_port &amp;#123;
+    script &amp;quot;/usr/local/src/check_nginx_pid.sh&amp;quot; #心跳执行的脚本，检测nginx是否启动
+    interval 2                          #（检测脚本执行的间隔，单位是秒）
+    weight 2                            #权重
+&amp;#125;
+#vrrp 实例定义部分
+vrrp_instance VI_1 &amp;#123;
+    state MASTER            # 指定keepalived的角色，MASTER为主，BACKUP为备
+    interface ens33         # 当前进行vrrp通讯的网络接口卡(当前centos的网卡) 用ifconfig查看你具体的网卡
+    virtual_router_id 66    # 虚拟路由编号，主从要一直
+    priority 100            # 优先级，数值越大，获取处理请求的优先级越高
+    advert_int 1            # 检查间隔，默认为1s(vrrp组播周期秒数)
+    #授权访问
+    authentication &amp;#123;
+        auth_type PASS #设置验证类型和密码，MASTER和BACKUP必须使用相同的密码才能正常通信
+        auth_pass 1111
+    &amp;#125;
+    track_script &amp;#123;
+        chk_http_port            #（调用检测脚本）
+    &amp;#125;
+    virtual_ipaddress &amp;#123;
+        192.168.16.130            # 定义虚拟ip(VIP)，可多设，每行一个
+    &amp;#125;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;virtual_ipaddress&lt;/code&gt;  里面可以配置 vip, 在线上通过 vip 来访问服务。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;interface``需要根据服务器网卡进行设置通常查看方式``ip addr&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;authentication&lt;/code&gt;  配置授权访问后备机也需要相同配置&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;官方便在 12 月 2 日正式将 CentOS 6 相关的软件源移出了官方源，随之而来逐级镜像也会陆续将其删除。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;修改备机（192.168.16.129）keepalived 配置文件&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;#检测脚本
+vrrp_script chk_http_port &amp;#123;
+    script &amp;quot;/usr/local/src/check_nginx_pid.sh&amp;quot; #心跳执行的脚本，检测nginx是否启动
+    interval 2                          #（检测脚本执行的间隔）
+    weight 2                            #权重
+&amp;#125;
+#vrrp 实例定义部分
+vrrp_instance VI_1 &amp;#123;
+    state BACKUP                        # 指定keepalived的角色，MASTER为主，BACKUP为备
+    interface ens33                      # 当前进行vrrp通讯的网络接口卡(当前centos的网卡) 用ifconfig查看你具体的网卡
+    virtual_router_id 66                # 虚拟路由编号，主从要一直
+    priority 99                         # 优先级，数值越大，获取处理请求的优先级越高
+    advert_int 1                        # 检查间隔，默认为1s(vrrp组播周期秒数)
+    #授权访问
+    authentication &amp;#123;
+        auth_type PASS #设置验证类型和密码，MASTER和BACKUP必须使用相同的密码才能正常通信
+        auth_pass 1111
+    &amp;#125;
+    track_script &amp;#123;
+        chk_http_port                   #（调用检测脚本）
+    &amp;#125;
+    virtual_ipaddress &amp;#123;
+        192.168.16.130                   # 定义虚拟ip(VIP)，可多设，每行一个
+    &amp;#125;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;不过有一些老设备依然需要维持在当前系统，CentOS 官方也给这些还不想把 CentOS6 扔进垃圾堆的用户保留了各个版本软件源的镜像，只是这个软件源不会再有更新了。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;简单的说就是&lt;/code&gt; ：Centos 6 已经不被官方支持，所以想要使用就要用其他代理比如阿里云 Vault 镜像。&lt;/p&gt;
-&lt;p&gt;所以我下面使用的是阿里云的镜像。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;检测脚本：&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;#!/bin/bash
+#检测nginx是否启动了
+A=`ps -C nginx --no-header |wc -l`        
+if [ $A -eq 0 ];then    #如果nginx没有启动就启动nginx                        
+      systemctl start nginx                #重启nginx
+      if [ `ps -C nginx --no-header |wc -l` -eq 0 ];then    #nginx重启失败，则停掉keepalived服务，进行VIP转移
+              killall keepalived                    
+      fi
+fi
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
  ]]></description>
         </item>
         <item>
