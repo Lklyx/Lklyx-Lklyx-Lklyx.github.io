@@ -323,7 +323,7 @@ ip_hash;  #加上这句话就是ip_hash
 &lt;p&gt;解：同时发起访问请求。这是会默认有 8080、8081 接到请求。但是，谁先接受到。就是谁访问。就是看当前的服务器那个端口响应的时间短了。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;nginx配置实例动静分离&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nginx配置实例动静分离&#34;&gt;#&lt;/a&gt; Nginx 配置实例 —— 动静分离。&lt;/h1&gt;
+&lt;h1 id=&#34;nginx配置实例动静分离-测试失败&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nginx配置实例动静分离-测试失败&#34;&gt;#&lt;/a&gt; Nginx 配置实例 —— 动静分离。（测试失败！）&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;什么是动静分离；&lt;/p&gt;
@@ -386,7 +386,7 @@ ip_hash;  #加上这句话就是ip_hash
 &lt;p&gt;&lt;strong&gt;修改主机（192.168.16.128）keepalived 配置文件&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;#检测脚本
 vrrp_script chk_http_port &amp;#123;
-    script &amp;quot;/usr/local/src/check_nginx_pid.sh&amp;quot; #心跳执行的脚本，检测nginx是否启动
+    script &amp;quot;/usr/local/src/nginx_check.sh&amp;quot; #心跳执行的脚本，检测nginx是否启动
     interval 2                          #（检测脚本执行的间隔，单位是秒）
     weight 2                            #权重
 &amp;#125;
@@ -418,7 +418,7 @@ vrrp_instance VI_1 &amp;#123;
 &lt;p&gt;&lt;strong&gt;修改备机（192.168.16.129）keepalived 配置文件&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;#检测脚本
 vrrp_script chk_http_port &amp;#123;
-    script &amp;quot;/usr/local/src/check_nginx_pid.sh&amp;quot; #心跳执行的脚本，检测nginx是否启动
+    script &amp;quot;/usr/local/src/nginx_check.sh&amp;quot; #心跳执行的脚本，检测nginx是否启动
     interval 2                          #（检测脚本执行的间隔）
     weight 2                            #权重
 &amp;#125;
@@ -457,6 +457,12 @@ fi
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;分别启动两台服务器的 nginx 和 keepalived。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;service keepalived restart	#启动keepalived 虚拟机
+systemctl start keepalived.service #启动keepalived 服务器
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
  ]]></description>
@@ -551,6 +557,9 @@ mv hello2.txt /home/siki/Desktop/aa/127.txt 	//移动以后改名字为127.txt
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;history&lt;/strong&gt;：查询最近的历史操作记录&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;top&lt;/strong&gt;：top 命令经常用来监控 linux 的系统状况。能够实时显示系统中各个进程的资源占用情况。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -681,19 +690,6 @@ man mv  	//man命令使用q退出来。
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://lklyx.github.io/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Docker/Docker/</guid>
-            <title>学习Docker</title>
-            <link>https://lklyx.github.io/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Docker/Docker/</link>
-            <category term="历练ing" scheme="https://lklyx.github.io/categories/Growth-Diary/" />
-            <category term="扩展知识" scheme="https://lklyx.github.io/categories/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/" />
-            <category term="Docker" scheme="https://lklyx.github.io/categories/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Docker/" />
-            <category term="Docker" scheme="https://lklyx.github.io/tags/Docker/" />
-            <pubDate>Tue, 18 May 2021 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;docker&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#docker&#34;&gt;#&lt;/a&gt; Docker&lt;/h1&gt;
-&lt;p&gt;学习视频地址&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMW9nNHkxcTdNND9wPTE=&#34;&gt; Docker&lt;/span&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -2320,6 +2316,35 @@ export default &amp;#123;
  &amp;lt;/el-col&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;pageChange&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;pn&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token function&#34;&gt;loadDevices&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; pn&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;分页效果使用在 element ui 的表格中，表格数据过多时，使它可以点击下一页。实现翻页，让页面美化。上面代码中， &lt;code&gt;layou&lt;/code&gt; t 是组件的布局，其中&lt;strong&gt; prev&lt;/strong&gt; 是表示上一页，默认是一个箭头。可以换为&lt;strong&gt; prev-test&lt;/strong&gt; + 文字，自定义文字。反之 &lt;code&gt;next&lt;/code&gt; 。中间的 pager 是组件的主体部分，显示一共几页。要给分页按钮添加颜色使用 background 属性即可。&lt;strong&gt;page-size&lt;/strong&gt; 每页显示条目个数，即每页多少行。&lt;strong&gt;total&lt;/strong&gt; 总的条目数，一共有多少行。pn 代表当前行。点击方法，点击以换分页显示数据。ps 代表每页可以显示多少行。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://lklyx.github.io/Growth-Diary/Blog/GitHub%E5%AD%A6%E4%B9%A0%E7%AF%87/</guid>
+            <title>GitHub中遇到的问题</title>
+            <link>https://lklyx.github.io/Growth-Diary/Blog/GitHub%E5%AD%A6%E4%B9%A0%E7%AF%87/</link>
+            <category term="历练ing" scheme="https://lklyx.github.io/categories/Growth-Diary/" />
+            <category term="Blog" scheme="https://lklyx.github.io/categories/Growth-Diary/Blog/" />
+            <category term="GitHub" scheme="https://lklyx.github.io/tags/GitHub/" />
+            <pubDate>Wed, 17 Mar 2021 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;打不开github官网&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#打不开github官网&#34;&gt;#&lt;/a&gt; 打不开 GitHub 官网&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;百度搜&lt;em&gt;索查询网址 dns&lt;/em&gt;，或者直接打开&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90b29sLmNoaW5hei5jb20vZG5zLw==&#34;&gt;网址查询&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;检测到&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9saW5rcy5qaWFuc2h1LmNvbS9nbz90bz1odHRwcyUzQSUyRiUyRmdpdGh1Yi5jb20=&#34;&gt; https://github.com&lt;/span&gt; 网址响应的 IP，将得到的 IP 添加到 hosts 文件中去。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;hosts 文件路径为：电脑磁盘中 &lt;code&gt;windows C:\Windows\System32\drivers\etc\hosts&lt;/code&gt;  右击，以管理员身份打开，打开方式为记事本。将上面查询到的 IP 地址输入到文件中保存即可。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;现在我加入的是：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;13.229.188.59 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2dpdGh1Yi5jb20=&#34;&gt;github.com&lt;/span&gt;&lt;br&gt;
+140.82.112.4 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2dpdGh1Yi5jb20=&#34;&gt;github.com&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
  ]]></description>
         </item>
     </channel>

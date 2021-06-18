@@ -315,7 +315,7 @@ ip_hash;  #加上这句话就是ip_hash
 &lt;p&gt;解：同时发起访问请求。这是会默认有 8080、8081 接到请求。但是，谁先接受到。就是谁访问。就是看当前的服务器那个端口响应的时间短了。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;nginx配置实例动静分离&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nginx配置实例动静分离&#34;&gt;#&lt;/a&gt; Nginx 配置实例 —— 动静分离。&lt;/h1&gt;
+&lt;h1 id=&#34;nginx配置实例动静分离-测试失败&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nginx配置实例动静分离-测试失败&#34;&gt;#&lt;/a&gt; Nginx 配置实例 —— 动静分离。（测试失败！）&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;什么是动静分离；&lt;/p&gt;
@@ -378,7 +378,7 @@ ip_hash;  #加上这句话就是ip_hash
 &lt;p&gt;&lt;strong&gt;修改主机（192.168.16.128）keepalived 配置文件&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;#检测脚本
 vrrp_script chk_http_port &amp;#123;
-    script &amp;quot;/usr/local/src/check_nginx_pid.sh&amp;quot; #心跳执行的脚本，检测nginx是否启动
+    script &amp;quot;/usr/local/src/nginx_check.sh&amp;quot; #心跳执行的脚本，检测nginx是否启动
     interval 2                          #（检测脚本执行的间隔，单位是秒）
     weight 2                            #权重
 &amp;#125;
@@ -410,7 +410,7 @@ vrrp_instance VI_1 &amp;#123;
 &lt;p&gt;&lt;strong&gt;修改备机（192.168.16.129）keepalived 配置文件&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;#检测脚本
 vrrp_script chk_http_port &amp;#123;
-    script &amp;quot;/usr/local/src/check_nginx_pid.sh&amp;quot; #心跳执行的脚本，检测nginx是否启动
+    script &amp;quot;/usr/local/src/nginx_check.sh&amp;quot; #心跳执行的脚本，检测nginx是否启动
     interval 2                          #（检测脚本执行的间隔）
     weight 2                            #权重
 &amp;#125;
@@ -449,6 +449,12 @@ fi
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;分别启动两台服务器的 nginx 和 keepalived。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;service keepalived restart	#启动keepalived 虚拟机
+systemctl start keepalived.service #启动keepalived 服务器
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 </content>
@@ -543,6 +549,9 @@ mv hello2.txt /home/siki/Desktop/aa/127.txt 	//移动以后改名字为127.txt
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;history&lt;/strong&gt;：查询最近的历史操作记录&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;top&lt;/strong&gt;：top 命令经常用来监控 linux 的系统状况。能够实时显示系统中各个进程的资源占用情况。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -679,19 +688,6 @@ man mv  	//man命令使用q退出来。
         <category term="Linux" scheme="https://lklyx.github.io/categories/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Linux/" />
         <category term="Linux" scheme="https://lklyx.github.io/tags/Linux/" />
         <updated>2021-05-18T16:00:00.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://lklyx.github.io/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Docker/Docker/</id>
-        <title>学习Docker</title>
-        <link rel="alternate" href="https://lklyx.github.io/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Docker/Docker/"/>
-        <content type="html">&lt;h1 id=&#34;docker&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#docker&#34;&gt;#&lt;/a&gt; Docker&lt;/h1&gt;
-&lt;p&gt;学习视频地址&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMW9nNHkxcTdNND9wPTE=&#34;&gt; Docker&lt;/span&gt;&lt;/p&gt;
-</content>
-        <category term="历练ing" scheme="https://lklyx.github.io/categories/Growth-Diary/" />
-        <category term="扩展知识" scheme="https://lklyx.github.io/categories/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/" />
-        <category term="Docker" scheme="https://lklyx.github.io/categories/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Docker/" />
-        <category term="Docker" scheme="https://lklyx.github.io/tags/Docker/" />
-        <updated>2021-05-17T16:00:00.000Z</updated>
     </entry>
     <entry>
         <id>https://lklyx.github.io/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Linux/Linux/</id>
@@ -2318,5 +2314,34 @@ export default &amp;#123;
         <category term="Element-Ui" scheme="https://lklyx.github.io/categories/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Element-Ui/" />
         <category term="ElementUi" scheme="https://lklyx.github.io/tags/ElementUi/" />
         <updated>2021-03-17T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://lklyx.github.io/Growth-Diary/Blog/GitHub%E5%AD%A6%E4%B9%A0%E7%AF%87/</id>
+        <title>GitHub中遇到的问题</title>
+        <link rel="alternate" href="https://lklyx.github.io/Growth-Diary/Blog/GitHub%E5%AD%A6%E4%B9%A0%E7%AF%87/"/>
+        <content type="html">&lt;h1 id=&#34;打不开github官网&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#打不开github官网&#34;&gt;#&lt;/a&gt; 打不开 GitHub 官网&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;百度搜&lt;em&gt;索查询网址 dns&lt;/em&gt;，或者直接打开&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90b29sLmNoaW5hei5jb20vZG5zLw==&#34;&gt;网址查询&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;检测到&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9saW5rcy5qaWFuc2h1LmNvbS9nbz90bz1odHRwcyUzQSUyRiUyRmdpdGh1Yi5jb20=&#34;&gt; https://github.com&lt;/span&gt; 网址响应的 IP，将得到的 IP 添加到 hosts 文件中去。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;hosts 文件路径为：电脑磁盘中 &lt;code&gt;windows C:\Windows\System32\drivers\etc\hosts&lt;/code&gt;  右击，以管理员身份打开，打开方式为记事本。将上面查询到的 IP 地址输入到文件中保存即可。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;现在我加入的是：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;13.229.188.59 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2dpdGh1Yi5jb20=&#34;&gt;github.com&lt;/span&gt;&lt;br&gt;
+140.82.112.4 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2dpdGh1Yi5jb20=&#34;&gt;github.com&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="历练ing" scheme="https://lklyx.github.io/categories/Growth-Diary/" />
+        <category term="Blog" scheme="https://lklyx.github.io/categories/Growth-Diary/Blog/" />
+        <category term="GitHub" scheme="https://lklyx.github.io/tags/GitHub/" />
+        <updated>2021-03-16T16:00:00.000Z</updated>
     </entry>
 </feed>
