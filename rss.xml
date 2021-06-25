@@ -180,10 +180,10 @@ Error: Cannot find a valid baseurl for repo: base
 &lt;/ol&gt;
 &lt;h1 id=&#34;nginx常用命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nginx常用命令&#34;&gt;#&lt;/a&gt; Nginx 常用命令&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;使用Nginx操作命令前提条件：&lt;/code&gt; 必须进入 nginx 目录中。&lt;/p&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;usr&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;local&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;nginx&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;sbin&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;/usr/local/nginx/sbin&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;nginx 的版本号&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;nginx &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;v&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;./nginx -v&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;启动 nginx&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;nginx&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
@@ -231,7 +231,7 @@ Error: Cannot find a valid baseurl for repo: base
 &lt;p&gt;&lt;img data-src=&#34;E:%5CLklyx.github.io%5Csource_posts%5CGrowth-Diary%5C%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86%5CNginx%5CNginx%5C8.png&#34; alt=&#34;image-20210607134411528&#34;&gt;&lt;/p&gt;
 &lt;p&gt;将 server 中的&lt;strong&gt; server_name localhost&lt;/strong&gt; 改为 server_name + 自己的 ip。&lt;/p&gt;
 &lt;p&gt;在 location 中添加一个转发路径：&lt;/p&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;proxy_pass http&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;127.0&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.0&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;.1&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;8080&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这样做，如果我们访问的是自己的 ip：&lt;strong&gt;106.15.176.231&lt;/strong&gt;，如果他是 80 端口，他就会给我们转发到&lt;strong&gt; 127.0.0.1:8080&lt;/strong&gt; 端口去。&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;proxy_pass http:127.0.0.1:8080&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这样做，如果我们访问的是自己的 ip：&lt;strong&gt;106.15.176.231&lt;/strong&gt;，如果他是 80 端口，他就会给我们转发到&lt;strong&gt; 127.0.0.1:8080&lt;/strong&gt; 端口去。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;根据不同的路径跳转到不同的tomcat中&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#根据不同的路径跳转到不同的tomcat中&#34;&gt;#&lt;/a&gt; 根据不同的路径，跳转到不同的 tomcat 中&lt;/h2&gt;
@@ -245,19 +245,9 @@ Error: Cannot find a valid baseurl for repo: base
 &lt;li&gt;
 &lt;p&gt;准备两个 tomcat 服务器。&lt;/p&gt;
 &lt;p&gt;在目录：&lt;strong&gt;usr/src&lt;/strong&gt; 下创建两个文件夹，分别为 tomcat8080、tomcat8081。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;mkdir tomcat8080
-mkdir tomcat8081
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;这是可以把之前的 tomcat 进程关闭。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;# 查看当前的tomcat进程
-ps -ef | grep tomcat
-# 关闭进程
-sill -9 + id # 这里是数字9，而不是字母G,ID.查看进程时前面的就是
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;在两个文件里面分别放入 tomcat 的安装包、并解压、启动（&lt;strong&gt;/usr/src/tomcat8081/apache-tomcat-7.0.70/bin&lt;/strong&gt;）之下，执行命令&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;./startup.sh 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;8080 和 8081 文件夹中的 tomcat 都启动以后，8080 默认的端口号就是 8080，所以不用我们修改。我们需要进入 8081 文件夹中，修改它的配置文件。路径为：&lt;strong&gt;/usr/src/tomcat8081/apache-tomcat-7.0.70/conf&lt;/strong&gt; 之中的 &lt;code&gt;server.xml&lt;/code&gt;  文件。&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;mkdir&lt;/span&gt; tomcat8080&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;mkdir&lt;/span&gt; tomcat8081&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这是可以把之前的 tomcat 进程关闭。&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 查看当前的 tomcat 进程&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ps&lt;/span&gt; -ef &lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;grep&lt;/span&gt; tomcat&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 关闭进程&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sill -9 + &lt;span class=&#34;token function&#34;&gt;id&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 这里是数字 9，而不是字母 G,ID. 查看进程时前面的就是&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;在两个文件里面分别放入 tomcat 的安装包、并解压、启动（&lt;strong&gt;/usr/src/tomcat8081/apache-tomcat-7.0.70/bin&lt;/strong&gt;）之下，执行命令&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;./startup.sh&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;8080 和 8081 文件夹中的 tomcat 都启动以后，8080 默认的端口号就是 8080，所以不用我们修改。我们需要进入 8081 文件夹中，修改它的配置文件。路径为：&lt;strong&gt;/usr/src/tomcat8081/apache-tomcat-7.0.70/conf&lt;/strong&gt; 之中的 &lt;code&gt;server.xml&lt;/code&gt;  文件。&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;vi server.xml
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img data-src=&#34;E:%5CLklyx.github.io%5Csource_posts%5CGrowth-Diary%5C%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86%5CNginx%5CNginx%5C9.png&#34; alt=&#34;image-20210607172045416&#34;&gt;&lt;/p&gt;
@@ -295,12 +285,7 @@ sill -9 + id # 这里是数字9，而不是字母G,ID.查看进程时前面的�
 &lt;li&gt;&lt;img data-src=&#34;E:%5CLklyx.github.io%5Csource_posts%5CGrowth-Diary%5C%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86%5CNginx%5CNginx%5C12.png&#34; alt=&#34;image-20210608114542443&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;在&lt;strong&gt; http&lt;/strong&gt; 块中，加一个&lt;mark&gt; upstreat myserver&lt;/mark&gt; 后面的&lt;strong&gt; myserver&lt;/strong&gt; 是名字，可以自定义。在新加块中加上我们的服务器列表。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;upstreat myserver&amp;#123;
-	server 106.15.176.231:8080
-	server 106.15.176.231:8081
-&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;在&lt;strong&gt; http==&amp;gt;server&lt;/strong&gt; 之中，修改 &lt;code&gt;server_name&lt;/code&gt;  的值为自己的 ip 地址。然后在之下的 &lt;code&gt;location&lt;/code&gt;  中，使用 proxy_pass  http:// + 上面自定义的名字。实现效果。&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;upstreat myserver&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	server &lt;span class=&#34;token number&#34;&gt;106.15&lt;/span&gt;.176.231:8080&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	server &lt;span class=&#34;token number&#34;&gt;106.15&lt;/span&gt;.176.231:8081&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;在&lt;strong&gt; http==&amp;gt;server&lt;/strong&gt; 之中，修改 &lt;code&gt;server_name&lt;/code&gt;  的值为自己的 ip 地址。然后在之下的 &lt;code&gt;location&lt;/code&gt;  中，使用 proxy_pass  http:// + 上面自定义的名字。实现效果。&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;location / &amp;#123;
 	proxy_pass  http://myserver  #这里的myserver是自定义名字。
 &amp;#125;
@@ -314,33 +299,16 @@ sill -9 + id # 这里是数字9，而不是字母G,ID.查看进程时前面的�
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;weight 权重&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;weight 代表权重，默认为 1. 权重越高被分配的客户端越多。指定轮询几率，weight 和访问比率成正比，用于后端服务器性能不均的情况。例：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;upstreat myserver&amp;#123;
-	server 106.15.176.231:8080  weight=5;
-	server 106.15.176.231:8081  weight=10;
-&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;以上代码的 8080 端口的权重低于 8081，这时 8081 端口的客户端量就会比 8080 多一倍。&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;upstreat myserver&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	server &lt;span class=&#34;token number&#34;&gt;106.15&lt;/span&gt;.176.231:8080  &lt;span class=&#34;token assign-left variable&#34;&gt;weight&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	server &lt;span class=&#34;token number&#34;&gt;106.15&lt;/span&gt;.176.231:8081  &lt;span class=&#34;token assign-left variable&#34;&gt;weight&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;以上代码的 8080 端口的权重低于 8081，这时 8081 端口的客户端量就会比 8080 多一倍。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;ip_hash&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;upstreat myserver&amp;#123;
-ip_hash;  #加上这句话就是ip_hash
-	server 106.15.176.231:8080;
-	server 106.15.176.231:8081;
-&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;意思是。当你第一次访问的是 8080，他就默认记住你的这个 ip 访问的就是 8080，以后你的每次访问都会是 8080。这种方法可以解决 session 的问题。&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;upstreat myserver&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ip_hash&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;#加上这句话就是 ip_hash&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	server &lt;span class=&#34;token number&#34;&gt;106.15&lt;/span&gt;.176.231:8080&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	server &lt;span class=&#34;token number&#34;&gt;106.15&lt;/span&gt;.176.231:8081&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;意思是。当你第一次访问的是 8080，他就默认记住你的这个 ip 访问的就是 8080，以后你的每次访问都会是 8080。这种方法可以解决 session 的问题。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;fair&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;按后端服务器的响应时间来分配请求，响应时间短的优先分配。&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;upstreat myserver&amp;#123;
-	server 106.15.176.231:8080;
-	server 106.15.176.231:8081;
-	fair;  #加上这句话就是fair策略
-&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;解：同时发起访问请求。这是会默认有 8080、8081 接到请求。但是，谁先接受到。就是谁访问。就是看当前的服务器那个端口响应的时间短了。&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;upstreat myserver&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	server &lt;span class=&#34;token number&#34;&gt;106.15&lt;/span&gt;.176.231:8080&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	server &lt;span class=&#34;token number&#34;&gt;106.15&lt;/span&gt;.176.231:8081&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	fair&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;#加上这句话就是 fair 策略&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;解：同时发起访问请求。这是会默认有 8080、8081 接到请求。但是，谁先接受到。就是谁访问。就是看当前的服务器那个端口响应的时间短了。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;nginx配置实例动静分离-测试失败&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nginx配置实例动静分离-测试失败&#34;&gt;#&lt;/a&gt; Nginx 配置实例 —— 动静分离。（测试失败！）&lt;/h1&gt;
@@ -396,8 +364,8 @@ ip_hash;  #加上这句话就是ip_hash
 &lt;li&gt;
 &lt;p&gt;在两台服务器上安装 keepalived&lt;/p&gt;
 &lt;p&gt;使用 yum 命令安装&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yum install keepalived &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;y&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;安装好以后，使用：rpm -q -a keepalived 这个命令查看安装的版本号。&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;rpm &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;q &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;a keepalived&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;keepalived 的安装位置在：&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yum &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; keepalived -y&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;安装好以后，使用：rpm -q -a keepalived 这个命令查看安装的版本号。&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;rpm&lt;/span&gt; -q -a keepalived&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;keepalived 的安装位置在：&lt;/p&gt;
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cd &lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;etc &lt;span class=&#34;token comment&#34;&gt;// 安装位置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cd keepalievd&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;// 进入目录&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;vi keepalievd&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;conf &lt;span class=&#34;token comment&#34;&gt;// 进入配置文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;完成高可用配置（主从配置）&lt;/p&gt;
