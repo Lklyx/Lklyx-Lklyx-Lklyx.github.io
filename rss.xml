@@ -129,6 +129,7 @@ Error: Cannot find a valid baseurl for repo: base
             <category term="Nginx" scheme="https://lklyx.github.io/tags/Nginx/" />
             <pubDate>Mon, 31 May 2021 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;学习地址&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#学习地址&#34;&gt;#&lt;/a&gt; 学习地址&lt;/h1&gt;
+&lt;p&gt;Nginx 官网&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL25naW54Lm9yZy9lbi9kb3dubG9hZC5odG1s&#34;&gt; nginx&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;学习视屏地址&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMXpKNDExdzdTVj9wPTImYW1wO3NwbV9pZF9mcm9tPXBhZ2VEcml2ZXI=&#34;&gt; Nginx&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;学习视屏地址&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMWo0NDExSzdnMj9mcm9tPXNlYXJjaCZhbXA7c2VpZD0xMTI0MjUzOTM5MDQzMjczMzYxMg==&#34;&gt; Nginx&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;虚拟机安装视频&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMTV6NHkxOTdzaz90PTExOTE=&#34;&gt; centOs&lt;/span&gt;&lt;/p&gt;
@@ -139,22 +140,37 @@ Error: Cannot find a valid baseurl for repo: base
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;安装依赖项，使用以下命令安装 Nginx 需要的依赖项。&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yum &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;y install gcc zlib zlib&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;devel pcre&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;devel openssl openssl&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;devel&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;安装好依赖项以后，使用以下命令查看版本号：&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pcre&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;config &lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;version&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;开启防火墙&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;systemctl start firewalld&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;关闭防火墙&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;systemctl stop firewalld&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;查看防火墙中开放的端口&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;firewall&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;cmd &lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;list&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;all&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;后期需要在防火墙中添加端口号，使用以下命令：&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sudo firewall&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;cmd &lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;add&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;port&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;81&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;tcp &lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;permanent  &lt;span class=&#34;token comment&#34;&gt;// 添加一个 81 端口&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;添加成功以后，需要重启以下防火墙：&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;firewall&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;cmd &lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;reload &lt;span class=&#34;token comment&#34;&gt;// 重启防火墙&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这时候再去 2、查看防火墙的端口，就会多了一个 81 端口。&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yum -y &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; gcc zlib zlib-devel pcre-devel openssl openssl-devel&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;安装好依赖项以后，使用以下命令查看版本号：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pcre-config --version
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解压拖进去的 nginx 安装包&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;tar&lt;/span&gt; -xvf + apache-tomcat-9.0.46-fulldocs.tar.gz &lt;span class=&#34;token comment&#34;&gt;# + 后面这个是安装包名字。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解压好以后进入解压的文件夹执行：&lt;strong&gt;./configure&lt;/strong&gt;，编译文件&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;./configure&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用&lt;strong&gt; make &amp;amp;&amp;amp; make install&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;make&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;make&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;安装成功之后，在 usr 中会多出来一个文件夹 **/usr/nginx**, 在 nginx 中，有 sbin 的启动脚本。&lt;/p&gt;
+&lt;h1 id=&#34;防火墙&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#防火墙&#34;&gt;#&lt;/a&gt; 防火墙&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;开启防火墙&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;systemctl start firewalld&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;关闭防火墙&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;systemctl stop firewalld&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;查看防火墙中开放的端口&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;firewall-cmd --list-all&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;后期需要在防火墙中添加端口号，使用以下命令：&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; firewall-cmd --add-port&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;8080&lt;/span&gt;/tcp --permanent  &lt;span class=&#34;token comment&#34;&gt;# 添加一个 81 端口&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;添加成功以后，需要重启以下防火墙：&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;firewall-cmd --reload &lt;span class=&#34;token comment&#34;&gt;# 重启防火墙&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这时候再去 2、查看防火墙的端口，就会多了一个 81 端口。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h1 id=&#34;实现上传压缩包rz&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实现上传压缩包rz&#34;&gt;#&lt;/a&gt; 实现上传压缩包 rz&lt;/h1&gt;
 &lt;p&gt;安装&lt;strong&gt; lrzsz&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yum &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;y install lrzsz&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;解压压缩包命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解压压缩包命令&#34;&gt;#&lt;/a&gt; 解压压缩包命令&lt;/h1&gt;
@@ -464,7 +480,13 @@ systemctl start keepalived.service #启动keepalived 服务器
             <category term="Linux" scheme="https://lklyx.github.io/categories/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Linux/" />
             <category term="Linux" scheme="https://lklyx.github.io/tags/Linux/" />
             <pubDate>Wed, 19 May 2021 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;linux文件系统&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux文件系统&#34;&gt;#&lt;/a&gt; linux 文件系统&lt;/h1&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;常用命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常用命令&#34;&gt;#&lt;/a&gt; 常用命令&lt;/h1&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 查看所有端口&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;netstat&lt;/span&gt; -tulnp&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;linux&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux&#34;&gt;#&lt;/a&gt; Linux&lt;/h1&gt;
+&lt;p&gt;学习视频地址&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMXBFNDExQzdobz9wPTEmYW1wO3NwbV9pZF9mcm9tPXBhZ2VEcml2ZXI=&#34;&gt; LINUX&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;[尚硅谷教学视频](http: &lt;a href=&#34;//www.atguigu.com/download.shtml#linux&#34;&gt;//www.atguigu.com/download.shtml#linux&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;安装下载位置，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamlhbnNodS5jb20vcC81NTIxNzk4MDhlYmY=&#34;&gt;Linux&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;安装好以后去安装 UBUNTU&lt;/p&gt;
+&lt;h1 id=&#34;linux文件系统&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux文件系统&#34;&gt;#&lt;/a&gt; linux 文件系统&lt;/h1&gt;
 &lt;p&gt;linux 中没有盘符的概念，只有一个根目录。根目录用 &lt;code&gt;/&lt;/code&gt;  表示。&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;C:%5CUsers%5Cadmin%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210528135454791.png&#34; alt=&#34;image-20210528135454791&#34;&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -652,7 +674,7 @@ man mv  	//man命令使用q退出来。
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;a：代表 &lt;strong&gt;u、g、o&lt;/strong&gt; 全部修改。&lt;/p&gt;
-&lt;p&gt;小结。每个&lt;strong&gt; u、g、o&lt;/strong&gt; 中。又有&lt;strong&gt; r、w、x&lt;/strong&gt; 对应的读、写、执行权限&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;小结:&lt;strong&gt; 每个&lt;/strong&gt; u、g、o&lt;/strong&gt; 中。又有&lt;strong&gt; r、w、x&lt;/strong&gt; 对应的读、写、执行权限&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;chmod u&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;x &lt;span class=&#34;token comment&#34;&gt;// 这个意思是，使用修改权限的命令。u 代表是给当前使用的用户，该 user 用户，修改，+ 就是加，给它添加一个权限。加一个 x 权限。x 为可以执行的权限。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;chmod g&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;w &lt;span class=&#34;token comment&#34;&gt;// 用户组的可写权限打开。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;chmod o&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;wx &lt;span class=&#34;token comment&#34;&gt;// 其他用户的写、执行权限打开。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;chmod a&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;x &lt;span class=&#34;token comment&#34;&gt;// 全部的可执行权限关闭。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;chmod u&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;rwx &lt;span class=&#34;token comment&#34;&gt;// 将 u（当前用户的 rwx 可读、可写、可执行）权限设置为打开。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;chmod u&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;rwx g&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;rw o&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;rwx &lt;span class=&#34;token comment&#34;&gt;// 可以多个修改。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
@@ -678,22 +700,6 @@ man mv  	//man命令使用q退出来。
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://lklyx.github.io/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Linux/Linux/</guid>
-            <title>Linux安装学习</title>
-            <link>https://lklyx.github.io/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Linux/Linux/</link>
-            <category term="历练ing" scheme="https://lklyx.github.io/categories/Growth-Diary/" />
-            <category term="扩展知识" scheme="https://lklyx.github.io/categories/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/" />
-            <category term="Linux" scheme="https://lklyx.github.io/categories/Growth-Diary/%E6%89%A9%E5%B1%95%E7%9F%A5%E8%AF%86/Linux/" />
-            <category term="Linux" scheme="https://lklyx.github.io/tags/Linux/" />
-            <pubDate>Tue, 18 May 2021 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;linux&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux&#34;&gt;#&lt;/a&gt; Linux?&lt;/h1&gt;
-&lt;p&gt;学习视频地址&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMXBFNDExQzdobz9wPTEmYW1wO3NwbV9pZF9mcm9tPXBhZ2VEcml2ZXI=&#34;&gt; LINUX&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;[尚硅谷教学视频](http: &lt;a href=&#34;//www.atguigu.com/download.shtml#linux&#34;&gt;//www.atguigu.com/download.shtml#linux&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;安装下载位置，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamlhbnNodS5jb20vcC81NTIxNzk4MDhlYmY=&#34;&gt;Linux&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;安装好以后去安装 UBUNTU&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -2305,6 +2311,35 @@ export default &amp;#123;
  &amp;lt;/el-col&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;pageChange&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;pn&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token function&#34;&gt;loadDevices&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; pn&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;分页效果使用在 element ui 的表格中，表格数据过多时，使它可以点击下一页。实现翻页，让页面美化。上面代码中， &lt;code&gt;layou&lt;/code&gt; t 是组件的布局，其中&lt;strong&gt; prev&lt;/strong&gt; 是表示上一页，默认是一个箭头。可以换为&lt;strong&gt; prev-test&lt;/strong&gt; + 文字，自定义文字。反之 &lt;code&gt;next&lt;/code&gt; 。中间的 pager 是组件的主体部分，显示一共几页。要给分页按钮添加颜色使用 background 属性即可。&lt;strong&gt;page-size&lt;/strong&gt; 每页显示条目个数，即每页多少行。&lt;strong&gt;total&lt;/strong&gt; 总的条目数，一共有多少行。pn 代表当前行。点击方法，点击以换分页显示数据。ps 代表每页可以显示多少行。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://lklyx.github.io/Growth-Diary/Blog/GitHub%E5%AD%A6%E4%B9%A0%E7%AF%87/</guid>
+            <title>GitHub中遇到的问题</title>
+            <link>https://lklyx.github.io/Growth-Diary/Blog/GitHub%E5%AD%A6%E4%B9%A0%E7%AF%87/</link>
+            <category term="历练ing" scheme="https://lklyx.github.io/categories/Growth-Diary/" />
+            <category term="Blog" scheme="https://lklyx.github.io/categories/Growth-Diary/Blog/" />
+            <category term="GitHub" scheme="https://lklyx.github.io/tags/GitHub/" />
+            <pubDate>Wed, 17 Mar 2021 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;打不开github官网&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#打不开github官网&#34;&gt;#&lt;/a&gt; 打不开 GitHub 官网&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;百度搜&lt;em&gt;索查询网址 dns&lt;/em&gt;，或者直接打开&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90b29sLmNoaW5hei5jb20vZG5zLw==&#34;&gt;网址查询&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;检测到&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9saW5rcy5qaWFuc2h1LmNvbS9nbz90bz1odHRwcyUzQSUyRiUyRmdpdGh1Yi5jb20=&#34;&gt; https://github.com&lt;/span&gt; 网址响应的 IP，将得到的 IP 添加到 hosts 文件中去。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;hosts 文件路径为：电脑磁盘中 &lt;code&gt;windows C:\Windows\System32\drivers\etc\hosts&lt;/code&gt;  右击，以管理员身份打开，打开方式为记事本。将上面查询到的 IP 地址输入到文件中保存即可。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;现在我加入的是：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;13.229.188.59 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2dpdGh1Yi5jb20=&#34;&gt;github.com&lt;/span&gt;&lt;br&gt;
+140.82.112.4 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2dpdGh1Yi5jb20=&#34;&gt;github.com&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
  ]]></description>
         </item>
     </channel>
